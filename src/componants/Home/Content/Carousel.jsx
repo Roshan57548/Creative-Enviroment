@@ -1,4 +1,4 @@
-const Carousel = { 
+const Carousel = {
 
 };
 

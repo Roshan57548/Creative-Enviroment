@@ -3,12 +3,15 @@ import './Style/ContactUs.css';
 import Border from './Componant/Border';
 import MapContent from './Componant/MapContent';
 import Form from './Componant/Form';
+import OurPresence from './Componant/OurPresence';
 const ContactUs = () => {
   return (
     <div>
       <Border />
-      <MapContent />
       <Form />
+      <OurPresence />
+      <MapContent />
+      
     </div>
   )
 }

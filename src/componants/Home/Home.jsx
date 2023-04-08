@@ -1,20 +1,22 @@
 import React from 'react'
 import './Style/Home.css';
 import Carousel from './Componant/Carousel';
-import WorkOfArt from './Componant/WorkOfArt';
-import ModernArtist from './Componant/ModernArtist';
-import MagicSpace from './Componant/MagicSpace';
-import Review from './Componant/Review';
-import Studio from './Componant/Studio';
+import AboutUs from './Componant/AboutUs';
+import TestChamber from './Componant/TestChamber';
+import SolutionProvider from './Componant/SolutionProvider';
+import CustomBuilt from './Componant/CustomBuilt';
+import Distributors from './Componant/Distributors';
+import ContactUs from './Componant/ContactUs';
 const Home = () => {
   return (
     <div className='Home'>
       <Carousel />
-      <WorkOfArt />
-      <ModernArtist />
-      <MagicSpace />
-      <Review />
-      <Studio />
+      <AboutUs />
+      <TestChamber />
+      <SolutionProvider />
+      <CustomBuilt />
+      <Distributors />
+      <ContactUs />
 
     </div>
   )
