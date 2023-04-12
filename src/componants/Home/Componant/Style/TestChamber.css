@@ -3,14 +3,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px red solid;
     
 }
 .tc_wrapper{
     margin: 0rem 5rem 0rem 5rem;
     display: flex;
     height: 100%;
-    border: 2px red solid;
 }
 
 .tc_img{
@@ -23,7 +21,6 @@
     padding: 2rem;
     height: 100%;
     width: 100%;
-    border: 1px green solid;
 }
 
 .tc_right{
@@ -36,11 +33,9 @@
 .tc_textarea{
     color: white;
     width: 70%;
-    border: 1px red solid;
 }
 
 .tc_links{
-    border: 1px red solid;
     margin-top: 2rem;
     width: 30%;
     display: flex;

@@ -18,8 +18,8 @@ const TestChamber = (props) => {
           <div className="tc_links_img">
             {props.data.cards.cardimage}
           </div>
-          <div className="tc_links_heading"><h3 className='tc_lk_heading'>Award for manufacturing excellence</h3></div>
-          <div className="tc_links_desp"><p className='tc_lc_desc'>award winner for excellence in manufacturing products</p></div>
+          <div className="tc_links_heading"><h3 className='tc_lk_heading'>{props.data.cards.card_heading}</h3></div>
+          <div className="tc_links_desp"><p className='tc_lc_desc'>{props.data.cards.card_desp}</p></div>
         </div>
       </div>
     </div>
