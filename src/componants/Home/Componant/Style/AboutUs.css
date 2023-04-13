@@ -1,86 +1,70 @@
-*{
-    margin: 0%;
-    padding: 0%;
+.home_aboutus_main {
+  background-color: white;
 }
 
-.home_aboutus_main{
-    background-color: white;
+.home_about_wrapper {
+  margin: 0rem 10rem 0rem 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
 }
 
-.home_about_wrapper{
-    margin: 0rem 10rem 0rem 10rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100vh;
-
+.home_abt_img {
+  height: 80%;
+  width: 80%;
 }
 
-.home_abt_img{
-    /* border: 1px red solid; */
-    height: 80%;
-    width: 80%;
+.home_abt_right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
-.home_abt_right{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+.home_abt_para {
+  margin-top: 2rem;
+  text-align: justify;
+  font-size: 18px;
 }
 
-.home_abt_para{
-    margin-top: 2rem;
-    text-align: justify;
-    font-size: 18px;
-}
-
-.home_abt_heading{
-    color: darkblue;
+.home_abt_heading {
+  color: darkblue;
 }
 
 @media screen and (max-width: 1000px) {
-     
-        .home_about_wrapper{
-            /* border: 1px red solid; */
-            margin: 0rem 2rem 0rem 2rem;
-            padding-top: 4rem;
-            padding-bottom: 2rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100%;
+  .home_about_wrapper {
+    margin: 0rem 2rem 0rem 2rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+}
 
-
-        
-        }
-    
+@media screen and (max-width: 500px) {
+  .home_about_wrapper {
+    margin: 0rem 1rem 0rem 1rem;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
   }
 
-  @media screen and (max-width: 500px) {
-     
-    .home_about_wrapper{
-        /* border: 1px red solid; */
-        margin: 0rem 1rem 0rem 1rem;
-        padding-top: 5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 100%;
-    
-    }
-
-    .home_abt_para{
-        margin-top: 3rem;
-        margin-bottom: 2rem;
-        text-align: justify;
-        font-size: 16px;
-    }
-
-    .home_abt_left{
-        display: flex;
-        flex-direction: column;
-        padding-left: 3rem;
-    }
+  .home_abt_para {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    font-size: 16px;
   }
+
+  .home_abt_left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+  }
+}
