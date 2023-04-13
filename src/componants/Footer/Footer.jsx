@@ -1,106 +1,145 @@
 import React from "react";
-import "./Style/Footer.css";
-import HomeIcon from "@mui/icons-material/Home";
-import CallIcon from "@mui/icons-material/Call";
-import EmailIcon from "@mui/icons-material/Email";
+// import "./Style/Footer.css";
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import {
+  MDBFooter,
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBIcon,
+} from "mdb-react-ui-kit";
+import './Style/Footer.css';
 const Footer = () => {
   return (
-    <div>
-      <footer>
-        <div class="row primary">
-          <div class="column about">
-            <h3>ENVYSIS</h3>
-
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo,
-              nihil nisi quo quisquam veniam cumque ex officia neque, quidem
-              labore laborum! Cum vel facilis fugiat culpa beatae dicta
-              obcaecati exercitationem ab eaque ipsam qui incidunt repellat
-              iusto aliquid possimus fuga dolores, animi nam ex ipsa
-              consectetur! Nesciunt molestias sunt reprehenderit.
-            </p>
-
-            <div class="social">
-              <i class="fa-brands fa-facebook-square"></i>
-              <i class="fa-brands fa-instagram-square"></i>
-              <i class="fa-brands fa-twitter-square"></i>
-              <i class="fa-brands fa-youtube-square"></i>
-              <i class="fa-brands fa-whatsapp-square"></i>
-            </div>
-          </div>
-
-          <div class="column links">
-            <h3>Some Links</h3>
-
-            <ul>
-              <li>
-                <a href="#faq">Home</a>
-              </li>
-              <li>
-                <a href="#cookies-policy">About</a>
-              </li>
-              <li>
-                <a href="#terms-of-services">Products</a>
-              </li>
-              <li>
-                <a href="#support">Services</a>
-              </li>
-              <li>
-                <a href="#support">Testing Services</a>
-              </li>
-              <li>
-                <a href="#support">Blog</a>
-              </li>
-              <li>
-                <a href="#support">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="column links">
-            <h3>Premium Poducts</h3>
-            <ul>
-              <li>
-                <a href="#faq">Environmental Test </a>
-              </li>
-              <li>
-                <a href="#cookies-policy">Dust Chamber</a>
-              </li>
-              <li>
-                <a href="#terms-of-services">Thermal Stock Chamber</a>
-              </li>
-              <li>
-                <a href="#support">Vibration Chamber</a>
-              </li>
-              <li>
-                <a href="#support">Salt Spray Chamber</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="column links">
-            <h3>Contact-Info</h3>
-            <ul>
-              <li>
-                <HomeIcon />
-                <a href="#faq">366 Fawn St. Oak Creek, WI 53154</a>
-              </li>
-              <li>
-                <CallIcon />
-                <a href="#cookies-policy">+91 8707321772 +91 87654321289</a>
-              </li>
-              <li>
-                <EmailIcon />
-                <a href="#terms-of-services">Vratantsingh@123gmail.com</a>
-              </li>
-              <li>
-                <a href="#support">Support</a>
-              </li>
-            </ul>
-          </div>
+    <MDBFooter bgColor="light" className="text-center text-lg-start text-muted">
+      <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div className="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
         </div>
-      </footer>
-    </div>
+
+        <div>
+          <a href="" className="me-4 text-reset">
+            <MDBIcon color="secondary" fab icon="facebook-f" />
+          </a>
+          <a href="" className="me-4 text-reset">
+            <MDBIcon color="secondary" fab icon="twitter" />
+          </a>
+          <a href="" className="me-4 text-reset">
+            <MDBIcon color="secondary" fab icon="google" />
+          </a>
+          <a href="" className="me-4 text-reset">
+            <MDBIcon color="secondary" fab icon="instagram" />
+          </a>
+          <a href="" className="me-4 text-reset">
+            <MDBIcon color="secondary" fab icon="linkedin" />
+          </a>
+        </div>
+      </section>
+
+      <section className="">
+        <MDBContainer className="text-center text-md-start mt-5">
+          <MDBRow className="mt-3">
+            <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">
+                Creative Environment Solution
+              </h6>
+              <p>
+                Creative Environment Solution provides customized environmental testing
+                solutions for a wide range of industries including electronics,
+                automotive, defense, aerospace, and many more. Their testing
+                solutions are designed to meet the unique needs and requirements
+                of each industry, ensuring that their clients products are
+                thoroughly tested and meet the highest quality standards.
+              </p>
+            </MDBCol>
+
+            <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" className="text-reset">
+                Environmental Test Chambers
+                </a>
+              </p>
+              <p>
+                <a href="#!" className="text-reset">
+                Environmental WalkIn Chambers
+                </a>
+              </p>
+              <p>
+                <a href="#!" className="text-reset">
+                Electrodynamic Shaker
+                </a>
+              </p>
+              <p>
+                <a href="#!" className="text-reset">
+                Integrated Chamber
+                </a>
+              </p>
+            </MDBCol>
+
+            <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="/" className="text-reset" id="footer-link">
+                  Home
+                </a>
+              </p>
+              <p>
+                <a href="/About-Us" className="text-reset" id="footer-link">
+                  About Us
+                </a>
+              </p>
+              <p>
+                <a href="/Services" className="text-reset" id="footer-link">
+                  Services
+                </a>
+              </p>
+              <p>
+                <a href="/Contact-Us" className="text-reset" id="footer-link">
+                  Contact Us
+                </a>
+              </p>
+            </MDBCol>
+
+            <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>
+                <MDBIcon color="secondary" icon="home" className="me-2" />
+                New York, NY 10012, US
+              </p>
+              <p>
+                <MDBIcon color="secondary" icon="envelope" className="me-3" />
+                info@example.com
+              </p>
+              <p>
+                <MDBIcon color="secondary" icon="phone" className="me-3" /> + 01
+                234 567 88
+              </p>
+              <p>
+                <MDBIcon color="secondary" icon="print" className="me-3" /> + 01
+                234 567 89
+              </p>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+      </section>
+
+      <div
+        className="text-center p-4"
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+      >
+        © 2023 <strong>Creative Environment Solution</strong> : Developed
+        by&nbsp;
+        <a
+          className="text-reset fw-bold"
+          href="https://agbiztech.in/"
+          target="_blank"
+        >
+          AGBIZ
+        </a>
+      </div>
+    </MDBFooter>
   );
 };
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import './Style/Products.css';
-const Products = () => {
+const Chamber = () => {
   return (
-    <div>Products</div>
+    <div>Chamber</div>
   )
 }
 
-export default Products
+export default Chamber

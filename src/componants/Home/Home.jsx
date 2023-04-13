@@ -12,13 +12,13 @@ import TestChambers from './Content/TestChamber';
 const Home = () => {
   return (
     <div className='Home'>
-      <Carousel />
+      {/* <Carousel />
       <AboutUs  data={AboutUss}/>
       <TestChamber data={TestChambers} />
       <SolutionProvider />
       <CustomBuilt />
       <Distributors />
-      <ContactUs />
+      <ContactUs /> */}
 
     </div>
   )
