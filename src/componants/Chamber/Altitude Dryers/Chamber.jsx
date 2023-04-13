@@ -1,8 +1,10 @@
 import React from 'react'
-import './Style/Products.css';
+import './Style/Chamber.css';
 const Chamber = () => {
   return (
-    <div>Chamber</div>
+    <div>
+      Chamber
+    </div>
   )
 }
 

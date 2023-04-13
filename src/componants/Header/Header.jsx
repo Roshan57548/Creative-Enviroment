@@ -74,21 +74,21 @@ const Header = () => {
                   Chamber
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem link>Environmental Test Chambers</MDBDropdownItem>
-                  <MDBDropdownItem link>Dust Chambers</MDBDropdownItem>
-                  <MDBDropdownItem link>Thermal Shock Chambers</MDBDropdownItem>
-                  <MDBDropdownItem link >Vibration Chambers</MDBDropdownItem>
-                  <MDBDropdownItem link>Industrial Oven & Dryers</MDBDropdownItem>
-                  <MDBDropdownItem link>Razor Blades Chambers</MDBDropdownItem>
-                  <MDBDropdownItem link >Thermal Forcing System</MDBDropdownItem>
-                  <MDBDropdownItem link>Battery Testing Chambers</MDBDropdownItem>
-                  <MDBDropdownItem link>Salt Spray Chambers</MDBDropdownItem>
-                  <MDBDropdownItem link >Rain Chambers</MDBDropdownItem>
-                  <MDBDropdownItem link>Altitude Dryers</MDBDropdownItem>
-                  <MDBDropdownItem link>Walk-In Environmental Chambers</MDBDropdownItem>
-                  <MDBDropdownItem link >Industrial Chambers</MDBDropdownItem>
-                  <MDBDropdownItem link>Environmental Test Dryers</MDBDropdownItem>
-                  <MDBDropdownItem link>PV-Modules & Solar Panels</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Environmental-Test-Chambers">Environmental Test Chambers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Dust-Chambers">Dust Chambers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Thermal-Shock-Chambers">Thermal Shock Chambers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Vibration-Chambers">Vibration Chambers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Industrial-Oven-Dryers">Industrial Oven & Dryers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Razor-Blades-Chambers">Razor Blades Chambers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Thermal-Forcing-System">Thermal Forcing System</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Battery-Testing-Chambers">Battery Testing Chambers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Salt-Spray-Chambers">Salt Spray Chambers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Rain-Chambers">Rain Chambers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Altitude-Dryers">Altitude Dryers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Walk-In-Environmental-Chambers">Walk-In Environmental Chambers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Industrial-Chambers">Industrial Chambers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/Environmental-Test-Dryers">Environmental Test Dryers</MDBDropdownItem>
+                  <MDBDropdownItem link href="/PV-Modules-Solar-Panels">PV-Modules & Solar Panels</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
