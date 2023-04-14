@@ -1,5 +1,45 @@
-const ArtCraft = {
+.banner_img{
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* margin-top: 0%; */
+}
+.main_container{
+    width: 100%;
+    height: 100vh;
+    text-align: justify;
+    position: relative;
+    /* padding-top: 0; */
+}
 
-};
-
-export default ArtCraft;
+.text_container_aboutus{
+  position: absolute;
+  color: white;
+  /* text-align: center; */
+  top: 40%;
+  left:3.5%;
+}
+.text_container_content{
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left:6%;
+}
+@media screen and (max-width: 600px) {
+  .text_container_aboutus{
+    position: absolute;
+    bottom: inherit;
+    font-size: 2vw;
+  }
+  .text_container_content{
+      position: absolute;
+      color: white;
+      text-align: center;
+      top: 50%;
+      left:6%;
+      font-size: 2vw;
+    }
+ 
+}
