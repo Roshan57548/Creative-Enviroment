@@ -1,6 +1,32 @@
-const Cards = {
+.logo {
+  padding-left: 20px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
 
+.OurVision_list {
+  margin-top: 0;
+  margin-bottom: 0;
+  /* padding-left: 7%; */
+  /* padding-top: 1%; */
+  /* list-style-type: none; */
 
-};
-
-export default Cards;
+}
+.OurVision_list li {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.heading{
+   padding-left:10px; 
+   padding-top: 20px; 
+   color:rgb(24, 24, 61) 
+}
+.heading1{
+  padding-right: 4%;
+  padding-left: 3%;
+}
+.OurVision_heading{
+  padding-bottom: 10px;
+  font-size: 40px;
+  padding-left: 12px;
+}
