@@ -9,13 +9,14 @@ import Distributors from './Componant/Distributors';
 import ContactUs from './Componant/ContactUs';
 import AboutUss from './Content/AboutUs'
 import TestChambers from './Content/TestChamber'
+import SolutionProviderContent from './Content/SolutionProvider'
 const Home = () => {
   return (
     <div className='Home'>
       <Carousel />
       <AboutUs  data={AboutUss}/>
       <TestChamber  data ={TestChambers}/>
-      <SolutionProvider />
+      <SolutionProvider data={SolutionProviderContent}/>
       <CustomBuilt />
       <Distributors />
       <ContactUs />
