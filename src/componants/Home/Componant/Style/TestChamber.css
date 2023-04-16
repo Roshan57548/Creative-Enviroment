@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.tc_container{
+    background:  #63645E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tc_wrapper{
+    margin: 2rem 5rem 2rem 5rem;
+    display: flex;
+    height: 100%;
+}
+
+.tc_img{
+    height: 100%;
+    width: 100%;
+}
+
+.tc_left{
+    padding: 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.tc_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tc_text{
+    margin-bottom: 1rem;
+}
+
+.tc_textarea{
+    color: white;
+    /* width: 70%; */
+}
+
+.tc_links_container{
+    display: flex;
+    gap: 2rem;
+}
+
+.tc_links{
+    margin-top: 2rem;
+    width: 75%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px red solid; */
+}
+
+.tc_lc_img{
+    /* height: 80%; */
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.tc_lk_heading{
+    color: white;
+    margin-top: 1rem;
+}
+
+.tc_lc_desc{
+    color: wheat;
+    margin-top: 0.5rem;
+    /* width: 80%; */
+}
+
+
+@media screen and (max-width: 1000px) {
+     
+    .tc_wrapper{
+        margin: 2rem 5rem 2rem 5rem;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+ 
+    .tc_wrapper{
+        margin: 2rem 3rem 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    .tc_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+
+    .tc_lc_img{
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .tc_img{
+        /* border: 1px blue solid; */
+        /* height: 90%; */
+        width: 100%;
+    }
+    
+    .tc_right{
+        /* height: 90%; */
+        width: 90%;
+    }
+
+    .tc_textarea{
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+    .tc_links_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+        flex-direction: column;
+        /* border: 1px red solid; */
+        /* margin-left: 2rem; */
+    }
+
+}

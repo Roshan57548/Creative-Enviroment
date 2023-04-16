@@ -7,12 +7,14 @@ import SolutionProvider from './Componant/SolutionProvider';
 import CustomBuilt from './Componant/CustomBuilt';
 import Distributors from './Componant/Distributors';
 import ContactUs from './Componant/ContactUs';
+import AboutUss from './Content/AboutUs'
+import TestChambers from './Content/TestChamber'
 const Home = () => {
   return (
     <div className='Home'>
       <Carousel />
-      <AboutUs  />
-      <TestChamber  />
+      <AboutUs  data={AboutUss}/>
+      <TestChamber  data ={TestChambers}/>
       <SolutionProvider />
       <CustomBuilt />
       <Distributors />
