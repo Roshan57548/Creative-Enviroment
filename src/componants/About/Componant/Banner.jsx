@@ -1,14 +1,27 @@
-import React from 'react'
-import './Style/Banner.css';
-import Image from "../Images/banner_image3.png"
-import Image1 from "../Images/demo_image.jpg"
+import React from "react";
+import "./Style/Banner.css";
+import image from "../Images/banner_image4.jpg";
+import { Divider } from "@mui/material";
+
 const Banner = (props) => {
   return (
-    <div className='main_container'>
-    <img src={Image1} alt='my_img' className='img-fluid banner_img'/>
-    <div className='row mx-4 text_container_aboutus'><h1>About Us</h1> </div>
-      <div className='text_container_content'><h4>{props.data.Links[0].msg1}</h4> </div>
+    <div className="main-container container-fluid">
+      <div className="img-container col-lg-12 col-md-12">
+        <div className="blue-overlay"></div>
+        <img src={image} alt="construction" />
+      </div>
+      <div className="row text-container">
+        <div className="text-container-content">
+          <h1>{props.data.Heading} </h1>
+          <Divider />
+        </div>
+        <div className="text-container-description">
+          <h6>{props.data.Description}</h6>
+          <Divider />
+        </div>
+      </div>
     </div>
-  )
-}
-export default Banner
+  );
+  ``;
+};
+export default Banner;
