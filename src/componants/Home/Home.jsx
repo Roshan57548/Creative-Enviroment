@@ -7,6 +7,7 @@ import SolutionProvider from './Componant/SolutionProvider';
 import CustomBuilt from './Componant/CustomBuilt';
 import Distributors from './Componant/Distributors';
 import ContactUs from './Componant/ContactUs';
+import CustomBuilts from './Content/CustomBuilt';
 const Home = () => {
   return (
     <div className='Home'>
@@ -14,7 +15,7 @@ const Home = () => {
       <AboutUs  />
       <TestChamber  />
       <SolutionProvider />
-      <CustomBuilt />
+      <CustomBuilt data={CustomBuilts}/>
       <Distributors />
       <ContactUs />
 
