@@ -5,6 +5,7 @@ import AboutUs from './Componant/AboutUs';
 import TestChamber from './Componant/TestChamber';
 import SolutionProvider from './Componant/SolutionProvider';
 import CustomBuilt from './Componant/CustomBuilt';
+import CustomBuilts from './Content/CustomBuilt';
 import Distributors from './Componant/Distributors';
 import ContactUs from './Componant/ContactUs';
 import AboutUss from './Content/AboutUs'
@@ -17,7 +18,7 @@ const Home = () => {
       <AboutUs  data={AboutUss}/>
       <TestChamber  data ={TestChambers}/>
       <SolutionProvider data={SolutionProviderContent}/>
-      <CustomBuilt />
+      <CustomBuilt data ={CustomBuilts} />
       <Distributors />
       <ContactUs />
 
