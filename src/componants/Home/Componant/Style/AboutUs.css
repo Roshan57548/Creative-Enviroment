@@ -5,30 +5,34 @@
 .home_about_wrapper {
   margin: 0rem 10rem 0rem 10rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
 }
 
-.home_abt_img {
-  height: 80%;
-  width: 80%;
+.home_abt_about{
+  margin-bottom: 1rem;
 }
 
-.home_abt_right {
+.home_abt_img {
+  height: 100%;
+  width: 100%;
+}
+
+.home_abt_left {
   display: flex;
   flex-direction: column;
+  text-align: right;
   width: 50%;
 }
 
 .home_abt_para {
   margin-top: 2rem;
-  text-align: justify;
   font-size: 18px;
 }
 
 .home_abt_heading {
-  color: darkblue;
+  color: #63645E;
 }
 
 @media screen and (max-width: 1000px) {
@@ -42,11 +46,17 @@
     flex-direction: column;
     height: 100%;
   }
+  .home_abt_left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .home_about_wrapper {
-    margin: 0rem 1rem 0rem 1rem;
+    margin: 0rem 0rem 0rem 0rem;
     padding-top: 5rem;
     display: flex;
     justify-content: center;
@@ -54,17 +64,17 @@
     flex-direction: column;
     height: 100%;
   }
-
+  
   .home_abt_para {
     margin-top: 3rem;
     margin-bottom: 2rem;
-    text-align: justify;
+    text-align: center;
     font-size: 16px;
   }
 
-  .home_abt_left {
+  .home_abt_right {
     display: flex;
     flex-direction: column;
-    padding-left: 3rem;
+    /* padding-left: 3rem; */
   }
 }
