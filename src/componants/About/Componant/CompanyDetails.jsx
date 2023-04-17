@@ -8,7 +8,7 @@ import image4 from "../Images/companyDetails_certi4.png";
 
 const CompanyDetails = (props) => {
   return (
-    <div className="main-container">
+    <div className="main-container-company">
       <div className="container-fluid">
         <div className="container-header">
           <div>
