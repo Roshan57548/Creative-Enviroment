@@ -19,10 +19,15 @@ const CompanyDetails = (props) => {
             </div>
           </div>
           <div>{props.data.Description[0].message1}</div>
+          <br />
           <div>{props.data.Description[0].message2}</div>
+          <br />
           <div>{props.data.Description[0].message3}</div>
+          <br />
           <div>{props.data.Description[0].message4}</div>
+          <br />
           <div>{props.data.Description[0].message5}</div>
+          <br />
         </div>
         <div className="container-subheader">
           <div>
