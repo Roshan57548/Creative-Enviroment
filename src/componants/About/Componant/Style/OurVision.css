@@ -6,10 +6,15 @@
 .image-wrapper {
   display: flex;
   justify-content: start;
+  padding: 15px 0;
 }
 
 .description {
   font-style: italic;
   background-color: #f8f8f8;
   padding: 10px;
+}
+
+h2 {
+  padding: 5px 0;
 }
