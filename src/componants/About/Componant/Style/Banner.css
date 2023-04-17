@@ -1,6 +1,6 @@
 .main-container {
   margin: 0;
-  padding: 20px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -12,8 +12,8 @@
 
 .img-container .blue-overlay {
   position: absolute;
-  top: 78px;
-  left: 22px;
+  top: 57px;
+  left: 0px;
   right: 0px;
   height: 500px;
   max-width: 50%;
@@ -39,7 +39,7 @@
 @media screen and (max-width: 768px) {
   .img-container .blue-overlay {
     max-width: 100%;
-    right: 18px;
+    right: 0px;
     height: 500px;
   }
   .text-container {
