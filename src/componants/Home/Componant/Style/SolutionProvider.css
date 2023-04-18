@@ -52,7 +52,7 @@
 }
 
 .SolPro_image5:hover , .SolPro_image4:hover , .SolPro_image3:hover, .SolPro_image2:hover,.SolPro_image1:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
     z-index: 2;
 }
 
@@ -71,4 +71,18 @@
 
 .images_container{
     padding-right: 30px;
+}
+
+.SolutionProvider{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(240, 240, 240);
+}
+
+@media screen and (max-width: 600px) {
+    .SolutionProvider{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
 }

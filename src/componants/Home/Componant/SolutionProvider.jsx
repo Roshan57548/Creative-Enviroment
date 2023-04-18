@@ -8,7 +8,7 @@ import image4 from '../Images/repair_image2.jpg'
 import image5 from '../Images/rentals_image.jpg'
 const SolutionProvider = (props) => {
   return (
-    <div>
+    <div className='SolutionProvider'>
       <Box className='flex-container SolPro_heading01'>
         <Typography >{props.data.Links[0].msg1}</Typography>
       </Box>
