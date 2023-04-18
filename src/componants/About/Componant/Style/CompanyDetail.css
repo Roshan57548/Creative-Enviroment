@@ -1,68 +1,22 @@
-.heading02{
-  font-weight: bold;
-  font-size: 23px;
-  color:rgb(8, 8, 54);
-  display: flex;
+.main-container-company {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.content01{
-  font-size: 17px;
+.img-fluid {
+  padding: 10px;
 }
 
-
-.content02{
-  font-size: 17px;
+.container-subheader .certificate-container {
+  padding: 10px;
+  background-color: #f8f8f8;
+  margin: auto;
 }
-
-.heading03{
-  font-size: 17px;
+.container-header h4 {
+  padding: 15px 0;
 }
-
-.heading04{
-  font-size: 17px;
-}
-
-.heading05{
-  font-size: 17px;
-}
-
-.CompanyDetail_Div{
-  padding-left: 10px;
-  padding-right: 20px;
-  /* margin: auto; */
- 
-}
-
-.CompanyDetails_image1{
-  padding-top: 5px;
-  /* padding-left: 3%; */
-  /* padding: 1rem; */
-}
-.CompanyDetails_image2{
-  padding-top: 8px;
-  padding-left: 2%;
-  /* padding: 1rem; */
-}
-.CompanyDetails_image3{
-  padding-top: 14.5px;
-  /* padding-left: 2%; */
-  /* padding: 1rem; */
-}
-.CompanyDetails_image4{
-  padding-top: 19px;
-  padding-left: 2%;
-  /* padding: 1rem; */
-}
-
-.certificate_heading{
-  padding-left: 9%;
-  font-size: 200%;
-}
-
-.heading01{
-  padding-top: 5%;
-}
-
-.company_details_images{
-  padding-left: -100px;
+.container-subheader h2 {
+  padding: 15px 0px;
 }

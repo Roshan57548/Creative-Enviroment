@@ -1,32 +1,20 @@
-.logo {
-  padding-left: 20px;
-  padding-top: 100px;
-  padding-bottom: 40px;
+.container {
+  margin: 0 auto;
+  padding: 0;
 }
 
-.OurVision_list {
-  margin-top: 0;
-  margin-bottom: 0;
-  /* padding-left: 7%; */
-  /* padding-top: 1%; */
-  /* list-style-type: none; */
+.image-wrapper {
+  display: flex;
+  justify-content: start;
+  padding: 15px 0;
+}
 
+.description {
+  font-style: italic;
+  background-color: #f8f8f8;
+  padding: 10px;
 }
-.OurVision_list li {
-  margin-bottom: 10px;
-  font-size: 17px;
-}
-.heading{
-   padding-left:10px; 
-   padding-top: 20px; 
-   color:rgb(24, 24, 61) 
-}
-.heading1{
-  padding-right: 4%;
-  padding-left: 3%;
-}
-.OurVision_heading{
-  padding-bottom: 10px;
-  font-size: 40px;
-  padding-left: 12px;
+
+h2 {
+  padding: 5px 0;
 }

@@ -5,20 +5,24 @@ import AboutUs from './Componant/AboutUs';
 import TestChamber from './Componant/TestChamber';
 import SolutionProvider from './Componant/SolutionProvider';
 import CustomBuilt from './Componant/CustomBuilt';
+import CustomBuilts from './Content/CustomBuilt';
 import Distributors from './Componant/Distributors';
 import ContactUs from './Componant/ContactUs';
+import AboutUss from './Content/AboutUs'
+import TestChambers from './Content/TestChamber';
+import SolutionProviderContent from './Content/SolutionProvider';
 import Carousels from './Content/Carousel';
+
 const Home = () => {
   return (
     <div className='Home'>
-      <Carousel  data = {Carousels}/>
-      <AboutUs  />
-      <TestChamber  />
-      <SolutionProvider />
-      <CustomBuilt />
+      <Carousel data={Carousels}/>
+      <AboutUs  data={AboutUss}/>
+      <TestChamber  data ={TestChambers}/>
+      <SolutionProvider data={SolutionProviderContent}/>
+      <CustomBuilt data ={CustomBuilts} />
       <Distributors />
       <ContactUs />
-
     </div>
   )
 }
