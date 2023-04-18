@@ -35,7 +35,7 @@
   color: #63645E;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .home_about_wrapper {
     margin: 0rem 2rem 0rem 2rem;
     padding-top: 4rem;
