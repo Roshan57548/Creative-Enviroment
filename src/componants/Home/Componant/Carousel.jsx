@@ -1,10 +1,24 @@
 import React, { useRef, useState } from "react";
-import './Style/Carousel.css';
+import "./Style/Carousel.css";
 
-const Carousel = () => {
+const Carousel = (props) => {
   return (
-    <div></div>
-  )
-}
+    <>
+      <div className="carousel">
+        <div className="carousel_1">
+          <h4>{props.data.heading1}</h4>
+          <h1>{props.data.heading2}</h1>
+          <h1>{props.data.heading3}</h1>
+          <p>
+            {props.data.discription}
+          </p>
+          <button>Know More</button>
 
-export default Carousel
+        </div>
+        <div className="carousel_2">{props.data.image}</div>
+      </div>
+    </>
+  );
+};
+
+export default Carousel;
