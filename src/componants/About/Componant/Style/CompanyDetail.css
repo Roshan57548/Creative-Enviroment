@@ -1,22 +1,52 @@
-.main-container-company {
-  padding: 20px;
+.CompanyDetail-main-container-company {
+  padding-top: 60px;
+  padding-bottom: 60px;
   box-sizing: border-box;
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.img-fluid {
+.CompanyDetail-container-fluid{
+  width: 70%;
+}
+.CompanyDetail-img-fluid {
   padding: 10px;
 }
 
-.container-subheader .certificate-container {
+.CompanyDetail-container-subheader .CompanyDetail-certificate-container {
   padding: 10px;
   background-color: #f8f8f8;
   margin: auto;
 }
-.container-header h4 {
+.CompanyDetail-container-header h4 {
   padding: 15px 0;
 }
-.container-subheader h2 {
+.CompanyDetail-container-header div h2 {
+  color: #3991C5;
+  font-weight: bold;
+}
+.CompanyDetail-container-header div h4 {
+  color: #484848d8;
+  font-weight: bold;
+}
+.CompanyDetail-container-subheader h2 {
   padding: 15px 0px;
+}
+
+@media (max-width:900px) {
+  .CompanyDetail-container-fluid{
+    width: 80%;
+    text-align: center;
+  }
+  
+}
+
+@media (max-width:600px) {
+  .CompanyDetail-container-fluid{
+    width: 90%;
+    text-align: center;
+  }
+  
 }

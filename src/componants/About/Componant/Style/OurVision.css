@@ -1,20 +1,44 @@
-.container {
+.OurVision-container {
   margin: 0 auto;
-  padding: 0;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.image-wrapper {
+.OurVision-container-fluid{
+  width: 80%;
+}
+.OurVision-image-wrapper {
   display: flex;
   justify-content: start;
   padding: 15px 0;
 }
 
-.description {
-  font-style: italic;
-  background-color: #f8f8f8;
-  padding: 10px;
+.OurVision-description {
+  background-color: #3991C5;
+  border-radius: 10px;
+  padding: 30px;
+  color: white;
+  line-height: 30px;
 }
 
-h2 {
+.OurVision-h2 {
   padding: 5px 0;
+}
+
+@media (max-width:600px) {
+  .OurVision-container-fluid{
+    width: 90%;
+  }
+  .OurVision-description {
+    background-color: #3991C5;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    line-height: 30px;
+  }
 }

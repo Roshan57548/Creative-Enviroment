@@ -4,10 +4,12 @@
 }
 
 .tc_container{
-    background:  #63645E;
+    background:  #3991C5;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
     
 }
 .tc_wrapper{
@@ -71,7 +73,7 @@
 }
 
 .tc_lc_desc{
-    color: wheat;
+    color: rgb(255, 255, 255);
     margin-top: 0.5rem;
     /* width: 80%; */
 }

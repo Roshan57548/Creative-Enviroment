@@ -74,9 +74,9 @@
 }
 
 .SolutionProvider{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: rgb(240, 240, 240);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(240, 240, 240, 0.502);
 }
 
 @media screen and (max-width: 600px) {

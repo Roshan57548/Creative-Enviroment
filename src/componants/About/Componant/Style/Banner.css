@@ -28,15 +28,20 @@
   left: 32px;
   top: 15rem;
   max-width: 100%;
-  color: rgb(204, 198, 198);
+  color: rgb(255, 255, 255);
   z-index: 9;
 }
 
 .text-container-content h1 {
+  padding: 10px;
   font-weight: 600;
 }
+.text-container-description h6{
+  line-height: 20px;
+  padding: 15px;
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .img-container .blue-overlay {
     max-width: 100%;
     right: 0px;
@@ -48,7 +53,7 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 600px) {
   .text-container {
     margin-top: -100px;
     overflow: hidden;

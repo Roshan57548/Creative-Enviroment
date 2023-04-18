@@ -1,7 +1,7 @@
 const Banners = {
   Heading: "About us",
   Description:
-    "Envisys Technologies is a trusted global leader in providing cutting-edge environmental simulation systems and test chambers. With a strong commitment to quality, Envisys holds prestigious certifications including ISO 9001-2015, ISO 14001-2015, ISO 45001-2018, and CE., which reflect the company's dedication to excellence in manufacturing, environmental management, occupational health and safety, and product conformity accordion.",
+    "Creative Environmental Solutions is a renowned worldwide provider of state-of-the-art environmental simulation systems and test chambers. The company is widely recognized for its unwavering commitment to delivering top-quality products and services.",
 };
 
 export default Banners;

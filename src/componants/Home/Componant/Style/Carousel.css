@@ -1,81 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+.carousel {
+  display: flex;
 }
 
-
-.carousel{
-    display: flex;
-    padding: 1em;  
+.carousel_1 {
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
-.carousel_1{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 100%;
+.carousel_1 h1 {
+  font-weight: 800;
+  color: rgb(77, 77, 77);
 }
 
-.carousel_1 h1{
-    font-weight: 800;
-    color: darkblue;
+.carousel_1 a button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgb(212, 241, 255);
+  border: none;
+  font-weight: bold;
 }
-
-.carousel_1 button{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: small;
-   width: 8em;
-   height: 3em;
-   border-radius: 20px;
-   background-color:aqua;
-   font-weight: 600;
-   border: none;
-   
-}
-.carousel_2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.carousel_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .carousel_2 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+}
+@media screen and (max-width: 912px) {
+  .carousel {
+    flex-direction: column;
+  }
+
+  .carousel_1 button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    font-size: 12px;
+    width: 7.2rem;
+    height: 2.5em;
+    border-radius: 20px;
+    margin-bottom: 1em;
+    background-color: aqua;
+    font-weight: 600;
+    border: none;
+  }
 }
-@media screen and (max-width: 912px) {
-    .carousel{
- 
-     flex-direction: column;
-    }
-
-    .carousel_1 button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 12px;
-        width: 7.2rem;
-        height: 2.5em;
-        border-radius: 20px;
-        margin-bottom: 1em;
-        background-color:aqua;
-   font-weight: 600;
-   border: none;
-        
-     }
-   }
 
 @media screen and (max-width: 600px) {
-   .carousel{
-
+  .carousel {
     flex-direction: column;
-   }
+  }
 
-   .carousel_1 button{
+  .carousel_1 button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,9 +80,15 @@
     height: 2em;
     border-radius: 20px;
     margin-bottom: 1em;
-    background-color:aqua;
-   font-weight: 600;
-   border: none;
-    
- }
+    background-color: aqua;
+    font-weight: 600;
+    border: none;
   }
+  .carousel_2 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+  }
+}

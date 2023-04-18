@@ -8,9 +8,9 @@ import image4 from "../Images/companyDetails_certi4.png";
 
 const CompanyDetails = (props) => {
   return (
-    <div className="main-container-company">
-      <div className="container-fluid">
-        <div className="container-header">
+    <div className="CompanyDetail-main-container-company">
+      <div className="CompanyDetail-container-fluid">
+        <div className="CompanyDetail-container-header">
           <div>
             <h2>{props.data.Heading}</h2>
             <hr />
@@ -29,7 +29,7 @@ const CompanyDetails = (props) => {
           <div>{props.data.Description[0].message5}</div>
           <br />
         </div>
-        <div className="container-subheader">
+        {/* <div className="container-subheader">
           <div>
             <h2>{props.data.SubHeading1}</h2>
             <hr />
@@ -49,7 +49,7 @@ const CompanyDetails = (props) => {
               <img src={image4} alt="Image 4" className="img-fluid" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
