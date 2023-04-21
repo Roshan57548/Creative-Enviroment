@@ -2,6 +2,8 @@ import React from 'react'
 import './Style/MissionValue.css';
 import logo1 from '../Images/OurMission_logo.png'
 import logo2 from '../Images/OurValues_image.png'
+import LandscapeIcon from '@mui/icons-material/Landscape';
+import StarOutlineIcon from '@mui/icons-material/StarOutline';
 const MissionValue = (props) => {
   return (
     <div>
@@ -9,7 +11,7 @@ const MissionValue = (props) => {
         <div className="row">
           <div className='col-md-12 col-lg-6 mission_container'>
              <div className='container-fluid our_mision'>
-              <img src={logo1} alt='my_image' className='our_mission_image' />
+              <LandscapeIcon sx={{fontSize:'70px', color:'#1fb5f0'}} className='our_mission_image' />
               <div className='row my-2 ourmissionHeading'>{props.data.Heading1}</div>
               <div>
                  <ul className='ourmission_list'>
@@ -24,7 +26,7 @@ const MissionValue = (props) => {
 
              <div className='col-md-12 col-lg-6 my-6 mission_container1'>
              <div className='container-fluid'>
-                <img src={logo2} alt='my_image' className='our_values_image' />
+                <StarOutlineIcon sx={{fontSize:"70px", color:"#1fb5f0"}} className='our_values_image' />
                 <div className='row my-2 ourvaluesHeading'>{props.data.Heading2}</div>
                 <div>
                  <ul className='ourvalues_list'>
