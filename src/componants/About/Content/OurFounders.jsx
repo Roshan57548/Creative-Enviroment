@@ -1,10 +1,31 @@
-const OurFounders = {
-    Heading: "Hello",
-    Links: [
-        {
-            msg1: "The founders of Envisys Technologies after identifying the need for a reliable supplier in the environmental testing market to suffice the upcoming demand in the market for Environmental Test Chambers especially the one with an ability to customize the requirements of the industries Envisys Technologies is one such venture started by this trio with an objective to manufacture environmental test chambers that not only satisfy customer needs but add value to the testing/equipment investment of its customers by ensuring the savings in their testing costs by supplying, servicing & supporting customer’s competitively through-out the life-cycle of product/s with long-standing relationships.",
-        },
-    ]
+const OurFounder = {
+  Heading: "Meet the Builders Behind the Brand",
+  Description: [
+    {
+      message1:
+        "Meet the Founders of Creative Environmental Solutions - experienced and principled leaders at the helm. With a combined experience of years in the industry, our founders bring diverse skills and a shared vision. Their passion for building, devotion to clients, and dedication to growth have been instrumental in shaping our success. They also actively contribute to strengthening communities through philanthropic efforts, making a positive impact beyond our business.",
+    },
+  ],
+  card: [
+    {
+      image:
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1976&q=80",
+      name: "Zara Evans",
+      position: "Ceo Founder",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80",
+      name: "Julian Pierce",
+      position: "Chief Executive Officer",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80",
+      name: "Ava Thompson",
+      position: "Executive Officer",
+    },
+  ],
 };
 
-export default OurFounders;
+export default OurFounder;
