@@ -1,26 +1,21 @@
-.our_mission_image{
-  padding-left: 4px;
-}
-.our_values_image{
-  padding-left: 15px;
-}
-
-.ourmissionHeading{
-  padding-left: 25px;
-  color: rgb(8, 8, 48);
+.ourmissionHeading {
+  padding-left: 10px;
+  color: darkblue;
   font-size: 2rem;
+  font-weight: 600;
 }
 
 
 .ourvaluesHeading{
   padding-left: 20px;
-  color: rgb(8, 8, 48);
+  color: darkblue;
   font-size: 2rem;
+  font-weight: 600;
 }
 
 .Body1{
-  padding-top: 100px;
-  padding-right: 4%;
+  padding-top: 50px;
+  padding-right: 2%;
   padding-left: 1.5%;
 }
 
@@ -32,15 +27,13 @@
   padding-top: 2%;
 }
 
-.mission_contianer{
-  padding-right: 2%;
-  /* margin: auto; */
-  padding-left: 6%;
+.mission_container{
+padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
 }
 
 .mission_container1{
-  /* padding-right: 5%; */
-  /* margin: auto; */
-  /* padd */
-  /* padding-left: 6%; */
+  padding: 1rem;
+
 }
