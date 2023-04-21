@@ -1,5 +1,6 @@
 import React from "react";
 import "./Style/About.css";
+import CarryBig from "./Componant/CarryBig";
 import Banner from "./Componant/Banner";
 import CompanyDetails from "./Componant/CompanyDetails";
 import OurVision from "./Componant/OurVision";
@@ -10,7 +11,8 @@ import Banners from "./Content/Banners";
 import CompanyDetail from "./Content/CompanyDetail";
 import OurVisions from "./Content/OurVisions";
 import MissionValues from "./Content/MissionValues";
-
+import ContactUs from '../../componants/Home/Componant/ContactUs';
+import ContentContactUs from '../../componants/Home/Content/ContactUs';
 const About = () => {
   return (
     <div className="About">
@@ -20,6 +22,7 @@ const About = () => {
       <MissionValue data={MissionValues}/>
       {/* <OurFounders /> */}
       {/* <StateOfCity />  */}
+        {/* <CarryBig /> */}
       <ContactUs data={ContentContactUs} />
     </div>
   );
