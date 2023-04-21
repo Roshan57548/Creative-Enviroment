@@ -1,6 +1,6 @@
 import React from "react";
 import "./Style/About.css";
-import CarryBig from "./Componant/CarryBig";
+// import CarryBig from "./Componant/CarryBig";
 import Banner from "./Componant/Banner";
 import CompanyDetails from "./Componant/CompanyDetails";
 import OurVision from "./Componant/OurVision";
