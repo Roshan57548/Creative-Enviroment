@@ -19,7 +19,8 @@
   
 }
 .Navbar-0-3:hover{
-  color: rgb(0, 238, 255);
+  transition-duration: 400ms;
+  color: rgb(0, 0, 0);
   font-size: 16px;
   margin-left: 10px;
   
