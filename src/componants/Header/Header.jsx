@@ -218,7 +218,7 @@ const Header = () => {
             <MDBNavbarItem className="position-static">
               <MDBDropdown>
                 <MDBDropdownToggle tag="a" className="nav-link" id="Navbar-3">
-                  Electrodynamic Vibration System
+                  Electrodynamic Vibration
                 </MDBDropdownToggle>
                 <MDBDropdownMenu
                   className="mt-0 justify-content-center"
