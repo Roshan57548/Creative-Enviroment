@@ -10,7 +10,7 @@ const AboutUs = (props) => {
         <p className='home_abt_para'>{props.data.para}</p>
       </div>
       <div className="home_abt_right">
-       {props.data.Image}
+      <img className='home_abt_img' src={props.data.Image} alt="" />
       </div>
     </div>
     </div>
