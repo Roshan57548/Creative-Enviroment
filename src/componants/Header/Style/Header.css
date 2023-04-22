@@ -1,16 +1,169 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-.navbar-color{
-  background-color: rgba(0, 0, 0, 0.016);
+#Navbar-0-1{
+  background-color: #41a2da;
+  height: 80px;
 }
-.nabvar-image{
-  width: 60px;
-  height: 30px;
+#Navbar-0-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.801);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-#navbar-link{
-  font-family: 'Poppins', sans-serif;
-  font-size: 17px;
+.Navbar-0-3{
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
   
 }
-#navbar-link:hover{
+.Navbar-0-3:hover{
+  transition-duration: 400ms;
   color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin-left: 10px;
+  
+}
+#Navbar-3{
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: rgba(240, 248, 255, 0.831);
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+}
+#Navbar-3:hover{
+  cursor: pointer;
+  background-color: rgb(240, 248, 255);
+  transition-duration: 400ms;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+}
+.nabvar-image{
+  width: 80px;
+  height: 50px;
+}
+#Navbar-13{
+  width: 600px;
+}
+#Navbar-17{
+  width: 350px;
+}
+#Navbar-10{
+  width: 120px;
+}
+#Navbar-16{
+  background-color: #41a2da0a;
+}
+#Navbar-16:hover{
+  background-color: #41a2da26;
+  transition-duration: 500ms;
+  width: 250px;
+}
+#Navbar-15{
+  margin-top: 10px;
+  width: 100%;
+}
+#Navbar-14{
+  background-color: #41a2da0a;
+  width: 270px;
+}
+#Navbar-14:hover{
+  transition-duration: 500ms;
+  background-color: #41a2da26;
+  width: 230px;
+}
+#Navbar-18:hover{
+  background-color: #41a2da26;
+  transition-duration: 500ms;
+  width: 300px;
+}
+#Navbar-19:hover{
+  background-color: #41a2da26;
+  transition-duration: 500ms;
+  width: 250px;
+}
+#Navbar-20{
+  background-color: #41a2da;
+}
+@media screen and (max-width: 900px) {
+  #Navbar-0-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .nabvar-image{
+    width: 50px;
+    height: 40px;
+  }
+  #Navbar-3{
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgb(240, 248, 255);
+    color: black;
+    border-radius: 0px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  #Navbar-3:hover{
+    cursor: pointer;
+    background-color: rgb(240, 248, 255);
+    transition-duration: 400ms;
+    color: black;
+    border-radius: 0px;
+    padding: 10px;
+    margin-left: 0px;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  #Navbar-0-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.801);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .nabvar-image{
+    width: 40px;
+    height: 30px;
+  }
+  #Navbar-3{
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgb(240, 248, 255);
+    color: black;
+    border-radius: 0px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  #Navbar-13{
+    overflow: scroll;
+    height: 50vh;
+    width: 100%;
+  }
+  #Navbar-17{
+    width: 350px;
+  }
+  #Navbar-14{
+    background-color: #41a2da0a;
+    width: 100%;
+  }
+  #Navbar-14:hover{
+    transition-duration: 500ms;
+    background-color: #41a2da26;
+    width: 230px;
+  }
 }

@@ -1,14 +1,43 @@
-import React from 'react'
-import './Style/OurFounders.css';
-const OurFounders = (props) => {
-  return (
-    <div className='container-fluid'>
-      <div className='row'>
-          <div className='col-6'>hello1</div>
-          <div className='col-6'>hello2</div>
-      </div> 
-    </div>
-  )
-}
+import React from "react";
+import "./Style/OurFounders.css";
+import { Typography } from "@mui/material";
 
-export default OurFounders
+const OurFounders = (props) => {
+  let cards;
+  console.log(props.data.card);
+  if (props.data.card) {
+    cards = props.data.card.map((myData, index) => {
+      return (
+        <div className="OurFounders-image-content" key={index}>
+          <img src={myData.image} alt="image1" />
+          <div className="image-captions">
+            <h5>{myData.name}</h5>
+            <h6>{myData.position}</h6>
+          </div>
+        </div>
+      );
+    });
+  }
+
+  return (
+    <div className="OurFounders-main-container">
+      <div className="OurFounders-container">
+        <div className="OurFounders-heading">
+          <div>
+            <Typography variant="h4">{props.data.Heading}</Typography>
+            <hr />
+            <Typography variant="subtitle1" className="OurFounders-sub-header">
+              {props.data.Description[0].message1}
+            </Typography>
+          </div>
+        </div>
+        {/* image section */}
+        <div className="OurFounders-image-container">
+          <div className="OurFounders-image-wrapper">{cards}</div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default OurFounders;
