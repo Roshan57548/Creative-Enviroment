@@ -11,7 +11,7 @@ const MissionValues = {
     ],
     OurValues: [
         {
-            msg1:"We are fully aware of the challenges that our clients face, and our standing as the most advanced technology provider in the market allows us to offer products of superior quality for the most intensive applications. Our expertise further supports our clients by overcoming challenges and discovering market-driven solutions in partnership with them.",
+            msg1:"We are fully aware of the challenges that our clients face, and our standing as the most advanced technology provider in the market allows us to offer products of superior quality for the most intensive applications.",
             msg2:"Our results-driven approach has assisted our clients in fine-tuning their company strategy to meet their internal and external goals. This win-win strategy has resulted in an increasing number of clients falling into the delightful category of satisfaction. It has also aided in the formation of synergy among our company's workforce, allowing them to concentrate on the task at hand, which offers value to the clients.",
             msg3:"Integrity is the bedrock of a business's existence. It is regarded as the most essential among the ethos. At Envisys, every employee's work reflects their integrity.",
             msg4:"To meet the changing needs of our market, we strive to offer an environment that fosters long-term loyalty among our employees and gives them growth opportunities.",

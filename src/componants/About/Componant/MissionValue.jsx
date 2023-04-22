@@ -5,7 +5,7 @@ import logo2 from '../Images/OurValues_image.png'
 const MissionValue = (props) => {
   return (
     <div>
-      <div className='container-fluid Body1'>
+      <div className='container Body1'>
         <div className="row">
           <div className='col-md-12 col-lg-6 mission_container'>
              <div className='container-fluid our_mision'>
