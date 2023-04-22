@@ -5,7 +5,7 @@ import CompanyDetails from "./Componant/CompanyDetails";
 import OurVision from "./Componant/OurVision";
 // import MissionValue from "./Componant/MissionValue";
 // import OurFounders from "./Componant/OurFounders";
-// import StateOfCity from "./Componant/StateOfCity";
+import StateOfCity from "./Componant/StateOfCity";
 import CarryBig from "./Componant/CarryBig";
 import Banners from "./Content/Banners";
 import CompanyDetail from "./Content/CompanyDetail";
@@ -20,7 +20,7 @@ const About = () => {
       <OurVision data={OurVisions} />
       {/* <MissionValue data={MissionValues}/> */}
       {/* <OurFounders /> */}
-      {/* <StateOfCity />  */}
+      <StateOfCity /> 
       {/* <CarryBig /> */}
     </div>
   );
