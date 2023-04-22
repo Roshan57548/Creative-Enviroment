@@ -3,11 +3,12 @@ import './Style/Services.css';
 import RepairService from './Componant/RepairService';
 import SpectrumServices from './Componant/SpectrumServices';
 import DefiningServices from './Componant/DefiningServices';
+import  SpectrumServices_content from './Content/SpectrumServices';
 const Services = () => {
   return (
     <div>
       <RepairService />
-      <SpectrumServices />
+      <SpectrumServices data={SpectrumServices_content} />
       <DefiningServices />
     </div>
   )

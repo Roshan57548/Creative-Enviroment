@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.spectrum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   padding: 2rem;
+  
+  
+}
+
+.spectrum_1 h1{
+    font-weight: 800; 
+       
+}
+.spectrum_1_desing{
+    border: 2px solid gray;
+    width: 10%;
+    height: 1.5vh;
+    padding: 2px;
+    background-color: gray;
+
+}
+.spectrum_2{
+   display: flex;
+   justify-content: center;
+   align-items: center;  
+   
+}
+.spectrum_3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 3rem;
+   gap: 5rem;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   margin: 2rem;
+   border-radius: 15px;
+
+}
+.spectrum_4{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 300px;
+    padding: 5px;
+    border-radius: 10px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+.spectrum_4_heading{
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    color: darkblue;
+    font-weight: 600 !important;
+}
+.spectrum_5{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .spectrum_4{
+        height: 350px;
+    }
+    .spectrum_1 h1{
+        font-weight: 600;           
+    }
+    
+  }
+
+@media screen and (max-width: 950px) {
+    .spectrum_4{
+        height: 350px;
+    }
+    .spectrum_1 h1{
+        font-weight: 600;           
+    }
+    .spectrum_2 h4{
+        font-size: 1rem;
+    }
+    
+  }
+  @media screen and (max-width: 850px) {
+     
+    .spectrum_4{
+        height: 350px;
+    }
+    .spectrum_1 h1{
+        font-weight: 600;   
+        
+    }
+    .spectrum_3{
+        gap: 1rem;
+    }
+
+  }
+
+  @media screen and (max-width: 770px) {
+    .spectrum_3{
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .spectrum_4{
+        height: 350px;
+    }
+
+  }
+  
+  @media screen and (max-width: 600px) {
+     
+    .spectrum_4{
+        height: 350px;
+    }
+    .spectrum_1 h1{
+        font-weight: 600;   
+        
+    }
+
+  }
+  @media screen and (max-width: 376px) {
+     
+    .spectrum_4{
+        height: 350px;
+    }
+    .spectrum_1 h1{
+        font-weight: 600;   
+        
+    }
+    .spectrum_2 h4{
+        font-size: .8rem;
+    }
+
+  }
+  @media screen and (max-width: 360px) {
+     
+    .spectrum_4{
+        height: 350px;
+    }
+    .spectrum_1 h1{
+        font-weight: 600;   
+        font-size: 1.5rem;
+
+    }
+
+  }
+  
+  @media screen and (max-width: 300px) {
+    .spectrum_4{
+        height: 350px;
+    }
+    .spectrum_1 h1{
+        font-size: 1rem;
+        margin-left: 20px;
+    }
+    .spectrum_2 h4{
+        font-size: small;
+        margin-left: 15px;
+    }
+    .spectrum_3{
+        width: 100vw;
+    }
+    
+    
+  }
