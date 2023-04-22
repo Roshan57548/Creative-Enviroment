@@ -1,7 +1,6 @@
 .CustomBuild-0 {
   padding-top: 50px;
   padding-bottom: 0;
-  
 }
 .section-heading {
   margin-bottom: 50px;
@@ -38,11 +37,7 @@
   overflow: hidden;
   text-align: center;
   box-shadow: 1px 1px 1px rgba(37, 73, 159, 0.058823529411764705);
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 0, 0, 0),
-    #757575
-  ) ; 
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0), #757575);
 }
 .single-image > img {
   width: 80%;
@@ -52,19 +47,18 @@
   height: auto;
   vertical-align: middle;
   border-style: none;
-
 }
 .single-image-hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 9;
-    left: 0;
-    top: 0;
-    background-color: #5d6c8d;
-    opacity: 0;
-    transition-duration: 500ms;
-    padding: 20px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  background-color: #1e6c99;
+  opacity: 0;
+  transition-duration: 500ms;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center !important;
@@ -77,9 +71,9 @@
   color: #fff;
   margin-bottom: 10px;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
 }
 .single-image-text h3 span {
   display: block;
@@ -109,9 +103,9 @@
   .inline {
     left: 47%;
   }
-  .single-image-text{
+  .single-image-text {
     padding-left: 30px;
-    padding-right:30px ;
+    padding-right: 30px;
   }
 }
 @media (min-width: 280px) and (max-width: 624px) {
@@ -121,12 +115,11 @@
   .inline {
     left: 43%;
   }
-  .single-image-text  span{
+  .single-image-text span {
     font-weight: 400;
-    
   }
-  .single-image-text{
+  .single-image-text {
     padding-left: 30px;
-    padding-right:30px ;
+    padding-right: 30px;
   }
 }

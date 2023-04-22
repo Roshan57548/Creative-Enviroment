@@ -1,6 +1,6 @@
 .contact{
     height: 250px;
-    background-image: url("https://images.unsplash.com/photo-1674315411321-d65c2d07b850?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHw%3D&w=1000&q=80");
+    background-image: url('../../Images/ContactUs_img.jpeg');
     position: relative;
     background-size: cover;
     background-position: center;
