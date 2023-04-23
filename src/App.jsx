@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import {Route, Routes} from 'react-router-dom'
 import './App.css'
-import Header from './componants/Header/Header';
+import Header from './componants/Header/Header2';
 import Footer from './componants/Footer/Footer';
 import Home from './componants/Home/Home';
 import About from './componants/About/About';
+import OurPartners from './componants/Our-Partners/OurPartners';
 import ContactUs from './componants/Contact-Us/ContactUs';
 import Services from './componants/Services/Services';
 {/* Chamber Routes */}
@@ -57,6 +58,7 @@ function App() {
         <Route path='/About-Us' element={<About/>}/>
         <Route path='/Services' element={<Services />}/>
         <Route path='/Contact-Us' element={<ContactUs/>}/>
+        <Route path='/Our-Partners' element={<OurPartners/>}/>
         {/* Chamber Routes */}
         <Route path='/Chamber/Environmental-Test-Chambers' element={<Environmental_Test_Chambers/>}/>
         <Route path='/Chamber/Dust-Chambers' element={<Dust_Chambers/>}/>

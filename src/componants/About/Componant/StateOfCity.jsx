@@ -1,6 +1,5 @@
 import React from "react";
 import data from "../Content/StateOfCity";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./Style/StateOfCity.css";
 
 const StateOfCity = (props) => {

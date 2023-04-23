@@ -6,7 +6,7 @@ import DefiningServices from './Componant/DefiningServices';
 import RepairServices from './Content/RepairServices';
 const Services = () => {
   return (
-    <div>
+    <div className='Service'>
       <RepairService data={RepairServices}/>
       {/* <SpectrumServices /> */}
       <DefiningServices />

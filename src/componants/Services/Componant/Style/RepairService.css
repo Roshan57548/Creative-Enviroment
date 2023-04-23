@@ -1,7 +1,6 @@
 .rs-headhing01{
-     /* font-size: 30px; */
-     padding-bottom: 4%; 
-    padding-top: 2%; 
+    padding-bottom: 80px; 
+    padding-top: 80px; 
     margin: 1em 0 0.5em 0;
 	color: #343434;
 	font-weight: normal;
@@ -25,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 900px) {
     .rs_image_container02{
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -52,8 +51,8 @@
 }
 
 .image_01-fluid{
-    height: 180px;
-    width: 210px;
+    height: 200px;
+    width: 300px;
 }
 
 .rs_image1,.rs_image2,.rs_image3,.rs_image4{
@@ -61,6 +60,7 @@
 }
 .rs_image1:hover,.rs_image2:hover,.rs_image3:hover,.rs_image4:hover{
     transform: scale(1.1);
+    transition-duration: 500ms;
     z-index: 2;
 }
 
