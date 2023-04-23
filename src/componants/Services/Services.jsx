@@ -8,9 +8,9 @@ import RepairServices from './Content/RepairServices';
 const Services = () => {
   return (
     <div className='Service'>
-      <RepairService data={RepairServices}/>
       <SpectrumServices data={SpectrumServices_content} />
-      <DefiningServices />
+      <RepairService data={RepairServices}/>
+      {/* <DefiningServices /> */}
     </div>
   )
 }

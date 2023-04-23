@@ -35,7 +35,7 @@ const SpectrumServices = (props) => {
                 <CardContent>
                   <Typography
                     sx={{ fontSize: 14 }}
-                    color="text.secondary"
+                    color="#1e6c99"
                     gutterBottom
                   >
                     {item.logo}
