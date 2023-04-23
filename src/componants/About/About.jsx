@@ -21,6 +21,7 @@ const About = () => {
       <MissionValue data={MissionValues}/>
       <StateOfCity />
       <OurFounders data={OurFounder} />
+      
       <ContactUs />
       
     </div>

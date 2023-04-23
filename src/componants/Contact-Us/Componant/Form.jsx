@@ -33,9 +33,6 @@ const ContactForm = () => {
       .min(10, "too short")
       .max(10, "too long"),
     CompanyName: yup.string().min(2).required(),
-    CityState: yup.string().min(2).required(),
-    Country: yup.string().min(2).required(),
-    Subject: yup.string().min(2).required(),
     Query: yup.string().min(2).required(),
   });
 
@@ -45,9 +42,6 @@ const ContactForm = () => {
       email: "",
       Phone: "",
       CompanyName: "",
-      CityState: "",
-      Country: "",
-      Subject: "",
       Query: "",
     },
     validationSchema: validate,
@@ -57,9 +51,6 @@ const ContactForm = () => {
         email,
         Phone,
         CompanyName,
-        CityState,
-        Country,
-        Subject,
         Query,
       } = values;
       const res = await axios({
@@ -72,9 +63,6 @@ const ContactForm = () => {
             email,
             Phone,
             CompanyName,
-            CityState,
-            Country,
-            Subject,
             Query,
           ],
         ],
@@ -99,7 +87,7 @@ const ContactForm = () => {
     <div className="ContactForm-0">
       <div className="container ContactForm-1">
         <div className="row ContactForm-1">
-          <div className="col-lg-8 col-md-12">
+          <div className="col-lg-6 col-md-12">
             <Form
               method="POST"
               onSubmit={user.handleSubmit}
@@ -160,44 +148,6 @@ const ContactForm = () => {
                   )}
                 </Form.Group>
               </Row>
-              <Row className="mb-3">
-                <Form.Group as={Col} controlId="formGridName">
-                  <Form.Label>City & State</Form.Label>
-                  <Form.Control
-                    name="CityState"
-                    value={user.values.CityState}
-                    onChange={user.handleChange}
-                    placeholder="Enter City & State"
-                  />
-                  {user.touched.CityState && user.errors.CityState && (
-                    <p className="error-part">{user.errors.CityState}</p>
-                  )}
-                </Form.Group>
-                <Form.Group as={Col} controlId="formGridName">
-                  <Form.Label>Country</Form.Label>
-                  <Form.Control
-                    name="Country"
-                    value={user.values.Country}
-                    onChange={user.handleChange}
-                    placeholder="Enter Country"
-                  />
-                  {user.touched.Country && user.errors.Country && (
-                    <p className="error-part">{user.errors.Country}</p>
-                  )}
-                </Form.Group>
-              </Row>
-              <Form.Group className="mb-3" controlId="formGridName">
-                <Form.Label>Subject</Form.Label>
-                <Form.Control
-                  name="Subject"
-                  value={user.values.Subject}
-                  onChange={user.handleChange}
-                  placeholder="Enter Subject"
-                />
-                {user.touched.Subject && user.errors.Subject && (
-                  <p className="error-part">{user.errors.Subject}</p>
-                )}
-              </Form.Group>
               <Form.Group className="mb-3" controlId="formGridtext">
                 <Form.Label>Your Query</Form.Label>
                 <Form.Control
