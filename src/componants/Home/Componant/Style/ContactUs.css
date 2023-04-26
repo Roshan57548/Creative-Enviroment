@@ -1,0 +1,73 @@
+.contact{
+    height: 250px;
+    background-image: url('../../Images/ContactUs_img.jpeg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact h4{
+    color: rgb(100, 97, 97);
+    font-size:17px;
+    font-weight:700;
+    margin-bottom: 0;
+}
+.contact h1{
+    color: white;
+    font-size:30px;
+    font-weight:800;
+    margin-top: 0;
+}
+button{
+        background-color: #32a0ee;
+        color: black;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 50px;
+        cursor: pointer;
+}
+.enquire-Button{
+        background-color:#32a0ee;
+        border: none;
+        color: black;
+        padding: 7px 16px;
+        position: absolute;
+        bottom: 40px;
+        right: -40px;
+        border-radius: 0;
+        border-top-right-radius: 10px;
+        transform: rotate(-90deg);       
+}
+@media screen and (max-width: 900px) {
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .enquire-Button {
+         padding: 4px 12px;   
+        }
+        
+}
+@media screen and (max-width: 500px) {
+    .contact h4 {
+        color: rgb(100, 97, 97);
+        font-size: 13px;
+        font-weight: 500;
+        margin-bottom: 0;
+        }
+        .contact h1 {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 0;
+        }
+        button {
+          padding: 4px 12px;       
+       }      
+}

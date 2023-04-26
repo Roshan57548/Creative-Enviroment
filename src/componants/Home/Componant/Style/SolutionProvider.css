@@ -1,0 +1,91 @@
+.flex-container{
+   display: flex;
+   justify-content: space-evenly;
+   /* perspective: 1000px; */
+}
+@media screen and (max-width: 980px) {
+    .flex-container{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+}
+
+
+.SolPro_heading01{
+    display: flex;
+    text-align: center;
+    padding-bottom: 3px;
+    font-size: 65%;
+    font-weight: 200;
+}
+.SolPro_heading02{
+    display: flex;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 1.7rem;
+    text-decoration: dotted;
+    color: rgb(24, 24, 114);
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.heading01{
+    letter-spacing: 2px !important;
+    padding-top: none;
+}
+
+.flex-container img{
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.sub-heading_01{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+}
+.SolPro_image5 , .SolPro_image4,.SolPro_image3,.SolPro_image2,.SolPro_image1{
+    transition: 1;
+}
+
+.SolPro_image5:hover , .SolPro_image4:hover , .SolPro_image3:hover, .SolPro_image2:hover,.SolPro_image1:hover {
+    transform: scale(1.02);
+    z-index: 2;
+}
+
+.image_01{
+    object-fit: cover;
+    width: 210px;
+    height: 230px;
+}
+
+.sub-heading_02{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+}
+
+.images_container{
+    padding-right: 30px;
+}
+
+.SolutionProvider{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(240, 240, 240, 0.502);
+}
+
+@media screen and (max-width: 600px) {
+    .SolutionProvider{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+}
+
