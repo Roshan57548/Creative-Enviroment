@@ -20,7 +20,7 @@ const ContactUs = () => {
         </div>
           <div>
             <button onClick={goToContact}>Contact Us</button>
-            <button className="enquire-Button">Enquire Now</button>
+            {/* <button className="enquire-Button">Enquire Now</button> */}
           </div>
       </div>
     </div>
