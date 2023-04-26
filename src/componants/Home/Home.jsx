@@ -16,9 +16,9 @@ const Home = () => {
   return (
     <div className='Home'>
       <Carousel data={Carousels}/>
-      <AboutUs  data={AboutUss}/>
-      <TestChamber  data ={TestChambers}/>
-      <SolutionProvider data={SolutionProviderContent}/>
+      <AboutUs  data={AboutUss}/> 
+       <TestChamber  data ={TestChambers}/> 
+       <SolutionProvider data={SolutionProviderContent}/>
       <CustomBuilt data ={CustomBuilts} />
       <ContactUs />
     </div>
