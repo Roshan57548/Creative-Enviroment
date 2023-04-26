@@ -1,0 +1,28 @@
+.section2_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2_wrapper{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section2_heading{
+    color: darkblue;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 1000px) {
+    .section2_wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .section2_img{
+        height: 15rem;
+        width: 15rem;
+    }
+}

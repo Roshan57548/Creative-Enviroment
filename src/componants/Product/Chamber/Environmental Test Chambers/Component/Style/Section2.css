@@ -1,0 +1,42 @@
+   .section2_left_Heading{
+    padding-left: 25px;
+    color:  rgb(23, 110, 137);
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .section2_right_Heading{
+    padding-left: 20px;
+    color: rgb(23, 110, 137);
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .section2_container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .section2_left_list li{
+    padding-top: 2%;
+  }
+  
+  .section2_right_list li{
+    padding-top: 2%;
+  }
+  
+  .section2_left{
+    padding-right: 2%;
+    /* margin: auto; */
+    padding-left: 2%;
+  }
+  .section2_left_para{
+    margin-left: 1rem;
+  }
+  
+  .section2_right{
+    /* padding-right: 5%; */
+    /* margin: auto; */
+    /* padd */
+    /* padding-left: 6%; */
+  }
