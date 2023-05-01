@@ -1,6 +1,6 @@
 import React from 'react'
 import './Style/Home.css';
-// import Carousel from './Componant/Carousel';
+import Carousel from './Componant/Carousel';
 import AboutUs from './Componant/AboutUs';
 import TestChamber from './Componant/TestChamber';
 import SolutionProvider from './Componant/SolutionProvider';
@@ -10,12 +10,12 @@ import ContactUs from './Componant/ContactUs';
 import AboutUss from './Content/AboutUs'
 import TestChambers from './Content/TestChamber';
 import SolutionProviderContent from './Content/SolutionProvider';
-// import Carousels from './Content/Carousel';
+import Carousels from './Content/Carousel';
 
 const Home = () => {
   return (
     <div className='Home'>
-      {/* <Carousel data={Carousels}/> */}
+      <Carousel data={Carousels}/>
       <AboutUs  data={AboutUss}/> 
        <TestChamber  data ={TestChambers}/> 
        <SolutionProvider data={SolutionProviderContent}/>

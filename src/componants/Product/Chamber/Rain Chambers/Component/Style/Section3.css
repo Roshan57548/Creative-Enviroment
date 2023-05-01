@@ -1,0 +1,14 @@
+.rc_s3_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rc_s3_wrapper{
+    width: 80%;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.rc_s3_img{
+    width: 100%;
+    margin-bottom: 2rem;
+}

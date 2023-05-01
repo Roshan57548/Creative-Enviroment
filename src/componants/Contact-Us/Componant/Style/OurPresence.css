@@ -1,0 +1,191 @@
+.OurPresence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.OurPresence_1 h1 {
+  color: #1e6c99;
+  font-weight: 600;
+}
+.OurPresence_1_desing {
+  border: 2px solid #1e6c99;
+  width: 10%;
+  height: 1.5vh;
+  padding: 2px;
+  background-color: #1e6c99;
+}
+.OurPresence_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurPresence_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3rem;
+  gap: 5rem;
+  margin: 2rem;
+  border-radius: 15px;
+}
+.OurPresence_4 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 25%;
+  height: 350px;
+  padding: 5px;
+  border-radius: 10px !important;
+  box-shadow: #1e6c9934 0px 3px 8px !important;
+}
+.OurPresence_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurPresence_logo:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurPresence_4_heading {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  color: #1e6c99;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 6px;
+  height: 20px;
+}
+
+.OurPresence_5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  /* padding: 10px; */
+}
+.OurPresence_6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurPresence_6:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e6c99;
+  cursor: pointer;
+}
+.OurPresence_7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurPresence_7:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e6c99;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .OurPresence_4 {
+    height: 400px;
+  }
+  .OurPresence_1 h1 {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .OurPresence_4 {
+    margin-top: 20px;
+    width: 45%;
+    height: 350px;
+  }
+  .OurPresence_1 h1 {
+    font-weight: 600;
+  }
+  .OurPresence_2 h4 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .OurPresence_4 {
+    margin-top: 20px;
+    width: 45%;
+    height: 350px;
+  }
+  .OurPresence_1 h1 {
+    font-weight: 600;
+  }
+  .OurPresence_3 {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .OurPresence_3 {
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .OurPresence_4 {
+    height: 350px;
+    width: 70%;
+  }
+  .OurPresence_1 h1 {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .OurPresence_4 {
+    height: 400px !important;
+  }
+  .OurPresence_1 h1 {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .OurPresence_2 h4 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .OurPresence_4 {
+    height: 350px;
+  }
+  .OurPresence_1 h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .OurPresence_4 {
+    height: 350px;
+  }
+  .OurPresence_1 h1 {
+    font-size: 1rem;
+    margin-left: 20px;
+  }
+  .OurPresence_2 h4 {
+    font-size: small;
+    margin-left: 15px;
+  }
+  .OurPresence_3 {
+    width: 100vw;
+  }
+}

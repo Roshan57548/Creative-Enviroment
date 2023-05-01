@@ -2,10 +2,12 @@ import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import Company_logo from "../../../src/Image/Company-Logo/Company_logo.png";
 import { useNavigate } from "react-router-dom";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import ContentHeader from "./Content/ContentHeader";
 import "./Style/Header2.css";
 const Header2 = () => {
@@ -81,10 +83,27 @@ const Header2 = () => {
     return navigate("/Vibration/Water-Cooled-Series");
   };
 
+  const RouteLink = (index) => {
+    return navigate(ContentHeader.EnvironmentalTestChambers[index].Link);
+  };
+
+  const RouteLink2 = (index) => {
+    return navigate(ContentHeader.AirCooledSeries[index].Link);
+  };
+
+  const RouteLink3 = (index) => {
+    return navigate(ContentHeader.OtherCategories[index].Link);
+  };
+
+  const RouteLink4 = (index) => {
+    return navigate(ContentHeader.WaterCooledSeries[index].Link);
+  };
+  
+
   let Navdata;
   Navdata = ContentHeader.EnvironmentalTestChambers.map((rowdata, index) => {
     return (
-      <Nav.Link className="col-6" href={rowdata.Link} id="Navbar-9">
+      <Nav.Link className="col-lg-6 col-md-12" onClick={()=>RouteLink(index)} id="Navbar-9">
         {rowdata.Heading}
       </Nav.Link>
     );
@@ -93,7 +112,7 @@ const Header2 = () => {
   let Navdata2;
   Navdata2 = ContentHeader.OtherCategories.map((rowdata, index) => {
     return (
-      <Nav.Link className="col-12" href={rowdata.Link} id="Navbar-9-1">
+      <Nav.Link className="col-lg-12" onClick={()=>RouteLink3(index)} id="Navbar-9-1">
         {rowdata.Heading}
       </Nav.Link>
     );
@@ -102,7 +121,7 @@ const Header2 = () => {
   let Navdata3;
   Navdata3 = ContentHeader.AirCooledSeries.map((rowdata, index) => {
     return (
-      <Nav.Link className="col-12" href={rowdata.Link} id="Navbar-9-2">
+      <Nav.Link className="col-lg-12" onClick={()=>RouteLink2(index)} id="Navbar-9-2">
         {rowdata.Heading}
       </Nav.Link>
     );
@@ -111,7 +130,7 @@ const Header2 = () => {
   let Navdata4;
   Navdata4 = ContentHeader.WaterCooledSeries.map((rowdata, index) => {
     return (
-      <Nav.Link className="col-12" href={rowdata.Link} id="Navbar-9-2">
+      <Nav.Link className="col-lg-12" onClick={()=>RouteLink4(index)} id="Navbar-9-2">
         {rowdata.Heading}
       </Nav.Link>
     );
@@ -132,7 +151,7 @@ const Header2 = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" id="Navbar-09"/>
         
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="Header-2">
             <Nav.Link href="/" id="Header-3">
               Home
@@ -156,12 +175,17 @@ const Header2 = () => {
                     onMouseEnter={OpenNav2}
                     onMouseLeave={CloseNav2}
                   >
+                    <KeyboardDoubleArrowLeftIcon id="Header-none"/>
                     Environmental Test Chambers
-                    <KeyboardDoubleArrowRightIcon />
-                    <Nav hidden={showme} id="Header-8" className="row">
-                      <div className="col-12 row">{Navdata}</div>
-                    </Nav>
+                    <KeyboardDoubleArrowRightIcon id="Header-none-1"/>
+                    <KeyboardDoubleArrowDownIcon id="Header-none-2"/>
+                    
+                    
                   </Nav.Link>
+                  <Nav onMouseEnter={OpenNav2} onMouseLeave={CloseNav2} hidden={showme} id="Header-8" className="row">
+                    <div className="col-12 row">{Navdata}</div>
+                  </Nav>
+                  
                 </div>
                 <div className="col-12 Header-Other">
                   <Nav.Link
@@ -170,9 +194,13 @@ const Header2 = () => {
                     onMouseLeave={CloseNav4}
                     id="Header-7"
                   >
+                    <KeyboardDoubleArrowLeftIcon id="Header-none"/>
                     Electro-Dynamic Vibration System
-                    <KeyboardDoubleArrowRightIcon />
-                    <Nav hidden={showme3} id="Header-8-1" className="row">
+                    <KeyboardDoubleArrowRightIcon id="Header-none-1"/>
+                    <KeyboardDoubleArrowDownIcon id="Header-none-2"/>
+                    
+                  </Nav.Link>
+                    <Nav onMouseEnter={OpenNav4} onMouseLeave={CloseNav4} hidden={showme3} id="Header-8-1" className="row">
                       <div className="col-12 row ">
                         <Nav.Link
                           className="col-12"
@@ -182,12 +210,15 @@ const Header2 = () => {
                           onMouseEnter={OpenNav5}
                           onMouseLeave={CloseNav5}
                         >
+                          <KeyboardDoubleArrowLeftIcon id="Header-none"/>
                           Air Cooled Series
-                          <KeyboardDoubleArrowRightIcon />
-                          <Nav hidden={showme5} id="Header-8-2" className="row">
-                            <div className="col-12 row">{Navdata3}</div>
-                          </Nav>
+                          <KeyboardDoubleArrowRightIcon id="Header-none-1"/>
+                          <KeyboardDoubleArrowDownIcon id="Header-none-2"/>
+                          
                         </Nav.Link>
+                        <Nav onMouseEnter={OpenNav5} onMouseLeave={CloseNav5} hidden={showme5} id="Header-8-2" className="row">
+                          <div className="col-12 row Header-8-2-1">{Navdata3}</div>
+                        </Nav>
                         <Nav.Link
                           className="col-12"
                           href="/Vibration/Water-Cooled-Series"
@@ -196,36 +227,40 @@ const Header2 = () => {
                           onMouseEnter={OpenNav6}
                           onMouseLeave={CloseNav6}
                         >
+                          <KeyboardDoubleArrowLeftIcon id="Header-none"/>
                           Water Cooled Series
-                          <KeyboardDoubleArrowRightIcon />
-                          <Nav hidden={showme6} id="Header-8-2" className="row">
+                          <KeyboardDoubleArrowRightIcon id="Header-none-1"/>
+                          <KeyboardDoubleArrowDownIcon id="Header-none-2"/>
+                          
+                          </Nav.Link>
+                          <Nav onMouseEnter={OpenNav6} onMouseLeave={CloseNav6} hidden={showme6} id="Header-8-2" className="row">
                             <div className="col-12 row">{Navdata4}</div>
                           </Nav>
-                        </Nav.Link>
+                        
                         <Nav.Link
                           className="col-12"
-                          href="/Vibration/Head-Expander"
+                          onClick={()=>navigate("/Vibration/Head-Expander")}
                           id="Navbar-9-1"
                         >
                           Head Expander
                         </Nav.Link>
                         <Nav.Link
                           className="col-12"
-                          href="/Vibration/Power-Amplifier"
+                          onClick={()=>navigate("/Vibration/Power-Amplifier")}
                           id="Navbar-9-1"
                         >
                           Power Amplifier
                         </Nav.Link>
                         <Nav.Link
                           className="col-12"
-                          href="/Vibration/Vibration-Controller"
+                          onClick={()=>navigate("/Vibration/Vibration-Controller")}
                           id="Navbar-9-1"
                         >
                           Vibration Controller
                         </Nav.Link>
                       </div>
                     </Nav>
-                  </Nav.Link>
+                  
                 </div>
                 <div className="col-12 Header-Other">
                   <Nav.Link
@@ -233,12 +268,16 @@ const Header2 = () => {
                     onMouseLeave={CloseNav3}
                     id="Header-7"
                   >
+                    <KeyboardDoubleArrowLeftIcon id="Header-none"/>
                     Other Categories
-                    <KeyboardDoubleArrowRightIcon />
-                    <Nav hidden={showme2} id="Header-8-1" className="row">
+                    <KeyboardDoubleArrowRightIcon id="Header-none-1"/>
+                    <KeyboardDoubleArrowDownIcon id="Header-none-2"/>
+                    
+                    </Nav.Link>
+                    <Nav onMouseEnter={OpenNav3} onMouseLeave={CloseNav3} hidden={showme2} id="Header-8-1" className="row">
                       <div className="col-12 row">{Navdata2}</div>
                     </Nav>
-                  </Nav.Link>
+                  
                 </div>
               </Nav>
             </Nav.Link>

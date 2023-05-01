@@ -1,0 +1,21 @@
+.optional-accessories{
+    padding-left: 17px;
+    padding-top: 10px;
+    color: rgb(248, 247, 247);
+}
+.section-wrap-0 ul li{
+    color: #60656b;
+    list-style: circle;
+    margin-bottom: 10px;
+}
+.version-text{
+    margin-top: 0;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(23, 110, 137);
+    line-height: 1.2;
+}
+.version-details{
+    padding-left: 1rem;
+}

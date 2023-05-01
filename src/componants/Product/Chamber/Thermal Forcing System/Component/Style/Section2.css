@@ -1,0 +1,42 @@
+.tfs_s2_container{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tfs_s2_wrapper{
+    width: 80%;
+
+}
+
+.tfs_s2_upper{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tfs_s2_left{
+    width: 70%;
+}
+
+.tfs_s2_heading{
+    color:  rgb(23, 110, 137);
+    font-weight: 600;
+}
+
+@media (max-width: 800px) {
+    
+    .tfs_s2_upper{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tfs_s2_left{
+        width: 100%;
+    }
+}

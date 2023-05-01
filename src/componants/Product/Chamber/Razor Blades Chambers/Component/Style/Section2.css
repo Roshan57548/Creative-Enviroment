@@ -1,0 +1,16 @@
+.img-thumbnail{
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    max-width: 100%;
+ 
+}
+.space {
+    min-height: 20px;
+    height: 20px;
+    clear: both;
+}
+.Razor-heading-content{
+    color: rgb(23, 110, 137);
+}

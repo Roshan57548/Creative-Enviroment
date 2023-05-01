@@ -1,18 +1,18 @@
 import React from 'react'
 import './Style/Section5.css'
 
-const Section5 = () => {
+const Section5 = (props) => {
   return (
     <div className='section5_container'>
         <div className="section5_wrapper">
-            <h6>MORE INFORMATION</h6>
-            <h3 className='section5_main-heading'>Standard Models</h3>
+            <h6>{props.data.fixed}</h6>
+            <h3 className='section5_main-heading'>{props.data.heading}</h3>
             <div className='section5_border'></div>
             <div>
-                <img  className="section5_img" src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/environment/environmental-chambers-models-showcase-varieties.png" alt="" />
+                <img  className="section5_img" src={props.data.src} alt="" />
             </div>
             <div className="section5_desp">
-                <p>After sale service is an integral part of our business: Our services include complete technical and engineering support to our customers round the clock, repair, maintenance, refurbishments, spare parts etc.,</p>
+                <p>{props.data.desc}</p>
             </div>
         </div>
     </div>

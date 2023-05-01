@@ -1,0 +1,21 @@
+.list-type{
+    font: normal normal normal 14px/1 FontAwesome;
+}
+.charts-list-heading{
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(23, 110, 137);
+    line-height: 1.2;
+}
+.fa-dot-circle-o:before {
+    content: "\f192";
+}
+@media (min-width: 768px){
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}

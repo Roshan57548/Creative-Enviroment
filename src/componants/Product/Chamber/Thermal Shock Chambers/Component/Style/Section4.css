@@ -1,0 +1,12 @@
+.section-infowrap{
+    padding: 50px 0;
+}
+.section-heading>h2 {
+    color: rgb(23, 110, 137);
+}
+.section-heading>p {
+    color: rgb(23, 110, 137);
+}
+.inline{
+    border: 4px double rgb(23, 110, 137);
+}

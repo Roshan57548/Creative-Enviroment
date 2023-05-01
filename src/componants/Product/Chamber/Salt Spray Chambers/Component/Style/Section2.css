@@ -1,0 +1,23 @@
+.salt-spray-heading{
+    color: rgb(23, 110, 137);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.img-inftext{
+    text-align: center;
+    text-decoration: underline;
+    color: #333;
+    font-weight: 700 !important;
+}
+.img-responsive{
+    height: auto;
+}
+.specific-points{
+   
+    
+    border-radius: 6px;
+    box-shadow: 0 19px 39px 0 rgba(24, 61, 114, 0.38);
+    
+}

@@ -1,0 +1,32 @@
+.indetail-pdbx {
+    box-shadow: 0 16px 35px 6px rgba(216,216,216,.74);
+    border: 0!important;
+    background: #fff;
+    border-radius: 4.5px;
+    padding: 20px 10px;
+    cursor: pointer;
+    min-height: 460px;
+}
+.mark-tick{
+    color: #0fe60f;
+    margin-right: 4px;
+    
+}
+.list-type{
+    list-style: none;
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.list-container{
+    padding-left: 0;
+}
+.paragraph-content-utm{
+    font-family: 'Monsterate', sans-serif;
+    color: #6b737c;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 0;
+    line-height: 1.9;
+
+}

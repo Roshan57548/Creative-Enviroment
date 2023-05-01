@@ -6,7 +6,7 @@ const StateOfCity = {
   para: [
     {
       para1:
-        "As larger industrial stakeholders collaborate to address the cost and infrastructure obstacles, Creative Environmental Solutions, with its cutting-edge facility located in the Silicon Valley of India, is establishing itself as a competitive and customer-centric provider of customized environmental testing solutions. This approach aims to foster customer partnerships and drive business growth.",
+        "Creative Environmental Solutions maintains a state-of-the-art infrastructure in its manufacturing unit, which has been built in a vast area. Our manufacturing unit is equipped with advanced machinery, tools, and technologies which help us in the smooth manufacturing and designing of an array of qualitative Environmental Simulation Equipment. Machines are operated by our experienced and trained professionals. The hi-tech infrastructure is capable of meeting the bulk as well as custom requirements of our clients. We provide quality products with cost-effective solutions.",
       para2: "Corporate Office: INDIA",
     },
   ],

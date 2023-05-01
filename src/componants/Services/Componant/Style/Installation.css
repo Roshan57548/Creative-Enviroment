@@ -1,0 +1,60 @@
+.Installation{
+    padding: 4rem;
+}
+.Installation_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+.Installation_1_box{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding:30px ;
+   
+    /* gap: 2rem; */
+    justify-content: center;
+    
+}
+.Installation_1_box_typography{
+    font-size: 16px !important;
+}
+.Installation_1_box h2{
+    margin-bottom: 20px;
+   color: rgb(57, 145, 197);
+
+}
+
+
+@media screen and (max-width: 1150px) {
+   
+     .Installation_1_box h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     
+   
+  }
+
+@media screen and (max-width: 900px) {
+    
+     .Installation_1_box h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+    
+  }
+  @media screen and (max-width: 900px) {
+   
+     .Installation_1_box h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+    
+  }
+ 

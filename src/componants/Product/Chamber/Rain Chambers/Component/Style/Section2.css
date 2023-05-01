@@ -1,0 +1,44 @@
+.rc_s2_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.rc_s2_wrapper{
+    width: 80%;
+}
+
+.rc_s2_uppersec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rc_s2_head{
+    color: rgb(23, 110, 137);
+    font-weight: 600;
+}
+
+.rc_s2_lcon{
+    background: rgb(23, 110, 137);
+    color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+    .rc_s2_uppersec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rc_s2_uimg{
+        height: 15rem;
+        width: 20rem;
+    }
+}

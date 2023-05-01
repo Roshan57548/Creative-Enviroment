@@ -9,7 +9,7 @@
 
 }
 .section3_header{
-    color: darkblue;
+    color:  rgb(23, 110, 137);
     font-weight: 600;
 }
 
@@ -17,7 +17,7 @@
     content: '';
     height: 6px;
     width: 4rem;
-    border: 3px double #183d72;
+    border: 3px double rgb(23, 110, 137);
 }
 
 .section3_wrapper{
@@ -27,7 +27,7 @@
 }
 
 .section3_table{
-    background-color: darkblue;
+    background-color: rgb(23, 110, 137);
     color: white;
     padding: 2rem;
     border-radius: 10px;

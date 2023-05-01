@@ -1,0 +1,9 @@
+.thermal-container{ 
+    background: url(https://www.envisystech.com/storage/app/media/inner-products/salt-spray-chambers-bg.jpg)  no-repeat;
+   height: 100%;
+   background-size: 100% 100%;
+}
+.section1_bgcolor{
+    background-color:rgb(23, 110, 137);
+    opacity: 0.9;
+}

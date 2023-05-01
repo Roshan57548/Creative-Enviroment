@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.section1_container{
+    margin-top: 5rem;
+    background-image: url('https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bgcolor{
+    background-color: rgb(23, 110, 137);
+    opacity: 0.9;
+
+}
+
+.section1_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /* border: 1px red solid; */
+    
+}
+
+.section1_textarea{
+    color: white;
+    font-family: sans-serif;
+    
+    width: 40%;
+}
+
+.section1_main_heading{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.section1_sub_heading{
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.section1_link{
+    text-align: left;
+    
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.section1_btn{
+    color: white;
+}
+
+.section1_img{
+
+    height: 25rem;
+    width: 25rem;
+
+}
+
+@media (max-width: 868px){
+
+.section1_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.section1_textarea{
+    color: white;
+    font-family: sans-serif;
+   
+    width: 70%;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.section1_link{
+    text-align: center;
+}
+
+.section1_img{
+  
+    height: 20rem;
+    width: 20rem;
+
+}
+
+}
+
+
+@media (max-width: 358px){
+    .section1_img{
+       
+        height: 15rem;
+        width: 15rem;
+    
+    }
+}

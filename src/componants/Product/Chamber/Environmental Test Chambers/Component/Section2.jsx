@@ -1,19 +1,19 @@
 import React from 'react'
 import "./Style/Section2.css"
 
-const Section2 = () => {
+const Section2 = (props) => {
   return (
     <div>
       <div className='container section2_container'>
         <div className="row">
           <div className='col-md-12 col-lg-6 section2_left'>
              <div className='container-fluid our_mision'>
-              <div className='row my-2 section2_left_Heading'>Environmental Test Chambers Manufacturers & Suppliers</div>
+              <div className='row my-2 section2_left_Heading'>{props.data.lport.heading}</div>
               <div>
-                <p className='row my-2 section2_left_para'>ET-Series Custom Environmental Test Chambers are designed with uncompromised features included in the system to meet your changing application needs of simulation of wide range of temperature, relative humidity etc., and conditions without the added cost of expensive add-on’s as options. Available in varied volumes to fit your differing specimen sizes.</p>
+                <p className='row my-2 section2_left_para'>{props.data.lport.desc}</p>
                  <ul className='section2_left_list'>
-                   <li>Block construction with easy reach-in maintenance sections and user- friendly control desk.</li>
-                   <li>Designed to meet variety of testing applications on diverse sizes of testing specimens.</li>
+                   <li>{props.data.lport.li1}</li>
+                   <li>{props.data.lport.li2}</li>
                  </ul>
               </div>
              </div>
@@ -21,13 +21,14 @@ const Section2 = () => {
 
              <div className='col-md-12 col-lg-6 my-6 section2_right'>
              <div className='container-fluid'>
-                <div className='row my-2 section2_right_Heading'>Uncompromised features included at no additional add-on costs</div>
+                <div className='row my-2 section2_right_Heading'>{props.data.rport.heading}</div>
                 <div>
                  <ul className='section2_right_list'>
-                   <li>LED illuminated work-space with multi-pane vaccumized glass view window and de-fog heaters.</li>
-                   <li>High grade SS interiors & CRCS powder coated panels with durable SS shelving and height adjustable tray channels.</li>
-                   <li>High grade SS interiors & CRCS powder coated panels with durable SS shelving and height adjustable tray channels.</li>
-                   <li>High grade SS interiors & CRCS powder coated panels with durable SS shelving and height adjustable tray channels.</li>
+                   <li>{props.data.rport.li1}</li>
+                   <li>{props.data.rport.li2}</li>
+                   <li>{props.data.rport.li3}</li>
+                   <li>{props.data.rport.li4}</li>
+                   <li>{props.data.rport.li5}</li>
                  </ul>
               </div>
              </div>

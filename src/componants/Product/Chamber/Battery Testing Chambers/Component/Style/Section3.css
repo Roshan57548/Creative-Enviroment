@@ -1,0 +1,29 @@
+.btc_s3_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btc_s3_wrapper{
+    width: 80%;
+}
+
+.btc_s3_para_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btc_s3_rightimg{
+    height: 25rem;
+    width: 20rem;
+}
+
+@media (max-width: 900px) {
+    .btc_s3_para_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

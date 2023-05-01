@@ -1,0 +1,24 @@
+.Section2 h2{
+    color: rgb(23, 110, 137);
+    font-weight: 600;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2rem ;
+    padding: 2rem;
+}
+.Section2_list{
+    padding: 1rem;
+    margin-bottom: 40px;
+}
+.Section2_chamber{
+    margin-top: 40px;
+    padding: 1rem;
+    color: rgb(23, 110, 137);
+    font-weight: 600;
+    display: flex;
+    font-size: 2rem;
+
+}
+
+

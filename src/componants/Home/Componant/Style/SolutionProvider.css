@@ -56,6 +56,7 @@
 .SolPro_image5:hover , .SolPro_image4:hover , .SolPro_image3:hover, .SolPro_image2:hover,.SolPro_image1:hover {
     transform: scale(1.02);
     z-index: 2;
+    transition-duration: 500ms;
 }
 
 .image_01{

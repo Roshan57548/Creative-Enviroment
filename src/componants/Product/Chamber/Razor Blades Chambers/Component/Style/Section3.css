@@ -1,0 +1,13 @@
+.table-heading{
+    padding-left: 17px;
+    padding-top: 10px;
+    color: rgb(243, 239, 239);
+}
+.img-table-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+

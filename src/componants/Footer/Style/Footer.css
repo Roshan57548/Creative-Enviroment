@@ -2,7 +2,12 @@
     text-align: left;
     color: #1e6c99;
 }
-
+#TextNone{
+    text-decoration: none;
+}
+#footer-link{
+    text-decoration: none;
+}
 @media screen and (max-width: 600px) {
     #Footer-1{
         text-align: center;

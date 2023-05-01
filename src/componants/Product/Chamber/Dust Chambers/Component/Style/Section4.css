@@ -1,0 +1,13 @@
+.s4_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s4_wrapper{
+    width: 80%;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.s4_img{
+    width: 100%;
+}

@@ -1,0 +1,56 @@
+.btc_s5_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btc_s5_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+.btc_s5_list{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.btc_s5_right{
+    margin-left: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+
+    color: white;
+}
+.btc_s5_tbl{
+    border: 1px solid rgb(55, 55, 79);
+    /* height: 2rem; */
+    padding: 0.5rem;
+}
+
+.btc_s5_heading{
+    color:rgb(23, 110, 137) ;
+}
+
+@media (max-width: 900px) {
+    .btc_s5_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .btc_s5_img{
+        height: 18rem;
+        width: 18rem;
+    }
+    
+}

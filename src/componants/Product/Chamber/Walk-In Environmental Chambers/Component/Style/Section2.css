@@ -1,0 +1,33 @@
+.wec_s2_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.wec_s2_wrapper{
+    width: 80%;
+    display: flex;
+}
+
+.wec_s2_left{
+    margin-right: 1rem;
+}
+
+.wec_s2_heading{
+    color: rgb(23, 110, 137);
+    font-weight: 600;
+}
+
+.wec_s2_subhead{
+    color: rgb(23, 110, 137);
+}
+
+@media (max-width: 900px) {
+    .wec_s2_wrapper{
+        /* width: 80%; */
+        display: flex;
+        flex-direction: column;
+    }
+       
+}

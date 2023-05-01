@@ -1,0 +1,27 @@
+.iod_s5_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iod_s5_wrapper{
+    width: 80%;
+}
+
+.iod_s5_scn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iod_s5_img{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.iod_s5_heading{
+    color: rgb(23, 110, 137);
+    font-weight: 600;
+}

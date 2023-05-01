@@ -9,7 +9,7 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
-import './Style/Footer.css';
+import "./Style/Footer.css";
 const Footer = () => {
   return (
     <MDBFooter bgColor="light" className="text-center text-lg-start text-muted">
@@ -20,7 +20,7 @@ const Footer = () => {
 
         <div>
           <a href="" className="me-4 text-reset">
-            <MDBIcon id="Footer-1"  fab icon="facebook-f" />
+            <MDBIcon id="Footer-1" fab icon="facebook-f" />
           </a>
           <a href="" className="me-4 text-reset">
             <MDBIcon id="Footer-1" fab icon="twitter" />
@@ -42,83 +42,98 @@ const Footer = () => {
           <MDBRow className="mt-3">
             <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4" id="Footer-1">
-                Creative Environment Solution
+                Creative Environmental Solutions
               </h6>
               <p>
-                Creative Environment Solution provides customized environmental testing
-                solutions for a wide range of industries including electronics,
-                automotive, defense, aerospace, and many more. Their testing
-                solutions are designed to meet the unique needs and requirements
-                of each industry, ensuring that their clients products are
-                thoroughly tested and meet the highest quality standards.
+                Creative Environmental Solutions (CENVS) is a pioneer company in
+                the design, development, and supplier of environmental condition
+                simulation equipment like Electrodynamic vibration test systems,
+                environmental test chambers, Combined vibration chambers,
+                Underwater test shakers, High thrust force shakers upto 20ton
+                capacity, shock and bump test machines, centrifugal acceleration
+                test machines, inclined impact test machine, drop test MACHINE,
+                horizontal slip tables, vibration fixtures, digital vibration
+                controllers, etc
               </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4" id="Footer-1">Products</h6>
+              <h6 className="text-uppercase fw-bold mb-4" id="Footer-1">
+                Products
+              </h6>
               <p>
-                <a href="#!" className="text-reset">
-                Environmental Test Chambers
+                <a id="TextNone" href="/Chamber/Environmental-Test-Chambers" className="text-reset">
+                  Environmental Test Chambers
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                Environmental WalkIn Chambers
+                <a id="TextNone" href="/Chamber/Walk-In-Environmental-Chambers" className="text-reset">
+                  Environmental WalkIn Chambers
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                Electrodynamic Shaker
+                <a id="TextNone" href="/Vibration/Electrodynamic-Vibration-Shaker-System" className="text-reset">
+                Electro-Dynamic Vibration Shaker System
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                Integrated Chamber
+                <a id="TextNone" href="Integrated-Environmental-Chamber" className="text-reset">
+                Integrated Environmental Chamber
                 </a>
               </p>
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4" id="Footer-1">Useful links</h6>
+              <h6 className="text-uppercase fw-bold mb-4" id="Footer-1">
+                Useful links
+              </h6>
               <p>
-                <a href="/" className="text-reset" id="footer-link">
+                <a  href="/" className="text-reset" id="footer-link">
                   Home
                 </a>
               </p>
               <p>
-                <a href="/About-Us" className="text-reset" id="footer-link">
+                <a  href="/About-Us" className="text-reset" id="footer-link">
                   About Us
                 </a>
               </p>
               <p>
-                <a href="/Services" className="text-reset" id="footer-link">
+                <a  href="/Our-Partners" className="text-reset" id="footer-link">
+                  Our Partners
+                </a>
+              </p>
+              <p>
+                <a  href="/Services" className="text-reset" id="footer-link">
                   Services
                 </a>
               </p>
               <p>
-                <a href="/Contact-Us" className="text-reset" id="footer-link">
+          
+                <a  href="/Contact-Us" className="text-reset" id="footer-link">
                   Contact Us
                 </a>
               </p>
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4" id="Footer-1">Contact</h6>
+              <h6 className="text-uppercase fw-bold mb-4" id="Footer-1">
+                Contact
+              </h6>
               <p>
                 <MDBIcon id="Footer-1" icon="home" className="me-2" />
-                New York, NY 10012, US
+                1245K, Green Park Colony, Rampur, Roorkee – 247667 (INDIA)
               </p>
               <p>
                 <MDBIcon id="Footer-1" icon="envelope" className="me-3" />
                 info@example.com
               </p>
               <p>
-                <MDBIcon id="Footer-1" icon="phone" className="me-3" /> + 01
-                234 567 88
+                <MDBIcon id="Footer-1" icon="phone" className="me-3" />{" "}
+                +91-9520717737
               </p>
               <p>
-                <MDBIcon id="Footer-1" icon="print" className="me-3" /> + 01
-                234 567 89
+                <MDBIcon id="Footer-1" icon="print" className="me-3" />{" "}
+                +91-8937991921
               </p>
             </MDBCol>
           </MDBRow>
@@ -129,9 +144,10 @@ const Footer = () => {
         className="text-center p-4"
         style={{ backgroundColor: "#3991C5", color: "white" }}
       >
-        © 2023 <strong>Creative Environment Solution</strong> : Developed
+        © 2023 <strong>Creative Environmental Solutions</strong> : Developed
         by&nbsp;
         <a
+          id="TextNone"
           className="text-reset fw-bold"
           href="https://agbiztech.in/"
           target="_blank"

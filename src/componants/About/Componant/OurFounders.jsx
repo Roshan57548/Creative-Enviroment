@@ -4,7 +4,6 @@ import { Typography } from "@mui/material";
 
 const OurFounders = (props) => {
   let cards;
-  console.log(props.data.card);
   if (props.data.card) {
     cards = props.data.card.map((myData, index) => {
       return (
@@ -35,6 +34,13 @@ const OurFounders = (props) => {
         <div className="OurFounders-image-container">
           <div className="OurFounders-image-wrapper">{cards}</div>
         </div>
+        <Typography
+          variant="subtitle1"
+          className="OurFounders-sub-header"
+          style={{ textAlign: "center" }}
+        >
+          {props.data.Description[0].message2}
+        </Typography>
       </div>
     </div>
   );

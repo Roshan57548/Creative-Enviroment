@@ -7,7 +7,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .home_abt_about{
@@ -27,8 +28,8 @@
 }
 
 .home_abt_para {
-  margin-top: 2rem;
-  font-size: 18px;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 .home_abt_heading {
@@ -66,10 +67,10 @@
   }
   
   .home_abt_para {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
     text-align: center;
-    font-size: 16px;
   }
 
   .home_abt_right {

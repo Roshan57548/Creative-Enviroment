@@ -1,0 +1,33 @@
+.Calibration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Calibration_1 h2{
+    color: rgb(57, 145, 197);
+
+}
+
+.Calibration_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 4rem;
+   
+}
+.Calibration_2_box_typography{
+    font-size: 16px !important;
+}
+.Calibration_2_box{
+    width: 300px;
+    height: 250px;
+}
+
+@media screen and (max-width: 900px) {
+    .Calibration_2 {
+        gap: 2rem;
+    }
+  }

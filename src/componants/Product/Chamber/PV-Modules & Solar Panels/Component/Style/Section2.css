@@ -1,0 +1,12 @@
+.section2-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(23, 110, 137);;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.section2-pv-paragraph{
+    font-family: Open Sans, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}

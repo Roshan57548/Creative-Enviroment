@@ -1,0 +1,20 @@
+.section-wrap{
+    padding: 50px 0;
+}
+.specific-points{
+    margin-top: 11px;
+    background: rgb(23, 110, 137);
+    border-radius: 6px;
+ 
+}
+.standard-models{
+    padding-left: 17px;
+    padding-top: 10px;
+    color: rgb(248, 247, 247);
+}
+.thermal-heading-content{
+    color: rgb(23, 110, 137);
+}
+.content-table{
+    color: rgb(250, 246, 246);
+}

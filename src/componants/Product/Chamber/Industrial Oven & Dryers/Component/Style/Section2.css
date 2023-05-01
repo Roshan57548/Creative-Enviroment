@@ -1,0 +1,37 @@
+.iod_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iod_wrapper{
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.iod_scn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iod_heading{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(23, 110, 137);
+}
+
+@media (max-width: 900px) {
+    .iod_scn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .iod_right{
+        height: 15rem;
+        width: 15rem;
+    }
+
+}

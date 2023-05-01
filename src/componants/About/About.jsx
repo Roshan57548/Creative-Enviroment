@@ -11,19 +11,21 @@ import CompanyDetail from "./Content/CompanyDetail";
 import OurVisions from "./Content/OurVisions";
 import OurFounder from "./Content/OurFounders";
 import MissionValues from "./Content/MissionValues";
-import ContactUs from '../Home/Componant/ContactUs'
+import ContactUs from "../Home/Componant/ContactUs";
+import OurTeams from "./Componant/OurTeams";
+import OurTeam from "./Content/OurTeams";
 const About = () => {
   return (
     <div>
       <Banner data={Banners} />
       <CompanyDetails data={CompanyDetail} />
       <OurVision data={OurVisions} />
-      <MissionValue data={MissionValues}/>
+      <MissionValue data={MissionValues} />
       <StateOfCity />
       <OurFounders data={OurFounder} />
-      
+      <OurTeams data={OurTeam} />
+
       <ContactUs />
-      
     </div>
   );
 };

@@ -172,11 +172,11 @@ const ContactForm = () => {
                 <AddBusinessIcon /> Creative Environmental Solutions
               </div>
               <div>
-                SB-118, 3rd Cross Road, Ist Stage, Peenya Industrial Estate,
-                Bengaluru - 560058 Karnataka, INDIA
+              1245K, Green Park Colony, Rampur, Roorkee – 247667 (INDIA)
               </div>
               <div className="col-12 ContactForm-3">
-                <ContactPhoneIcon /> +91-741-145-5246
+                <ContactPhoneIcon /> +91-9520717737
+
               </div>
               <div>
                 9:00 AM to 10:00 PM Office Time

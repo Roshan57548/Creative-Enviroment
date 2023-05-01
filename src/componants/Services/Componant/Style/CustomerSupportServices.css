@@ -1,0 +1,102 @@
+
+.CustomerSupportServices{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding: 1rem;
+   
+
+}
+.CustomerSupportServices_1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    /* width: 1000px; */
+}
+.CustomerSupportServices_1 h1{
+   font-size: 2.5rem;
+   font-weight: 600;
+   color: rgb(57, 145, 197);
+}
+.CustomerSupportServices_1_typography{
+    font-size: 16px !important;
+    width: 1000px;
+    
+ }
+ .CustomerSupportServices_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+ }
+ .CustomerSupportServices_2 img{
+   width: 1450px;
+ }
+ .CustomerSupportServices_3  {
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ @media screen and (max-width: 1025px) {
+    .CustomerSupportServices_2 img  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+     }
+     .CustomerSupportServices_1_typography{
+        font-size: 1.5rem !important;
+        width: 600px;
+     }
+     .CustomerSupportServices_1 h1{
+    font-size: 2.5rem;
+   
+    
+ }
+  }
+  @media screen and (max-width: 630px) {
+  
+    .CustomerSupportServices_1_typography{
+       font-size: 1.5rem !important;
+       width: 400px;
+    }
+    .CustomerSupportServices_1 h1{
+   font-size: 2rem;
+  
+   
+}
+ }
+
+ @media screen and (max-width: 430px) {
+  
+   .CustomerSupportServices_1_typography{
+      font-size: 1.5rem !important;
+      width: 300px;
+   }
+   .CustomerSupportServices_1 h1{
+  font-size: 1.8rem;
+ 
+  
+}
+}
+
+@media screen and (max-width: 330px) {
+  
+   .CustomerSupportServices_1_typography{
+      font-size: 1.5rem !important;
+      width: 250px;
+   }
+   .CustomerSupportServices_1 h1{
+  font-size: 1.5rem;
+ 
+  
+}
+}

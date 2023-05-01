@@ -1,0 +1,17 @@
+.lead{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+.utm-heading{
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(23, 110, 137);;
+    line-height: 1.2;
+    font-size: 2rem;
+}
+.second-paragraph{
+    font-size: 20px; 
+}

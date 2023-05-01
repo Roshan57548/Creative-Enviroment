@@ -1,0 +1,22 @@
+.tfs_s3_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tfs_s3_wrapper{
+    width: 80%;
+    padding-top: 1rem;
+    border-top: 1px #212529 solid;
+    border-bottom: 1px #212529 solid;
+}
+
+.tfs_s3_spl{
+    color: #212529;
+    font-size: 20px;
+    border-left: grey solid 0.2rem;
+    padding-left: 1rem;
+    /* border-top-right-radius: 10px ; */
+}

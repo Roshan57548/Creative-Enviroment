@@ -1,0 +1,20 @@
+.Section3 h2 {
+    color: rgb(23, 110, 137);
+    font-weight: 600;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    padding: 2rem;
+  
+  }
+  .Section3_models{
+      background-color:  rgb(23, 110, 137);
+      color: white;
+  }
+  .Section3_text{
+      margin-top: 30px;
+      font-size: 16px;
+  }
+  
+  

@@ -1,6 +1,6 @@
 const ContactUs = {
     subHeading:"GIVE US A SHOUT",
-    heading:"Are you Ready to have a Talk?",
+    heading:"We are have to help you ...",
 };
 
 export default ContactUs;
