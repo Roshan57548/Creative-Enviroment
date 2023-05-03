@@ -32,6 +32,7 @@
 }
 
 .ourTeams-list {
+  margin-top: 20px;
   font-size: 21px;
   width: 80%;
   display: flex;
@@ -45,7 +46,10 @@
   justify-content: center;
   align-items: center;
 }
-
+.ourTeams-p{
+  text-align: center;
+  margin-top: 10px;
+}
 .ourTeams-items {
   display: flex;
   flex-direction: column;
@@ -63,6 +67,7 @@
   font-weight: bold;
   cursor: pointer;
   padding: 5px;
+  
 }
 
 .ourTeam-position {
@@ -95,7 +100,6 @@
     padding-right: 0px;
     padding-left: 0px;
   }
-
   .ourTeams-items {
     max-width: 250px;
   }

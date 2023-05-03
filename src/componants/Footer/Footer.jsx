@@ -45,15 +45,13 @@ const Footer = () => {
                 Creative Environmental Solutions
               </h6>
               <p>
-                Creative Environmental Solutions (CENVS) is a pioneer company in
-                the design, development, and supplier of environmental condition
-                simulation equipment like Electrodynamic vibration test systems,
+                Creative Environmental Solutions is a pioneer manafacturer and
+                supplier of environmental condition simulation equipment like
+                Electrodynamic vibration test systems (Upto 20 Ton),
                 environmental test chambers, Combined vibration chambers,
-                Underwater test shakers, High thrust force shakers upto 20ton
-                capacity, shock and bump test machines, centrifugal acceleration
-                test machines, inclined impact test machine, drop test MACHINE,
-                horizontal slip tables, vibration fixtures, digital vibration
-                controllers, etc
+                Underwater test shakers, shock and bump test machines,
+                centrifugal acceleration test machines, inclined impact test
+                machine, drop test machine etc
               </p>
             </MDBCol>
 
@@ -62,23 +60,39 @@ const Footer = () => {
                 Products
               </h6>
               <p>
-                <a id="TextNone" href="/Chamber/Environmental-Test-Chambers" className="text-reset">
+                <a
+                  id="TextNone"
+                  href="/Chamber/Environmental-Test-Chambers"
+                  className="text-reset"
+                >
                   Environmental Test Chambers
                 </a>
               </p>
               <p>
-                <a id="TextNone" href="/Chamber/Walk-In-Environmental-Chambers" className="text-reset">
+                <a
+                  id="TextNone"
+                  href="/Chamber/Walk-In-Environmental-Chambers"
+                  className="text-reset"
+                >
                   Environmental WalkIn Chambers
                 </a>
               </p>
               <p>
-                <a id="TextNone" href="/Vibration/Electrodynamic-Vibration-Shaker-System" className="text-reset">
-                Electro-Dynamic Vibration Shaker System
+                <a
+                  id="TextNone"
+                  href="/Vibration/Electrodynamic-Vibration-Shaker-System"
+                  className="text-reset"
+                >
+                  Electro-Dynamic Vibration Shaker System
                 </a>
               </p>
               <p>
-                <a id="TextNone" href="Integrated-Environmental-Chamber" className="text-reset">
-                Integrated Environmental Chamber
+                <a
+                  id="TextNone"
+                  href="Integrated-Environmental-Chamber"
+                  className="text-reset"
+                >
+                  Integrated Environmental Chamber
                 </a>
               </p>
             </MDBCol>
@@ -88,28 +102,27 @@ const Footer = () => {
                 Useful links
               </h6>
               <p>
-                <a  href="/" className="text-reset" id="footer-link">
+                <a href="/" className="text-reset" id="footer-link">
                   Home
                 </a>
               </p>
               <p>
-                <a  href="/About-Us" className="text-reset" id="footer-link">
+                <a href="/About-Us" className="text-reset" id="footer-link">
                   About Us
                 </a>
               </p>
               <p>
-                <a  href="/Our-Partners" className="text-reset" id="footer-link">
+                <a href="/Our-Partners" className="text-reset" id="footer-link">
                   Our Partners
                 </a>
               </p>
               <p>
-                <a  href="/Services" className="text-reset" id="footer-link">
+                <a href="/Services" className="text-reset" id="footer-link">
                   Services
                 </a>
               </p>
               <p>
-          
-                <a  href="/Contact-Us" className="text-reset" id="footer-link">
+                <a href="/Contact-Us" className="text-reset" id="footer-link">
                   Contact Us
                 </a>
               </p>
@@ -125,7 +138,7 @@ const Footer = () => {
               </p>
               <p>
                 <MDBIcon id="Footer-1" icon="envelope" className="me-3" />
-                info@example.com
+                info@cenvs.com
               </p>
               <p>
                 <MDBIcon id="Footer-1" icon="phone" className="me-3" />{" "}

@@ -16,16 +16,12 @@ const OurTeam = {
       position: "Sales and Electronics Expert",
     },
     {
-      name: "Mr. Abdul Aleem ",
-      position: "Electronics Heads",
+      name: "Mr. Sushil Sharma",
+      position: "Mech. Design Expert",
     },
     {
       name: "Mr. Devendra Kumar Tyagi",
       position: "Electronics Expert",
-    },
-    {
-      name: "Mr. Sushil Sharma",
-      position: "Mech. Design Expert",
     },
     {
       name: "Mr. Rajesh Kumar",
@@ -35,6 +31,10 @@ const OurTeam = {
       name: "Mr. Mahran Ali",
       position: "Production Manager and Mechanical Head",
     },
+    {
+      name: "Mr. Abdul Aleem ",
+      position: "Electronics Heads",
+    }
   ],
 };
 

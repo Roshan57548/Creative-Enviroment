@@ -1,5 +1,5 @@
 const OurFounder = {
-  Heading: "Meet the Builder Behind the Brand",
+  Heading: "Meet the Builders Behind the Brand",
   Description: [
     {
       message1:

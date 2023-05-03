@@ -182,7 +182,7 @@ const ContactForm = () => {
                 9:00 AM to 10:00 PM Office Time
               </div>
               <div className="col-12 ContactForm-3">
-                <MarkunreadIcon /> roshan@gmail.com
+                <MarkunreadIcon /> info@cenvs.com
               </div>
             </div>
           </div>

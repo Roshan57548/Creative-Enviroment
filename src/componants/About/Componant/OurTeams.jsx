@@ -9,14 +9,13 @@ const OurTeams = (props) => {
   return (
     <div className="ourTeams-main-container">
       <div className="ourTeams-heading">
-        <Typography variant="h4">{props.data.Heading}</Typography>
-        <hr />
+        
         <Typography variant="h6">
           &quot;{props.data.Description[0].quote}&quot;
         </Typography>
-        <Typography variant="subtitle1">
+        <p className="ourTeams-p" >
           {props.data.Description[0].caption}
-        </Typography>
+        </p>
       </div>
 
       <div className="ourTeams-list">

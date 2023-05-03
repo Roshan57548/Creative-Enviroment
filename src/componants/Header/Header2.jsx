@@ -282,7 +282,7 @@ const Header2 = () => {
               </Nav>
             </Nav.Link>
             <Nav.Link href="Our-Partners" id="Header-5">
-              Our Partners
+             Industries
             </Nav.Link>
             <Nav.Link href="/Services" id="Header-3">
               Services
