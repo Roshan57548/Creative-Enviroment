@@ -1,125 +1,183 @@
-
-
-.carousel-heading01{
-  padding-top: 100px;
-  padding-left: 60px;
-  padding-right: 30px;
-  font-size: 2.2rem;
-  color: #2f80ed;
+.carousel-heading01 {
+  font-size: 2rem;
+  color: #1e6c99;
+  font-weight: bold;
 }
-.carousel-content01{
+.carousel-content01 {
   padding-top: 10px;
-  padding-left: 60px;
-  padding-right: 30px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  font-family: "Helvetica Neue", sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-.carousel-button-container{
-  padding-left: 60px;
+/* .carousel-button-container{
+  padding-left: 70px;
   padding-top: 20px;
+} */
+.carousel-content-button {
+  padding-top: 20px;
+  /* padding-left: 10px; */
 }
-.row-container{
+.carousel-images{
+  width: 200px;
+  height: 700px;
+}
+.carousel-row {
   display: flex;
 }
- @media (max-width: 860px) {
-     .row-container{
-      display: flex;
-      flex-direction: column-reverse;
-     }
-     .carousel-heading01{
-      padding-top: 20px;
-      padding-left: 30px;
-      padding-right: 30px;
-     }
-     .carousel-content01{
-      padding-top: 10px;
-      padding-left: 30px;
-      padding-right: 30px;
-     }
-     .carousel-button-container{
-      padding-left: 30px;
-     }
-     .col-sm-4-carousel-container{
-      width: 100%;
-     }
-     .carousel-content-button{
-      padding-left: 30px!important;
-     }
- }
- .carousel-image01{
-  width: 100%;
-  height: auto;
- }
- .col-sm-8-carousel{
+@media screen and (max-width: 440px) {
+  .carousel_next_icon {
+    color: #16437e !important;
+  }
+  .carousel_prev_icon-control {
+    width: 7% !important;
+  }
+  .carousel_next_icon-control {
+    width: 7% !important;
+  }
+  .carousel-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .carousel-heading01 {
+    font-size: 1.7rem;
+  }
+  .carousel-content-button {
+    padding-left: 0px !important;
+  }
+  .carousel-container-contents {
+    padding-top: 30px !important;
+    width: 100%;
+    padding-right: 60px !important;
+    padding-left: 60px !important;
+  }
+  .carousel-content-button {
+    padding-left: 30px;
+  }
+  .carousel-images {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 440px) and (max-width: 960px) {
+  .carousel_prev_icon-control {
+    width: 7%;
+  }
+  .carousel_next_icon-control {
+    width: 7%;
+  }
+  .carousel_next_icon {
+    color: #ffffff !important;
+  }
+  .carousel-content01 {
+    font-size: 1.6rem;
+  }
+  .carousel-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .carousel-heading01 {
+    font-size: 1.9rem;
+  }
+  .carousel-content-button {
+    padding-left: 0px !important;
+  }
+  .carousel-container-contents {
+    padding-top: 30px !important;
+    width: 100%;
+    padding-right: 60px !important;
+    padding-left: 60px !important;
+  }
+  .carousel-content-button {
+    padding-left: 30px;
+  }
+  .carousel-images {
+    width: 100%;
+  }
+}
+.caraousel-image-container {
+  /* max-height:500px */
+}
+.carousel-image01 {
+  /* object-fit: fill!important; */
+}
+/* .carousel-images{
   width: 100%;
  }
 
-.carousel-content-button{
-  padding-top: 10px;
-  padding-left: 55px;
+.carousel-image01{
+  max-height: 100%;
+  max-width: 100%;
+} */
+
+.carousel_prev_icon-control {
+  width: 5%;
+}
+.carousel_prev_icon {
+  color: #16437e;
 }
 
+.carousel_next_icon-control {
+  width: 5%;
+}
+.carousel_next_icon {
+  color: #ffffff;
+  border: #09223b;
+}
+.carousel-main-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.carousel-container-contents {
+  padding-left: 100px;
+  padding-top: 150px;
+}
 
+/* CSS */
+.carousel-button-container {
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
 
+.carousel-button-container:hover,
+.carousel-button-container:focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
 
+.carousel-button-container:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, 0.7);
+}
 
-
-
-
- 
-
- /* CSS */
- .carousel-button-container {
-   align-items: center;
-   background-color: #0A66C2;
-   border: 0;
-   border-radius: 100px;
-   box-sizing: border-box;
-   color: #ffffff;
-   cursor: pointer;
-   display: inline-flex;
-   font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
-   font-size: 16px;
-   font-weight: 600;
-   justify-content: center;
-   line-height: 20px;
-   max-width: 480px;
-   min-height: 40px;
-   min-width: 0px;
-   overflow: hidden;
-   padding: 0px;
-   padding-left: 20px;
-   padding-right: 20px;
-   text-align: center;
-   touch-action: manipulation;
-   transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
-   user-select: none;
-   -webkit-user-select: none;
-   vertical-align: middle;
- }
- 
- .carousel-button-container:hover,
- .carousel-button-container:focus { 
-   background-color: #16437E;
-   color: #ffffff;
- }
- 
- .carousel-button-container:active {
-   background: #09223b;
-   color: rgb(255, 255, 255, .7);
- }
- 
- .carousel-button-container:disabled { 
-   cursor: not-allowed;
-   background: rgba(0, 0, 0, .08);
-   color: rgba(0, 0, 0, .3);
- }
+.carousel-button-container:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
