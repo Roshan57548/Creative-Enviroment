@@ -281,7 +281,7 @@ const Header2 = () => {
                 </div>
               </Nav>
             </Nav.Link>
-            <Nav.Link href="Our-Partners" id="Header-5">
+            <Nav.Link href="/Industries" id="Header-5">
              Industries
             </Nav.Link>
             <Nav.Link href="/Services" id="Header-3">
