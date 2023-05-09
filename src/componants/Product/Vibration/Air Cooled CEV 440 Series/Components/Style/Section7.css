@@ -1,0 +1,40 @@
+.Bump-Section7-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.Bump-Section7-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    overflow: hidden;
+}
+.Bump-Section7-h2{
+    color: rgb(23, 110, 137);
+    padding-bottom: 20px;
+}
+.Bump-Section7-tr{
+    padding: 20px;
+    background-color: rgb(23, 110, 137);
+}
+.Bump-Section7-td{
+    width: 800px;
+    color: black;
+}
+.Bump-Section7-td1{
+    width: 800px;
+    color: black;
+}
+.Bump-Section7-h4{
+    color: rgb(23, 110, 137);
+}
+@media screen and (max-width: 600px) {
+    .Bump-Section7-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: scroll;
+    }
+}

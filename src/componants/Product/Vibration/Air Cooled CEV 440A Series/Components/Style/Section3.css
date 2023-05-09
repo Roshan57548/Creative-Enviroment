@@ -1,0 +1,12 @@
+.Air125-Section3{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Air125-Section3-1 h3{
+    color: rgb(86, 86, 86);
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px; 
+}

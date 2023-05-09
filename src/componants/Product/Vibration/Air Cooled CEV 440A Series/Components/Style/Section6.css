@@ -1,0 +1,41 @@
+.Bump-Section6-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.Bump-Section6-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    overflow: hidden;
+}
+.Bump-Section6-h2{
+    color: rgb(23, 110, 137);
+    padding-bottom: 20px;
+}
+.Bump-Section6-tr{
+    padding: 20px;
+    background-color: rgb(23, 110, 137);
+}
+.Bump-Section6-td{
+    width: 400px;
+    color: black;
+}
+.Bump-Section6-td1{
+    width: 400px;
+    font-weight: bold;
+    color: black;
+}
+.Bump-Section6-h4{
+    color: rgb(23, 110, 137);
+}
+@media screen and (max-width: 600px) {
+    .Bump-Section6-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: scroll;
+    }
+}

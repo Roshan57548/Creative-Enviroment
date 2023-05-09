@@ -44,7 +44,7 @@ const Footer = () => {
               <h6 className="text-uppercase fw-bold mb-4" id="Footer-1">
                 Creative Environmental Solutions
               </h6>
-              <p>
+              <p className="Footer-Color">
                 Creative Environmental Solutions is a pioneer manafacturer and
                 supplier of environmental condition simulation equipment like
                 Electrodynamic vibration test systems (Upto 20 Ton),
@@ -63,7 +63,7 @@ const Footer = () => {
                 <a
                   id="TextNone"
                   href="/Chamber/Environmental-Test-Chambers"
-                  className="text-reset"
+                  className="Footer-Color"
                 >
                   Environmental Test Chambers
                 </a>
@@ -72,7 +72,7 @@ const Footer = () => {
                 <a
                   id="TextNone"
                   href="/Chamber/Walk-In-Environmental-Chambers"
-                  className="text-reset"
+                  className="Footer-Color"
                 >
                   Environmental WalkIn Chambers
                 </a>
@@ -81,7 +81,7 @@ const Footer = () => {
                 <a
                   id="TextNone"
                   href="/Vibration/Electrodynamic-Vibration-Shaker-System"
-                  className="text-reset"
+                  className="Footer-Color"
                 >
                   Electro-Dynamic Vibration Shaker System
                 </a>
@@ -90,7 +90,7 @@ const Footer = () => {
                 <a
                   id="TextNone"
                   href="Integrated-Environmental-Chamber"
-                  className="text-reset"
+                  className="Footer-Color"
                 >
                   Integrated Environmental Chamber
                 </a>
@@ -102,27 +102,27 @@ const Footer = () => {
                 Useful links
               </h6>
               <p>
-                <a href="/" className="text-reset" id="footer-link">
+                <a href="/" className="Footer-Color" id="footer-link">
                   Home
                 </a>
               </p>
               <p>
-                <a href="/About-Us" className="text-reset" id="footer-link">
+                <a href="/About-Us" className="Footer-Color" id="footer-link">
                   About Us
                 </a>
               </p>
               <p>
-                <a href="/Our-Partners" className="text-reset" id="footer-link">
+                <a href="/Our-Partners" className="Footer-Color" id="footer-link">
                   Our Partners
                 </a>
               </p>
               <p>
-                <a href="/Services" className="text-reset" id="footer-link">
+                <a href="/Services" className="Footer-Color" id="footer-link">
                   Services
                 </a>
               </p>
               <p>
-                <a href="/Contact-Us" className="text-reset" id="footer-link">
+                <a href="/Contact-Us" className="Footer-Color" id="footer-link">
                   Contact Us
                 </a>
               </p>
@@ -132,19 +132,19 @@ const Footer = () => {
               <h6 className="text-uppercase fw-bold mb-4" id="Footer-1">
                 Contact
               </h6>
-              <p>
+              <p className="Footer-Color">
                 <MDBIcon id="Footer-1" icon="home" className="me-2" />
                 1245K, Green Park Colony, Rampur, Roorkee – 247667 (INDIA)
               </p>
-              <p>
+              <p className="Footer-Color">
                 <MDBIcon id="Footer-1" icon="envelope" className="me-3" />
                 info@cenvs.com
               </p>
-              <p>
+              <p className="Footer-Color">
                 <MDBIcon id="Footer-1" icon="phone" className="me-3" />{" "}
                 +91-9520717737
               </p>
-              <p>
+              <p className="Footer-Color">
                 <MDBIcon id="Footer-1" icon="print" className="me-3" />{" "}
                 +91-8937991921
               </p>

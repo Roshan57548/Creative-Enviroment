@@ -79,7 +79,7 @@
 .SolutionProvider{
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: rgba(240, 240, 240, 0.502);
+    background-color: rgba(240, 240, 240, 0.114);
 }
 
 @media screen and (max-width: 600px) {

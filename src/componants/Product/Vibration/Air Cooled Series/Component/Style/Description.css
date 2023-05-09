@@ -1,0 +1,14 @@
+.heading-text { 
+  color: rgb(23, 110, 137);
+}
+.heading-text-0{
+    color: rgb(23, 110, 137);
+    margin-top: 2rem;
+}
+.para-content-ac{
+    font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.3;
+  margin-top: 12px;
+  font-size: 17px;
+}
