@@ -35,12 +35,14 @@ function Map() {
   return (
     <div
       id="google-maps"
-      onClick={handleMapClick}
+      onMouseUp={handleMapClick}
       onMouseLeave={handleMapMouseLeave}
     >
       <iframe
+        
         src="https://www.google.com/maps/d/u/0/embed?mid=1t0NognupYPFqm3t5rCY9nXHVNarlgiI&ehbc=2E312F&z=4"
-        style={{ border: 0, pointerEvents: pointerEvents }}
+        style={{ border: 0, pointerEvents: pointerEvents, }}
+        
       ></iframe>
     </div>
   );

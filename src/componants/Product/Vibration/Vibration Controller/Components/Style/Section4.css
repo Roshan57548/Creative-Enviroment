@@ -1,0 +1,51 @@
+.Bump-Section4-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Bump-Section4-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Bump-Section4-th1{
+    color: white;
+    width: 400px;
+    font-size: 20px;
+}
+.Bump-Section4-th{
+    color: white;
+    width: 800px;
+    font-size: 20px;
+}
+.Bump-Section4-tr{
+    padding: 20px;
+    background-color: rgb(23, 110, 137);
+}
+.Bump-Section4-td{
+    color: black;
+}
+.Bump-Section4-td1{
+    font-weight: bold;
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    .Bump-Section4-th1{
+        color: white;
+        width: 400px;
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .Bump-Section4-th{
+        color: white;
+        width: 800px;
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+}

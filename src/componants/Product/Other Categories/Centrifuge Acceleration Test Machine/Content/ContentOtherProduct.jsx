@@ -1,4 +1,5 @@
 import Image_1 from '../Image/Image_1.jpg';
+import Image_2 from '../Components/Images/Centrifuge-Acceleration.png'
 const ContentOtherProduct = {
     Section_1: {
         Heading: "More Categories",
@@ -6,7 +7,7 @@ const ContentOtherProduct = {
         Product_Sub_Heading: "Electrical, Electronics, Pneumatic, Hydraulic terminals Available",
         Set_Up: "EASY SET-UP | 18/7 TECHNICAL SUPPORT",
         Get_Info: "GET INFO TODAY!",
-        Image_Url: "https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/altitude/altitude-chamber-showcase-inf.png"
+        Image_Url: Image_2
 
     },
     Section_2: {

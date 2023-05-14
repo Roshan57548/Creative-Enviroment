@@ -5,7 +5,6 @@
 .section1_container{
     margin-top: 5rem;
     height: 100%;
-    background: url('https://www.kcl.ac.uk/newimages/sspp/brazil/main/light-through-forest-tree-trunks.x8620a511.jpg?w=780&h=585&crop=780,440,0,73&f=webp');
     background-size: 100% 100%;
 }
 .section1_bgcolor{
@@ -19,15 +18,11 @@
     align-items: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    /* border: 1px red solid; */
-    /* margin: 0rem 2rem 0rem 2rem; */
-    /* opacity: 1; */
 }
 
 .section1_textarea{
     color: white;
     font-family: sans-serif;
-    /* border: 2px red solid; */
     width: 40%;
 }
 
@@ -44,7 +39,6 @@
 
 .section1_link{
     text-align: left;
-    /* text-decoration: underline; */
     font-size: 15px;
     margin-bottom: 1rem;
 }
@@ -53,7 +47,6 @@
 }
 
 .section1_img{
-    /* border: 2px red solid; */
     height: 25rem;
     width: 25rem;
 
@@ -71,7 +64,6 @@
 .section1_textarea{
     color: white;
     font-family: sans-serif;
-    /* border: 2px red solid; */
     width: 70%;
     margin-bottom: 3rem;
     text-align: center;
@@ -81,10 +73,8 @@
 }
 
 .section1_img{
-    /* border: 2px red solid; */
     height: 20rem;
     width: 20rem;
-
 }
 
 }
@@ -92,9 +82,7 @@
 
 @media (max-width: 358px){
     .section1_img{
-        /* border: 2px red solid; */
         height: 15rem;
         width: 15rem;
-    
     }
 }

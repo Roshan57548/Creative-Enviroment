@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 30px;
 }
 
 .tfs_s4_wrapper{
@@ -24,6 +26,7 @@
 .tfs_s4_left{
     background: rgb(23, 110, 137);
     color: white;
+    margin-top: 20px;
     padding: 3rem;
     border-radius: 10px;
 }
@@ -31,12 +34,14 @@
 .tfs_s4_right{
     background: rgb(23, 110, 137);
     color: white;
+    margin-top: 20px;
     padding: 3rem;
     border-radius: 10px;
 }
 
 .tfs_s4_list{
-    border: 2px #15335f solid;
+    border: 2px solid white;
+    padding: 5px;
 }
 
 @media (max-width: 800px) {
@@ -51,6 +56,23 @@
         background: rgb(23, 110, 137);
         color: white;
         padding: 3rem;
+        border-radius: 10px;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .tfs_s4_left{
+        background: rgb(23, 110, 137);
+        color: white;
+        padding: 1rem;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    .tfs_s4_right{
+        background: rgb(23, 110, 137);
+        color: white;
+        padding: 1rem;
         border-radius: 10px;
         margin-top: 2rem;
     }

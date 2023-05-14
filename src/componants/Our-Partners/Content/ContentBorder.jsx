@@ -1,7 +1,7 @@
 const ContentBorder = {
-    Heading: "Our Partners",
+    Heading: "INDUSTRIES",
     Description:
-      "At our company, we believe that our success is intertwined with the success of our partners. That's why we are committed to providing you with the highest level of service, support, and resources to help you achieve your goals.",
+      "Our Innovative Measurement and Testing Products are Designed to Enable Test Engineers Everywhere to Overcome Challenges of Every Scale.",
 
 };
   

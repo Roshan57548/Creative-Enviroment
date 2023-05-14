@@ -31,7 +31,6 @@ const Section3 = (props) => {
             </div>
             <div className="col-md-6">
               <div className="col-md-12 specific-points Section3">
-                <h2>{props.data.Heading2}</h2>
                 <table className="table table-responsive table-bordered Section3_models">
                   <tbody>
                     <tr>

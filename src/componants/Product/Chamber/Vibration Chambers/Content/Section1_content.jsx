@@ -1,5 +1,6 @@
+import Image_1 from '../Component/Image/image_1.png'
 const Section1_content = {
-    image:"https://www.envisystech.com/storage/app/media/newslider/ET-600.png",
+    image: Image_1,
     Heading1:"ET-SERIES (MID-RANGE)",
     Heading2:"Vibration Shaker Climatic Testing Temperature Chambers",
     Heading3:"Environmental Testing Chambers With Vibration Shaker Interface",

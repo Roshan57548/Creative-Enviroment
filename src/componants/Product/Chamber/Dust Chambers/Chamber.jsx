@@ -7,7 +7,7 @@ import Section4 from './Component/Section4';
 import Section5 from './Component/Section5';
 const Chamber = () => {
   return (
-    <div>
+    <div  className='Dust-Chamber'>
       <Section1/>
       <Section2/>
       <Section3/>

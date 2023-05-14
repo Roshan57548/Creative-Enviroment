@@ -5,7 +5,7 @@
 .section1_container{
     margin-top: 5rem;
     height: 100%;
-    background: url('https://www.kcl.ac.uk/newimages/sspp/brazil/main/light-through-forest-tree-trunks.x8620a511.jpg?w=780&h=585&crop=780,440,0,73&f=webp');
+    background: url('../Images/light-through-forest-tree-trunks.x8620a511.webp');
     background-size: 100% 100%;
 }
 .section1_bgcolor{
@@ -49,7 +49,16 @@
     margin-bottom: 1rem;
 }
 .section1_btn{
-    color: white;
+    background-color: #3991C5;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.section1_btn:hover{
+    background-color: #2e78a3;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 300ms;
 }
 
 .section1_img{

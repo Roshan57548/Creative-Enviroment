@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 60px;
 }
 
 .iod_wrapper{
@@ -34,4 +35,19 @@
         width: 15rem;
     }
 
+
+}
+
+@media screen and (max-width: 600px) {
+    .iod_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .iod_scn{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
 }

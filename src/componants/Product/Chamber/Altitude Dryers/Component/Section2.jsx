@@ -1,6 +1,6 @@
 import React from "react";
 import "./Style/Section2.css";
-
+import Image_1 from './Image/image_2.png';
 const Section2 = (props) => {
   return (
     <>
@@ -115,7 +115,7 @@ const Section2 = (props) => {
               </p>
               <div className="align-image-altitude">
                 <img
-                  src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/altitude/altitude-chamber-control.png"
+                  src={Image_1}
                   alt="Altitude Chambers"
                   className="img-thumbnail"
                 />

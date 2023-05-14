@@ -1,12 +1,27 @@
-.section-infowrap{
-    padding: 50px 0;
+.section-infowrap {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.section-heading>h2 {
-    color: rgb(23, 110, 137);
+.section-heading > h2 {
+  color: rgb(23, 110, 137);
 }
-.section-heading>p {
-    color: rgb(23, 110, 137);
+.section-heading > p {
+  color: rgb(23, 110, 137);
 }
-.inline{
-    border: 4px double rgb(23, 110, 137);
+.inline {
+    margin-bottom: 20px;
+  border: 4px double rgb(23, 110, 137);
+}
+.section-infowrap-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .section-infowrap-2 {
+    
+  }
 }

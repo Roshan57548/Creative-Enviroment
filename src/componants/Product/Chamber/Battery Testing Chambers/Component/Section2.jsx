@@ -1,6 +1,6 @@
 import React from 'react'
 import './Style/Section2.css'
-
+import Image_1 from './Image/image_2.jpg';
 const Section2 = () => {
   return (
     <div className='btc_s2_container'>
@@ -30,7 +30,7 @@ Lithium-ion batteries can pose a range of risks when handled. System operators m
                     </table>
                 </div>
                 <div className="btc_s2_img">
-                    <img  className="btc_s2_img" src="https://www.envisystech.com/storage/app/media/inner-products/battery-test-featico.jpg" alt="" />
+                    <img  className="btc_s2_img" src={Image_1} alt="" />
                 </div>
             </div>
         </div>

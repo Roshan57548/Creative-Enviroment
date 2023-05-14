@@ -19,12 +19,10 @@ const About = () => {
     <div>
       <Banner data={Banners} />
       <CompanyDetails data={CompanyDetail} />
-      <OurVision data={OurVisions} />
       <MissionValue data={MissionValues} />
       <StateOfCity />
       <OurFounders data={OurFounder} />
       <OurTeams data={OurTeam} />
-
       <ContactUs />
     </div>
   );

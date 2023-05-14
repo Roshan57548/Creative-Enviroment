@@ -8,6 +8,9 @@ import About from './componants/About/About';
 import OurPartners from './componants/Our-Partners/OurPartners';
 import ContactUs from './componants/Contact-Us/ContactUs';
 import Services from './componants/Services/Services';
+import Apply from './componants/WhatsApp-Chat/Apply';
+import Enquiry from './componants/Apply-Now/Apply';
+import NoPage from './componants/404/NoPage'
 {/* Chamber Routes */}
 import Environmental_Test_Chambers from './componants/Product/Chamber/Environmental Test Chambers/Chamber';
 import Dust_Chambers from './componants/Product/Chamber/Dust Chambers/Chamber';
@@ -59,6 +62,7 @@ function App() {
         <Route path='/Services' element={<Services />}/>
         <Route path='/Contact-Us' element={<ContactUs/>}/>
         <Route path='/Industries' element={<OurPartners/>}/>
+        <Route path="*" element={<NoPage></NoPage>} />
         {/* Chamber Routes */}
         <Route path='/Chamber/Environmental-Test-Chambers' element={<Environmental_Test_Chambers/>}/>
         <Route path='/Chamber/Dust-Chambers' element={<Dust_Chambers/>}/>
@@ -100,6 +104,8 @@ function App() {
         <Route path='/Other-Categories/Pneumatic-Shock-Testing-Machine' element={<Pneumatic_Shock_Testing_Machine/>}/>
         <Route path='/Other-Categories/Underwater-Acoustic-Test-Capabilities' element={<Underwater_Acoustic_Test_Capabilities/>}/>
       </Routes>
+      <Apply />
+      <Enquiry />
       <Footer />
       
     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Style/Section2.css"
+import Image_1 from './Image/image_2.png';
 const Section2 = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const Section2 = () => {
                         <p>Envisys, one of the top-notch industrial chiller manufacturers and suppliers in India, offers air cooled water chiller variants with a wide range of capacities to serve clients’ needs despite their varying circumstances. Our water cooled chiller is suited for a variety of industrial applications and is built to withstand harsh environmental conditions and continuous duty applications. The industrial water chiller is built with world-class compressors and is ideal for process chilling applications.</p>
                     </div>
                     <div className="col-md-6">
-                        <img src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/industrial-chillers/industrial-chambers-showcase-ico.png" alt="" className='img-responsive'/>
+                        <img src={Image_1} alt="" className='img-responsive'/>
                     </div>
                 </div>
                 <div className="row">

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Style/Section2.css'
-
+import Image_1 from './Image/image_2.png';
 const Section2 = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const Section2 = () => {
                 We consistently maintain our numero uno leadership position as dust chamber manufacturers and suppliers of high-quality sand and dust test chamber products and associated facilities because of our philosophy of constant collaboration with our team of highly skilled design and engineering experts. <br />Our dust test chamber products can reproduce, within the test chamber, the electrical and mechanical effects caused by the intrusion of sandy or dust material on equipment to assess its suitability to operate and be stored in certain environments. Moreover, our sand and dust chamber products are designed keeping in mind safety, reliability, ease of operating, and ergonomics.</p>
             </div>
             <div >
-                <img className="section2_img" src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/dust/dust-chamber4.png" alt="" />
+                <img className="section2_img" src={Image_1} alt="" />
             </div>
         </div>
     </div>

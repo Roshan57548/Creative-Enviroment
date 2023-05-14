@@ -1,6 +1,9 @@
 import React from "react";
 import "./Style/Section3.css";
-
+import Image_1 from './Image/image_3.png'
+import Image_2 from './Image/image_4.png'
+import Image_3 from './Image/image_5.jpg'
+import Image_4 from './Image/image_6.png'
 const Section3 = (props) => {
   return (
     <>
@@ -18,7 +21,7 @@ const Section3 = (props) => {
               <div className="space"></div>
             </div>
             <div className="col-md-4">
-              <img src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/salt-spray/salt-spray-basic-version-front-showcase.png" alt="" className="img-responsive img-thumbnail" />
+              <img src={Image_1} alt="" className="img-responsive img-thumbnail" />
               <p className="text-center">
                 <small className="img-inftext">BASIC VERSION – FRONT VIEW</small>
               </p>
@@ -34,7 +37,7 @@ const Section3 = (props) => {
               </ul>
             </div>
             <div className="col-md-4">
-              <img src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/salt-spray/salt-spray-basic-version-front-showcase.png" alt="" className="img-responsive img-thumbnail" />
+              <img src={Image_2} alt="" className="img-responsive img-thumbnail" />
               <p className="text-center">
                 <small className="img-inftext">CYCLIC VERSION – REAR VIEW</small>
               </p>
@@ -54,7 +57,7 @@ const Section3 = (props) => {
               </ul>
             </div>
             <div className="col-md-4">
-              <img src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/salt-spray/salt-spray-chamber-programme-controllers-showcase.jpg" alt="" className="img-responsive img-thumbnail" />
+              <img src={Image_3} alt="" className="img-responsive img-thumbnail" />
               <p className="text-center">
                 <small className="img-inftext">CONTROL CONSOLES</small>
               </p>
@@ -123,7 +126,7 @@ const Section3 = (props) => {
                   </u>
                 </p>
                 <img
-                  src="https://www.envisystech.com/storage/app/media/inner-products/new-products/latest/salt-spray-chambers/mini-salt-spray-test-chambers-closed-door-latest-model-showcase1.png"
+                  src={Image_4}
                   alt="Mini Salt Spray Chambers"
                   class="img-responsive"
                 />

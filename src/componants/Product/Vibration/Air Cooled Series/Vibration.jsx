@@ -1,6 +1,6 @@
 import React from 'react'
 import './Style/Vibration.css';
-import Section1 from '../../Vibration/Air Cooled CEV 125 Series/Components/Section1';
+import Section1 from './Component/Section1';
 import { Air } from './Content/Section1';
 import DescriptionContent from './Component/DescriptionContent';
 import { Description } from './Content/Description';

@@ -1,14 +1,14 @@
 import React from "react";
-
+import './Style/Description.css';
 const Description = (props) => {
   return (
-    <>
+    <div className="Description-1-1">
       <div className="container">
-        <div className="row">
-          <div className="col-md-12">
+        <div className="row Description-1-2">
+          <div className="col-lg-10 col-md-12">
             <h3 className="heading-text-0">{props.data.Heading[0].head1}</h3>
           </div>
-          <div className="col-md-12">
+          <div className="col-lg-10 col-md-12">
           <p className="para-content-ac">{props.data.Paragraph[0].p1}</p>
           <p className="para-content-ac">{props.data.Paragraph[0].p2}</p>
           <p className="para-content-ac">{props.data.Paragraph[0].p3}</p>
@@ -30,7 +30,7 @@ const Description = (props) => {
           
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

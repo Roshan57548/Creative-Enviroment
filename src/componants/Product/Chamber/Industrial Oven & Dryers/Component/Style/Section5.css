@@ -25,3 +25,15 @@
     color: rgb(23, 110, 137);
     font-weight: 600;
 }
+
+@media screen and (max-width: 600px) {
+    .iod_s5_img{
+        /* border: 1px solid red; */
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .iod_s5_text{
+        text-align: center;
+    }
+}

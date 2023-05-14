@@ -72,6 +72,10 @@ const ContentHeader = {
   ],
   EnvironmentalTestChambers: [
     {
+      Heading: "Environmental Test Chambers",
+      Link: "/Chamber/Environmental-Test-Chambers"
+    },
+    {
       Heading: "Dust Chambers",
       Link: "/Chamber/Dust-Chambers"
     },
@@ -127,6 +131,10 @@ const ContentHeader = {
       Heading: "Vibration Chambers",
       Link: "/Chamber/Vibration-Chambers"
     },
+    {
+      Heading: "",
+      Link: ""
+    }
     
   ]
 };

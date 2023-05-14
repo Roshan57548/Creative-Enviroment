@@ -10,7 +10,7 @@ import Sectionss2 from './Content/Section2';
 import Sectionss3 from './Content/Section3';
 const Chamber = () => {
   return (
-    <div>
+    <div className='Industrial-Oven'>
       <Section1 data={Sectionss1}/>
       <Section2 data={Sectionss2}/>
       <Section3 data={Sectionss3}/>

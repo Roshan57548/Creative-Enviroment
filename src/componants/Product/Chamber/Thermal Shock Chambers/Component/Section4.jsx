@@ -7,9 +7,9 @@ const Section4 = () => {
       <section className="section-infowrap">
         <div className="container">
           <div className="row">
-            <div className="col-md-12 text-center">
+            <div className="col-md-12 text-center section-infowrap-2">
               <div className="section-heading">
-                <p>Series of </p>
+                <h3>Series of </h3>
                 <h2>Standard Models</h2>
                 <div className="inline"></div>
               </div>

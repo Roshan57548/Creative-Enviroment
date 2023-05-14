@@ -1,42 +1,56 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.Spectrum{
+.Spectrum {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 2rem;
+  padding: 20px;
 }
 .Spectrum_1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Spectrum_1 img{
+.Spectrum_1 img {
   width: 100%;
 }
-.Spectrum_2{
+.Spectrum_2 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 1.5rem;
 }
-.Spectrum_2 h2{
+.Spectrum_2 h2 {
   font-size: 2rem;
   font-weight: 600;
   color: rgb(57, 145, 197);
 }
-.Spectrum_2_typography{
+.Spectrum_2_typography {
   font-size: 1.5rem !important;
 }
 
 @media screen and (max-width: 900px) {
-   .Spectrum_2 h1{
-  font-size: 2rem;
- 
-  
+  .Spectrum_2 h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .Spectrum_2_typography{
+    font-size: 1.2rem !important;
+    text-align: center;
+  }
 }
+@media screen and (max-width: 600px) {
+  .Spectrum_2 h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .Spectrum_2_typography{
+    font-size: 1rem !important;
+    text-align: center;
+  }
 }

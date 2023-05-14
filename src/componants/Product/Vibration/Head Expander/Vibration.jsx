@@ -1,9 +1,17 @@
 import React from 'react'
 import './Style/Vibration.css';
+import Section1 from './Components/Section1';
+import Section2 from './Components/Section2';
+import Section5 from './Components/Section5';
+import Section6 from './Components/Section6';
+import ContentVibration from './Content/ContentVibration';
 const Vibration = () => {
   return (
     <div>
-      Vibration
+      <Section1 data={ContentVibration}/>
+       <Section2 data={ContentVibration}/>
+      <Section5 data={ContentVibration}/>
+      <Section6 data={ContentVibration}/>
     </div>
   )
 }

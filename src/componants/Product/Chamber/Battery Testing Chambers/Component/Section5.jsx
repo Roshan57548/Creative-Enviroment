@@ -1,6 +1,6 @@
 import React from 'react'
 import './Style/Section5.css'
-
+import Image_1 from './Image/image_5.png';
 const Section5 = () => {
   return (
     <div className='btc_s5_container'>
@@ -20,7 +20,7 @@ const Section5 = () => {
                 </div>
             </div>
             <div className="btc_s5_right">
-           <img className='btc_s5_img' src="https://www.envisystech.com/storage/app/media/inner-products/battery-testing-chamber-info.png" alt="" />
+              <img className='btc_s5_img' src={Image_1} alt="" />
             </div>
         </div>
 

@@ -1,11 +1,11 @@
 import React from "react";
 import "./Style/Section3.css";
-
+import Image_1 from './Image/image_4.png'
 const Section3 = (props) => {
   return (
     <>
       <section className="Section-about-razor-blade">
-        <div className="container">
+        <div className="container mb-5">
           <div className="row">
             <div className="col-md-12">
               <div className="section-heading text-center">
@@ -22,7 +22,7 @@ const Section3 = (props) => {
             <div className="row">
               <div className="col-md-6 img-table-right">
                 <img
-                  src="https://www.envisystech.com/themes/envisystech//assets/img/new-imgs19/inner-prods/razor-blade/sub-zero-chamber-showcase-info.png"
+                  src={Image_1}
                   alt=""
                   className="img-responsive "
                 />

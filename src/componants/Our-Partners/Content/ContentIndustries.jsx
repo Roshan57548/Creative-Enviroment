@@ -8,7 +8,7 @@ import image7 from "../Image/Rotating_img.png";
 import image8 from "../Image/Independent_img.png";
 
 const ContentIndustries = {
-  Heading: "INDUSTRIES",
+  Heading: "World Wide",
   subHeading:
     "Our Innovative Measurement and Testing Products are Designed to Enable Test Engineers Everywhere to Overcome Challenges of Every Scale",
   para: [

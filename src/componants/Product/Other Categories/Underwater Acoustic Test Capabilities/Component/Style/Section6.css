@@ -1,0 +1,20 @@
+.s6_ua_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.s6_ua_wrapper{
+    width: 70%;
+}
+
+.s6_ua_heading{
+    color: rgb(23, 110, 137);
+    font-weight: 600;
+}
+
+.s6_ua_para{
+    font-size: 18px;
+}

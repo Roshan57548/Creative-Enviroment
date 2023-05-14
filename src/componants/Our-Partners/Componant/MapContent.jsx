@@ -13,10 +13,16 @@ const MapContent = (props) => {
   };
   return (
     <div className="container ml-5 mr-5 mb-5">
-      <h1 className="text-center mb-2 ourPartner-heading">
+      <h1 className="text-center mb-3 ourPartner-heading">
         {props.data.Heading}
       </h1>
       <hr className="our-partner-hr" />
+      <p className="text-center mt-3 mb-2">
+        At our company, we believe that our success is intertwined with the
+        success of our partners. That's why we are committed to providing you
+        with the highest level of service, support, and resources to help you
+        achieve your goals.
+      </p>
       <div className="row ">
         {props.data.Image.slice(0, 12).map((logo, index) => {
           return (

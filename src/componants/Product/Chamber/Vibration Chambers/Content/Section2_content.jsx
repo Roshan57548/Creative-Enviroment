@@ -1,3 +1,4 @@
+import Image_1 from '../Component/Image/image_2.png'
 const Section2_content = {
     Heading:
       "Vibration Climatic Shaker Testing Chambers Manufacturers & Suppliers USA, UK, Russia",
@@ -13,8 +14,7 @@ const Section2_content = {
       "High density low conduction mineral wool insulation to avoid  thermal losses.",
     First_list6:
       "Vibration Chamber door will have multi-pane toughened insulated window with automatic heating control system to  avoid conduction for a clear view-thro. Heavy duty adjustable  door hinges are used on the left-side of the chamber and the right of the door there will be a door-locking arrangement for easy operation of the door opening and closing. Between the inner chamber and door double layer silicon gasket is used  to avoid leakage.",
-    image1:
-      "https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/vibration-chambers/vibration-chambers-design-process-showcase-inf.png",
+    image1: Image_1,
     Heading2: "CHAMBER DESIGN",
   
     Second_list1:

@@ -1,3 +1,4 @@
+import Image_1 from '../../../Image/WaterCooled.png';
 export const Water = {
    
         Heading: [
@@ -9,7 +10,7 @@ export const Water = {
             },
           ],
           Image:{
-            img:"https://vibrationsystems.net/wp-content/uploads/2021/08/slazzer-edit-image-1.png",
+            img:Image_1,
           },
           Button: "GET INFO TODAY"
     

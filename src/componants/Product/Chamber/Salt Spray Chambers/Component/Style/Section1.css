@@ -1,9 +1,13 @@
-.Salt-spray{ 
-    background: url(https://www.envisystech.com/storage/app/media/inner-products/salt-spray-chambers-bg.jpg)  no-repeat;
-   height: 100%;
-   background-size: 100% 100%;
+#Salt-spray{ 
+   background-image: url('../Image/light-through-forest-tree-trunks.x8620a511.webp');
+   margin-top: 5rem;
+    height: 100%;
+    background-size: 100% 100%;
 }
 .section1_bgcolor{
     background-color:rgb(23, 110, 137);
     opacity: 0.9;
+}
+.section1_image{
+    padding: 30px;
 }

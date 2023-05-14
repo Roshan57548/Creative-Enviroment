@@ -1,0 +1,16 @@
+.s4_ua_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s4_ua_wrapper{
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.s4_ua_heading{
+    color: rgb(23, 110, 137);
+    margin-bottom: 1rem;
+}

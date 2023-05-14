@@ -6,15 +6,12 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    /* align-items: center; */
 }
 .Installation_1_box{
     display: flex;
     flex-direction: column;
     width: 600px;
     padding:30px ;
-   
-    /* gap: 2rem; */
     justify-content: center;
     
 }
@@ -46,15 +43,23 @@
         justify-content: center;
         align-items: center;
      }
+     .Installation_1_box_typography{
+      font-size: 16px !important;
+      text-align: center;
+  }
     
   }
+
   @media screen and (max-width: 900px) {
-   
-     .Installation_1_box h2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-     }
-    
+   .Installation_1_box{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 10px ;
+      justify-content: center;
+      
   }
+   
+  
+}
  

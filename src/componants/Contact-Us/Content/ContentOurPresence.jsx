@@ -14,8 +14,8 @@ const ContentOurPresence = {
       heading_1: "Australia",
       discription:
         "Compliance Engineering is conveniently located in the Melbourne suburb of Keysborough, just off Eastlink.",
-      phone:"+1-844-444-ARES",
-      email:"roshan@aresscientific.com",
+      phone:"+61397633079",
+      email:"info@compeng.com.au",
     },
     {
       id: "2",
@@ -33,7 +33,7 @@ const ContentOurPresence = {
       discription:
         "205 – 8291 92 Street Delta BC V4G 0A4 Canada",
         phone:"604 247 0444",
-      email:"roshan@aresscientific.com",
+      email:"info@hienquang.com",
     },
   ],
 };

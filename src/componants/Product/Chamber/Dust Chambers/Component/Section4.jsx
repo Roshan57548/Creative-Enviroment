@@ -1,11 +1,11 @@
 import React from 'react'
 import './Style/Section4.css'
-
+import Image_1 from './Image/image_3.jpg';
 const Section4 = () => {
   return (
     <div className='s4_container'>
         <div className="s4_wrapper">
-            <img className='s4_img' src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/dust/dust-chamber-controls-showoffs.jpg" alt="" />
+            <img className='s4_img' src={Image_1} alt="" />
         </div>
     </div>
   )

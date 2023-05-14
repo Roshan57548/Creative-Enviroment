@@ -15,3 +15,14 @@
 .second-paragraph{
     font-size: 20px; 
 }
+
+@media screen and (max-width: 600px) {
+    .utm-heading{
+        margin-bottom: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: rgb(23, 110, 137);;
+        line-height: 1.2;
+        font-size: 1.6rem;
+    }
+}

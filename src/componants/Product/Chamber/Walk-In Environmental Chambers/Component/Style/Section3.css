@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+    padding-bottom: 60px;
 }
 
 .wec_s3_wrapper{
@@ -21,8 +22,12 @@
 }
 
 .wec_s3_list{
-    border: 1px grey solid;
-    padding: 1rem;
+    border: 1px solid white;
+    padding: 5px;
+}
+.wec_s3_img img{
+    width: 400px;
+    height: 400px;
 }
 
 @media (max-width:900px) {
@@ -41,7 +46,7 @@
 
 @media (max-width:400px) {
     .wec_s3_wrapper{
-        width: 100%;
+        width: 90%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -57,5 +62,9 @@
         background-color: rgb(23, 110, 137);
         border-radius: 10px;
     
+    }
+    .wec_s3_img img{
+        width: 250px;
+        height: 250px;
     }
 }

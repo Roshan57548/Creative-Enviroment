@@ -1,5 +1,8 @@
 import React from "react";
 import "./Style/Section3.css"
+import Image_1 from './Image/image_3.png'
+import Image_2 from './Image/image_4.png'
+import Image_3 from './Image/image_5.png'
 const Section3 = () => {
   return (
     <>
@@ -13,15 +16,15 @@ const Section3 = () => {
                 STANDALONE <br /> FEATURES OF CHAMBERS:{" "}
               </h4>
               <ul className="list-container">
-                <li className="list-type">
+                <li className="listWrap">
                   <i className="fa fa-check mark-tick"></i> Designed in custom sizes as per
                   the requirements.
                 </li>
-                <li className="list-type">
+                <li className="listWrap">
                   <i className="fa fa-check mark-tick"></i> Temperature range +/-30 / +/-65 to
                   80 deg and 20% to 95% RH.
                 </li>
-                <li className="list-type">
+                <li className="listWrap">
                   <i className="fa fa-check mark-tick"></i> Control features are optional.{" "}
                 </li>
               </ul>
@@ -30,7 +33,7 @@ const Section3 = () => {
               <div className="indetail-pdbx">
                 <img
                   className="img-responsive"
-                  src="https://www.envisystech.com/storage/app/media/inner-products/utm-interface-environmental-chamber2.png"
+                  src={Image_1}
                   alt="Environmental Chambers For Interfacing With UTM’S"
                 />
                 <p>
@@ -45,7 +48,7 @@ const Section3 = () => {
               <div className="indetail-pdbx">
                 <img
                   className="img-responsive"
-                  src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/env-utms/utm-miniature-chamber-inf.png"
+                  src={Image_2}
                   alt="Environmental Chambers For Interfacing With UTM’S"
                 />
                 <p>
@@ -57,7 +60,7 @@ const Section3 = () => {
               <div className="indetail-pdbx">
                 <img
                   className="img-responsive"
-                  src="https://www.envisystech.com/storage/app/media/inner-products/utm-interface-environmental-chamber3.png"
+                  src={Image_3}
                   alt="Environmental Chambers For Interfacing With UTM’S"
                 />
                 <p>

@@ -1,0 +1,23 @@
+.s3_ua_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s3_ua_wrapper{
+    width: 70%;
+    display: flex;
+    gap: 2rem;
+}
+
+.s3_ua_heading{
+    color: rgb(23, 110, 137);
+    font-weight: 600;
+    font-size: 26px;
+}
+
+@media (max-width:700px) {
+    .s3_ua_wrapper{
+        flex-direction: column;
+    }
+}

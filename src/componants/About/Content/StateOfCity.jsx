@@ -1,4 +1,4 @@
-import Image from "../Images/AboutUs-img.jpg";
+import Image from "../Images/about.png";
 
 const StateOfCity = {
   Heading: "Creative Environmental Solutions",

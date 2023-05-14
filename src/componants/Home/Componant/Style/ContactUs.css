@@ -3,28 +3,38 @@
     background-image: url('../../Images/ContactUs_img.jpeg');
     position: relative;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .contact h4{
-    color: rgb(100, 97, 97);
-    font-size:17px;
+    color: #1e6c99;
+    font-size:20px;
     font-weight:700;
     margin-bottom: 0;
 }
 .contact h1{
-    color: white;
+    color: rgb(62, 62, 62);
     font-size:30px;
     font-weight:800;
     margin-top: 0;
 }
-button{
-        background-color: #32a0ee;
-        color: black;
+.contact div button{
+    background-color: #1e6c99;
+        color: white;
         border: none;
+        padding: 10px 25px;
+        border-radius: 50px;
+        cursor: pointer;
+}
+.contact div button:hover{
+    background-color: white;
+        color: #1e6c99;
+        transition-duration: 300ms;
+        border: 1px solid #1e6c99;
+        font-weight: bold;
         padding: 10px 25px;
         border-radius: 50px;
         cursor: pointer;
@@ -67,7 +77,7 @@ button{
         font-weight: 700;
         margin-top: 0;
         }
-        button {
+        .contact div button {
           padding: 4px 12px;       
        }      
 }

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-
+import Image_1 from '../../../Image/AirCooled.png';
+import Image_2 from '../../../Image/WaterCooled.png';
 const ElectrodynamicMapContent = {
   Heading1:"Electro Dynamic Vibration Shaker System",
   para:" We share glorious credentials for manufacturing and supplying Electro Dynamic Vibration Shaker System throughout the Indian market. Perfectly designed and strongly constructed, our Vibration Shaker System can also be modified as per the specific demand of the buyers. Place orders with us, timely deliveries are what we ensure! Our prices are also marginal. Rely on us and place orders now!",
@@ -10,7 +11,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link style={{textDecoration: 'none'}} to="/Vibration/Air-Cooled-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/slazzer-edit-image-1.png"
+              src={Image_1}
               alt=""
               className="Mappedimg"
             />
@@ -28,7 +29,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link style={{textDecoration: 'none'}} to="/Vibration/Air-Cooled-CEV-125-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/slazzer-edit-image-1.png"
+              src={Image_1}
               alt=""
               className="Mappedimg"
             /> 
@@ -45,7 +46,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link style={{textDecoration: 'none'}} to="/Vibration/Air-Cooled-CEV-140-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/slazzer-edit-image-1.png"
+              src={Image_1}
               alt=""
               className="Mappedimg"
               id="1"
@@ -62,7 +63,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link style={{textDecoration: 'none'}} to="/Vibration/Air-Cooled-CEV-180-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/slazzer-edit-image-1.png"
+              src={Image_1}
               alt=""
               className="Mappedimg"
               id="2"
@@ -79,7 +80,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link  style={{textDecoration: 'none'}}to="/Vibration/Air-Cooled-CEV-240-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/slazzer-edit-image-1.png"
+              src={Image_1}
               alt=""
               className="Mappedimg"
               id="3"
@@ -96,7 +97,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link  style={{textDecoration: 'none'}}to="/Vibration/Air-Cooled-CEV-300-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/slazzer-edit-image-1.png"
+              src={Image_1}
               alt=""
               className="Mappedimg"
               id="4"
@@ -113,7 +114,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link  style={{textDecoration: 'none'}}to="/Vibration/Air-Cooled-CEV-360-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/slazzer-edit-image-1.png"
+              src={Image_1}
               alt=""
               className="Mappedimg"
               id=""
@@ -131,7 +132,7 @@ const ElectrodynamicMapContent = {
           <Link  style={{textDecoration: 'none'}}to="/Vibration/Air-Cooled-CEV-440-Series">
             {" "}
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/slazzer-edit-image-1.png"
+              src={Image_1}
               alt=""
               className="Mappedimg"
             />
@@ -149,7 +150,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link  style={{textDecoration: 'none'}}to="/Vibration/Air-Cooled-CEV-440A-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/slazzer-edit-image-1.png"
+              src={Image_1}
               alt=""
               className="Mappedimg"
             />
@@ -165,7 +166,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link style={{textDecoration: 'none'}} to="/Vibration/Water-Cooled-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/water-cooled-vibration-testing-system-1821425-2.jpg"
+              src={Image_2}
               alt=""
               className="Mappedimg"
             />
@@ -181,7 +182,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link style={{textDecoration: 'none'}} to="/Vibration/Water-Cooled-CEV-500-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/water-cooled-vibration-testing-system-1821425-2.jpg"
+              src={Image_2}
               alt=""
               className="Mappedimg"
             />
@@ -197,7 +198,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link style={{textDecoration: 'none'}} to="/Vibration/Water-Cooled-CEV-590-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/water-cooled-vibration-testing-system-1821425-2.jpg"
+              src={Image_2}
               alt=""
               className="Mappedimg"
             />
@@ -213,7 +214,7 @@ const ElectrodynamicMapContent = {
         <>
           <Link style={{textDecoration: 'none'}} to="/Vibration/Water-Cooled-CEV-760-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/water-cooled-vibration-testing-system-1821425-2.jpg"
+              src={Image_2}
               alt=""
               className="Mappedimg"
             />

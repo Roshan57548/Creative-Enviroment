@@ -39,7 +39,11 @@
 }
 
 @media (max-width: 650px){
-
+    .section5_desp{
+        text-align: center;
+        width: 90%;
+        margin-top: 2rem;
+    }
     .section5_img{
         height: 30rem;
         width: 30rem;

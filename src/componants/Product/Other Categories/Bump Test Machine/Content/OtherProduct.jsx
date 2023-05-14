@@ -1,3 +1,4 @@
+import Image_1 from '../Component/Images/Bump-Test-Machine.png';
 const Bump = {
     Section_1: {
         Heading: "More Categories",
@@ -5,7 +6,7 @@ const Bump = {
         Product_Sub_Heading: "Standard 4-channel signal conditioner upgradable to 16-channel",
         Set_Up: "EASY SET-UP | 18/7 TECHNICAL SUPPORT",
         Get_Info: "GET INFO TODAY!",
-        Image_Url: "https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/altitude/altitude-chamber-showcase-inf.png"
+        Image_Url: Image_1
 
     },
     Section_2: {

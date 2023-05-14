@@ -1,5 +1,6 @@
 import React from "react";
 import "./Style/Section4.css";
+import Image_1 from './Image/image_7.jpg'
  const Section4 = () => {
   return (
     <>
@@ -8,7 +9,7 @@ import "./Style/Section4.css";
           <div class="row">
             <div class="col-md-12">
               <img
-                src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/salt-spray/salt-spray-controllers-imgshow.jpg"
+                src={Image_1}
                 alt="Salt Spray Chambers"
                 class="img-responsive img-thumbnail"
               />

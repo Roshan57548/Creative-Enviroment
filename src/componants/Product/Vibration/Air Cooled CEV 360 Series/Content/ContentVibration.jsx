@@ -1,3 +1,4 @@
+import Image_1 from '../../../Image/AirCooled.png';
 const CEV360 = {
     Section_1: {
         Heading: "Air Cooled Vibration Testing",
@@ -7,7 +8,7 @@ const CEV360 = {
         Set_Up: "EASY SET-UP | 18/7 TECHNICAL SUPPORT",
         Get_Info: "GET INFO TODAY!",
         Image_Url:
-          "https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/altitude/altitude-chamber-showcase-inf.png",
+        Image_1,
     },
     section1 : {
         heading : "CEV 360 Series",

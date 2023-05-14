@@ -6,8 +6,8 @@ const WaterMappedImage = (props) => {
   return (
     <>
       <div className="container Water-cooled-container">
-        <div className="row">
-          <div className="col-md-12 ">
+        <div className="row  Water-cooled-container-1">
+          <div className="col-lg-10 col-md-12 ">
             <h3 className="heading-text">{props.data.Heading2}</h3>
           </div>
           {props.data.Image.map((logo, index) => {

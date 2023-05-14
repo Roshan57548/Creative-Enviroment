@@ -1,5 +1,6 @@
 import React from "react";
 import "./Style/Section2.css"
+import Image_1 from './Image/image_2.png'
 const Section2 = () => {
   return (
     <>
@@ -26,7 +27,7 @@ const Section2 = () => {
             <div className="col-md-4">
               <div className="space20"></div>
               <img
-                src="https://www.envisystech.com/storage/app/media/inner-products/new-products/latest/utm-chambers/UTM-interface-chamber-latest-model-showcase2.png"
+                src={Image_1}
                 alt="Environmental Chambers For Interfacing With UTM’S"
                 className="img-responsive"
               />

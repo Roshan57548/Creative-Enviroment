@@ -89,6 +89,7 @@ h6 {
 
 @media (max-width: 768px) {
   .OurFounders-image-wrapper {
+    padding: 0px;
     display: flex;
     justify-content: center;
     flex-direction: column;

@@ -1,5 +1,6 @@
 import React from "react";
 import  './Style/Section4.css'
+import Image_1 from './Image/image_2.png';
 const Section4 = () => {
   return (
     <>
@@ -33,7 +34,7 @@ const Section4 = () => {
             </div>
             <div className="col-md-6">
               <img
-                src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/solar-pv/solar-panel-testing-chamber-ico2.png"
+                src={Image_1}
                 className="img-responsive"
                 alt="PV-Modules &amp; Solar Panels Testing"
               />

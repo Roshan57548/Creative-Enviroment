@@ -32,6 +32,13 @@
 }
 
 @media (max-width: 800px) { 
+    .iod_s4_container{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-top: 1rem;
+    }
+    
     .iod_s4_scn{
         display: flex;
         align-items: center;
@@ -48,5 +55,13 @@
     .iod_s4_right{
         height: 15rem;
         width: 15rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .iod_s4_left{
+        text-align: center;
+        width: 100%;
+        margin-top: 1rem;
+        font-size: 20px;
     }
 }

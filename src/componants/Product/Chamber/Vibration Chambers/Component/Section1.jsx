@@ -1,7 +1,12 @@
 import React from 'react'
 import "./Style/Section1.css"
+import { useNavigate } from "react-router-dom";
 
 const Section1 = (props) => {
+  const navigate = useNavigate();
+  const HandleClick = () => {
+    navigate('/Contact-Us');
+  }
   return (
     <>
     <div className="section1_container">
@@ -16,7 +21,7 @@ const Section1 = (props) => {
                 <h5 className='section1_sub_heading'>{props.data.Heading3}</h5>
                 <h5 className='section1_sub_heading'>{props.data.Heading4}</h5>
                 <h6 className='section1_link'>{props.data.Heading5}</h6>
-                <button className='section1_btn'>{props.data.Heading6}</button>
+                <button onClick={HandleClick} className='section1_btn'>{props.data.Heading6}</button>
             </div>
         </div>
       </div>

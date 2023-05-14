@@ -51,10 +51,11 @@
 }
 .SolPro_image5 , .SolPro_image4,.SolPro_image3,.SolPro_image2,.SolPro_image1{
     transition: 1;
+    transition-duration: 500ms;
 }
 
 .SolPro_image5:hover , .SolPro_image4:hover , .SolPro_image3:hover, .SolPro_image2:hover,.SolPro_image1:hover {
-    transform: scale(1.02);
+    transform: scale(1.1);
     z-index: 2;
     transition-duration: 500ms;
 }

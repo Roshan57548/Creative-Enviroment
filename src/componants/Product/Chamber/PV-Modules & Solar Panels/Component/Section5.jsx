@@ -1,5 +1,7 @@
 import React from "react";
 import './Style/Section5.css'
+import Image_1 from './Image/image_3.jpg';
+import Image_2 from './Image/image_4.jpg';
 const Section5 = () => {
   return (
     <>
@@ -14,7 +16,7 @@ const Section5 = () => {
             <div className="col-md-6">
               <img
                 class="img-responsive"
-                src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/solar-pv/solar-pv-test-performance-chart-1.jpg"
+                src={Image_1}
                 alt="PV-Modules &amp; Solar Panels Testing"
               />
               <h4 className="charts-list-heading">HF CYCLE TEST GRAPH</h4>
@@ -28,7 +30,7 @@ const Section5 = () => {
             <div className="col-md-6">
               <img
                 class="img-responsive"
-                src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/solar-pv/solar-pv-test-performance-chart-2.jpg"
+                src={Image_2}
                 alt="PV-Modules &amp; Solar Panels Testing"
               />
               <h4 className="charts-list-heading">THERMAL CYCLING TEST</h4>

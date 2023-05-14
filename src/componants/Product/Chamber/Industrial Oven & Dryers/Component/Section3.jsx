@@ -31,26 +31,26 @@ const Section3 = (props) => {
                 <tr>
                     <td className='iod_s3_data'>
                     <ul>
-                        <li>EO150-250T</li>
-                        <li>EO300-250T</li>
-                        <li>EO600-250T</li>
-                        <li>EO950-250T</li>
-                        <li>EO1400-250T</li>
+                        <li>EO150 - 250T</li>
+                        <li>EO300 - 250T</li>
+                        <li>EO600 - 250T</li>
+                        <li>EO950 - 250T</li>
+                        <li>EO1400 - 250T</li>
                     </ul>
                     </td>
                     <td className='iod_s3_data'>
                     <ul>
-                        <li>550X400X700 MM</li>
-                        <li>650X600X800 MM</li>
-                        <li>800X850X900 MM</li>
-                        <li>1000X100X950 MM</li>
-                        <li>1100X1350X950 MM</li>
+                        <li>550 X 400 X 700 MM</li>
+                        <li>650 X 600 X 800 MM</li>
+                        <li>800 X 850 X 900 MM</li>
+                        <li>1000 X 100 X 950 MM</li>
+                        <li>1100 X 1350 X 950 MM</li>
                     </ul>
                     </td >
                 </tr>
                 <tr>
-                    <td className='iod_s3_data'>Volume(in liters)</td>
-                    <td className='iod_s3_data'>150,300,600,950&1400</td>
+                    <td className='iod_s3_data'>Volume (in liters)</td>
+                    <td className='iod_s3_data'>150, 300, 600, 950 & 1400</td>
                 </tr>
                 <tr>
                     <td className='iod_s3_data'>Temperature</td>

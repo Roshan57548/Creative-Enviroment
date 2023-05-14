@@ -1,0 +1,10 @@
+.send{
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1e6c9970;
+}
+#galllay-button{
+    background-color: #1e6c99;
+    color: white;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Style/Section2.css";
-
+import Image_1 from './Image/image_2.png'
 const Section2 = (props) => {
   return (
     <>
@@ -14,8 +14,8 @@ const Section2 = (props) => {
                 environment. The salt spray test chamber is designed to test the
                 performance of items on their surfaces after corrosive
                 protection treatments such as painting, coating, galvanizing,
-                anodizing, and lubrication. Envisys’ salt spray corrosion
-                chamber is one of the world's most sophisticated and versatile
+                anodizing, and lubrication. Creative Environmental Solutions salt spray corrosion
+                chamber is one of the world most sophisticated and versatile
                 salt spray test systems, with unrivaled design, ergonomics, and
                 quality.
               </p>
@@ -32,7 +32,7 @@ const Section2 = (props) => {
               </p>
             </div>
             <div className="col-md-6">
-              <img src="https://www.envisystech.com/storage/app/media/inner-products/new-products/latest/salt-spray-chambers/salt-spray-test-chambers-open-door-latest-model-showcase2.png" alt="" className="img-responsive" />
+              <img src={Image_1} alt="" className="img-responsive" />
               <p className="img-inftext">
                 <small>CYCLIC VERSION – FRONT VIEW</small>
               </p>

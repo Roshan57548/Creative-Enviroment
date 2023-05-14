@@ -71,10 +71,10 @@ const Footer = () => {
               <p>
                 <a
                   id="TextNone"
-                  href="/Chamber/Walk-In-Environmental-Chambers"
+                  href="/Other-Categories/Bump-Test-Machine"
                   className="Footer-Color"
                 >
-                  Environmental WalkIn Chambers
+                  Bump Test Machine
                 </a>
               </p>
               <p>
@@ -89,10 +89,19 @@ const Footer = () => {
               <p>
                 <a
                   id="TextNone"
-                  href="Integrated-Environmental-Chamber"
+                  href="/Vibration/Air-Cooled-Series"
                   className="Footer-Color"
                 >
-                  Integrated Environmental Chamber
+                  Air Cooled Series
+                </a>
+              </p>
+              <p>
+                <a
+                  id="TextNone"
+                  href="/Vibration/Water-Cooled-Series"
+                  className="Footer-Color"
+                >
+                  Water Cooled Series
                 </a>
               </p>
             </MDBCol>

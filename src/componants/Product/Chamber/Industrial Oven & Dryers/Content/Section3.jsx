@@ -14,8 +14,8 @@ const Sections3 = {
         table: {
             heading: 'STANDARD MODELS',
             first: {
-                ldesc: 'Parameters/Models',
-                rdesc: 'Specifications/Work-Space Dimensions',
+                ldesc: 'Parameters / Models',
+                rdesc: 'Specifications / Work Dimensions',
             },
             second: {
                 ldesc: 'EO150-250T',

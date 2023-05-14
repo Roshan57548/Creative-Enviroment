@@ -31,12 +31,31 @@ const Header2 = () => {
     return setShowme(false);
   };
 
+  const OpenNav22 = () => {
+    if(showme===false){
+      return setShowme(true);
+    }
+    else{
+      return setShowme(false);
+    }
+    
+  };
+
   const CloseNav2 = () => {
     return setShowme(true);
   };
 
   const OpenNav3 = () => {
     return setShowme2(false);
+  };
+
+  const OpenNav33 = () => {
+    if(showme2===false){
+      return setShowme2(true);
+    }
+    else{
+      return setShowme2(false);
+    }
   };
 
   const CloseNav3 = () => {
@@ -47,6 +66,16 @@ const Header2 = () => {
     return setShowme3(false);
   };
 
+  const OpenNav44 = () => {
+    if(showme3===false){
+      return setShowme3(true);
+    }
+    else{
+      return setShowme3(false);
+    }
+    
+  };
+
   const CloseNav4 = () => {
     return setShowme3(true);
   };
@@ -55,12 +84,31 @@ const Header2 = () => {
     return setShowme5(false);
   };
 
+  const OpenNav55 = () => {
+    if(showme5===false){
+      return setShowme5(true);
+    }
+    else{
+      return setShowme5(false);
+    }
+  };
+
   const CloseNav5 = () => {
     return setShowme5(true);
   };
 
   const OpenNav6 = () => {
+    
     return setShowme6(false);
+  };
+
+  const OpenNav66 = () => {
+    if(showme6===false){
+      return setShowme6(true);
+    }
+    else{
+      return setShowme6(false);
+    }
   };
 
   const CloseNav6 = () => {
@@ -169,11 +217,12 @@ const Header2 = () => {
               <Nav hidden={shows} id="Header-6" className="row">
                 <div className="col-12">
                   <Nav.Link
-                    href="/Chamber/Environmental-Test-Chambers"
+                    
                     id="Header-7"
-                    onClick={MoveLink2}
+                    onClick={OpenNav22}
                     onMouseEnter={OpenNav2}
                     onMouseLeave={CloseNav2}
+                    
                   >
                     <KeyboardDoubleArrowLeftIcon id="Header-none"/>
                     Environmental Test Chambers
@@ -189,7 +238,7 @@ const Header2 = () => {
                 </div>
                 <div className="col-12 Header-Other">
                   <Nav.Link
-                    onClick={MoveLink4}
+                    onClick={OpenNav44}
                     onMouseEnter={OpenNav4}
                     onMouseLeave={CloseNav4}
                     id="Header-7"
@@ -204,9 +253,9 @@ const Header2 = () => {
                       <div className="col-12 row ">
                         <Nav.Link
                           className="col-12"
-                          href="/Vibration/Air-Cooled-Series"
+                          
                           id="Navbar-9-1"
-                          onClick={MoveLink5}
+                          onClick={OpenNav55}
                           onMouseEnter={OpenNav5}
                           onMouseLeave={CloseNav5}
                         >
@@ -221,9 +270,8 @@ const Header2 = () => {
                         </Nav>
                         <Nav.Link
                           className="col-12"
-                          href="/Vibration/Water-Cooled-Series"
                           id="Navbar-9-2"
-                          onClick={MoveLink6}
+                          onClick={OpenNav66}
                           onMouseEnter={OpenNav6}
                           onMouseLeave={CloseNav6}
                         >
@@ -264,6 +312,7 @@ const Header2 = () => {
                 </div>
                 <div className="col-12 Header-Other">
                   <Nav.Link
+                    onClick={OpenNav33}
                     onMouseEnter={OpenNav3}
                     onMouseLeave={CloseNav3}
                     id="Header-7"

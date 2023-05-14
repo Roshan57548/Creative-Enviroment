@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import Image_1 from '../../../Image/WaterCooled.png';
 const WaterMapContent = {
   Heading1:"Electro Dynamic Vibration Shaker System",
   para:" We share glorious credentials for manufacturing and supplying Electro Dynamic Vibration Shaker System throughout the Indian market. Perfectly designed and strongly constructed, our Vibration Shaker System can also be modified as per the specific demand of the buyers. Place orders with us, timely deliveries are what we ensure! Our prices are also marginal. Rely on us and place orders now!",
@@ -10,7 +10,7 @@ const WaterMapContent = {
         <>
           <Link style={{textDecoration: 'none'}} to="/Vibration/Water-Cooled-CEV-500-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/water-cooled-vibration-testing-system-1821425-2.jpg"
+              src={Image_1}
               alt=""
               className="Mappedimg"
             />
@@ -26,7 +26,7 @@ const WaterMapContent = {
         <>
           <Link style={{textDecoration: 'none'}} to="/Vibration/Water-Cooled-CEV-590-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/water-cooled-vibration-testing-system-1821425-2.jpg"
+              src={Image_1}
               alt=""
               className="Mappedimg"
             />
@@ -42,7 +42,7 @@ const WaterMapContent = {
         <>
           <Link style={{textDecoration: 'none'}} to="/Vibration/Water-Cooled-CEV-760-Series">
             <img
-              src="https://vibrationsystems.net/wp-content/uploads/2021/08/water-cooled-vibration-testing-system-1821425-2.jpg"
+              src={Image_1}
               alt=""
               className="Mappedimg"
             />

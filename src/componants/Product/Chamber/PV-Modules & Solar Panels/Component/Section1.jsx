@@ -1,7 +1,12 @@
 import React from "react";
 import "./Style/Section1.css";
-
+import { useNavigate } from "react-router-dom";
+import Image_1 from './Image/image_1.png';
 const Section1 = (props) => {
+  const navigate = useNavigate();
+  const HandleClick = () => {
+    navigate('/Contact-Us');
+  }
   return (
     <>
       <div className="section1_container pv-module-container">
@@ -10,7 +15,7 @@ const Section1 = (props) => {
             <div className="section1_image">
               <img
                 className="section1_img"
-                src="https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/solar-pv/solar-panel-testing-chamber-ico.png"
+                src={Image_1}
                 alt=""
               />
             </div>
@@ -22,7 +27,7 @@ const Section1 = (props) => {
               <h6 className="section1_link">
                 EASY SET-UP | 18/7 TECHNICAL SUPPORT
               </h6>
-              <button className="section1_btn">GET INFO TODAY!</button>
+              <button onClick={HandleClick} className="section1_btn">GET INFO TODAY!</button>
             </div>
           </div>
         </div>

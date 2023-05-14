@@ -74,9 +74,7 @@ const Industries = (props) => {
               <div>
                 <h2>{props.data.Heading}</h2>
                 <hr />
-                <div>
-                  <h4>{props.data.subHeading}</h4>
-                </div>
+                
               </div>
               <div>{props.data.para[0].para1}</div>
               <br />

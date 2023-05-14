@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Style/Section2.css"
-
+import Image_1 from './Image/image_2.jpg'
+import Image_2 from './Image/image_3.png'
 const Section2 = (props) => {
   return (
     <>
@@ -21,13 +22,13 @@ const Section2 = (props) => {
                     <div className='col-md-4 text-center'>
                         <div className="space"></div>
                         <div className="space"></div>
-                        <img src='https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/razor-blade/control-sections-razor-blade.jpg' alt='' className='img-responsive img-thumbnail'/>
+                        <img src={Image_1} alt='' className='img-responsive img-thumbnail'/>
                         <div className="space"></div>
                         <div className="space"></div>
                         <hr/>
                         <div className="space"></div>
                         <div className="space"></div>
-                        <img src='https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/razor-blade/razor-blade-subtreatement-chamber2.png' alt='' className='img-responsive img-thumbnail'/>
+                        <img src={Image_2} alt='' className='img-responsive img-thumbnail'/>
                         <br/>
                         <strong className='text-center'>Freezing the Razor Blades</strong>
                     </div>
