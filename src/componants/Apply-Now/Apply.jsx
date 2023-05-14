@@ -16,6 +16,7 @@ import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
+
 const Apply = () => {
   const History = useNavigate();
   const phoneRegExp =
@@ -77,7 +78,7 @@ const Apply = () => {
           // handle success
           swal("Send", "Your message sent successfully!", "success").then(
             (value) => {
-              window.location.reload(false);
+              handleClose()
             }
           );
         })

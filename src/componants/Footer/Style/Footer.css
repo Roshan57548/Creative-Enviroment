@@ -6,9 +6,11 @@
     color: black;
 }
 #TextNone{
+    cursor: pointer;
     text-decoration: none;
 }
 #footer-link{
+    cursor: pointer;
     text-decoration: none;
 }
 @media screen and (max-width: 600px) {

@@ -201,10 +201,10 @@ const Header2 = () => {
         
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="Header-2">
-            <Nav.Link href="/" id="Header-3">
+            <Nav.Link onClick={() => navigate("/")} id="Header-3">
               Home
             </Nav.Link>
-            <Nav.Link href="/About-Us" id="Header-3" >
+            <Nav.Link onClick={() => navigate("/About-Us")}  id="Header-3" >
               About Us
             </Nav.Link>
             <Nav.Link
@@ -330,13 +330,13 @@ const Header2 = () => {
                 </div>
               </Nav>
             </Nav.Link>
-            <Nav.Link href="/Industries" id="Header-5">
+            <Nav.Link onClick={() => navigate("/Industries")} id="Header-5">
              Industries
             </Nav.Link>
-            <Nav.Link href="/Services" id="Header-3">
+            <Nav.Link onClick={() => navigate("/Services")} id="Header-3">
               Services
             </Nav.Link>
-            <Nav.Link href="/Contact-Us" id="Header-3">
+            <Nav.Link onClick={() => navigate("/Contact-Us")} id="Header-3">
               Contact Us
             </Nav.Link>
           </Nav>

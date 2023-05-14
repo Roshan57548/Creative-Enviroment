@@ -2,6 +2,7 @@ import React from "react";
 // import "./Style/Footer.css";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { useNavigate } from "react-router-dom";
 import {
   MDBFooter,
   MDBContainer,
@@ -11,6 +12,7 @@ import {
 } from "mdb-react-ui-kit";
 import "./Style/Footer.css";
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <MDBFooter bgColor="light" className="text-center text-lg-start text-muted">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -62,7 +64,7 @@ const Footer = () => {
               <p>
                 <a
                   id="TextNone"
-                  href="/Chamber/Environmental-Test-Chambers"
+                  onClick={() => navigate("/Chamber/Environmental-Test-Chambers")}
                   className="Footer-Color"
                 >
                   Environmental Test Chambers
@@ -71,7 +73,7 @@ const Footer = () => {
               <p>
                 <a
                   id="TextNone"
-                  href="/Other-Categories/Bump-Test-Machine"
+                  onClick={() => navigate("/Other-Categories/Bump-Test-Machine")}
                   className="Footer-Color"
                 >
                   Bump Test Machine
@@ -80,7 +82,7 @@ const Footer = () => {
               <p>
                 <a
                   id="TextNone"
-                  href="/Vibration/Electrodynamic-Vibration-Shaker-System"
+                  onClick={() => navigate("/Vibration/Electrodynamic-Vibration-Shaker-System")}
                   className="Footer-Color"
                 >
                   Electro-Dynamic Vibration Shaker System
@@ -89,7 +91,7 @@ const Footer = () => {
               <p>
                 <a
                   id="TextNone"
-                  href="/Vibration/Air-Cooled-Series"
+                  onClick={() => navigate("/Vibration/Air-Cooled-Series")}
                   className="Footer-Color"
                 >
                   Air Cooled Series
@@ -98,7 +100,7 @@ const Footer = () => {
               <p>
                 <a
                   id="TextNone"
-                  href="/Vibration/Water-Cooled-Series"
+                  onClick={() => navigate("/Vibration/Water-Cooled-Series")}
                   className="Footer-Color"
                 >
                   Water Cooled Series
@@ -111,27 +113,27 @@ const Footer = () => {
                 Useful links
               </h6>
               <p>
-                <a href="/" className="Footer-Color" id="footer-link">
+                <a onClick={() => navigate("/Vibration/Water-Cooled-Serie")}  className="Footer-Color" id="footer-link">
                   Home
                 </a>
               </p>
               <p>
-                <a href="/About-Us" className="Footer-Color" id="footer-link">
+                <a onClick={() => navigate("/About-Us")} className="Footer-Color" id="footer-link">
                   About Us
                 </a>
               </p>
               <p>
-                <a href="/Our-Partners" className="Footer-Color" id="footer-link">
+                <a onClick={() => navigate("/Our-Partners")} className="Footer-Color" id="footer-link">
                   Our Partners
                 </a>
               </p>
               <p>
-                <a href="/Services" className="Footer-Color" id="footer-link">
+                <a onClick={() => navigate("/Services")}  className="Footer-Color" id="footer-link">
                   Services
                 </a>
               </p>
               <p>
-                <a href="/Contact-Us" className="Footer-Color" id="footer-link">
+                <a onClick={() => navigate("/Contact-Us")} className="Footer-Color" id="footer-link">
                   Contact Us
                 </a>
               </p>
