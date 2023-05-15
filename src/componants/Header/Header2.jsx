@@ -194,7 +194,7 @@ const Header2 = () => {
       id="Navbars"
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand onClick={() => navigate("/")}>
           <img src={Company_logo} className="nabvar-image"></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" id="Navbar-09"/>
