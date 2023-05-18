@@ -32,7 +32,7 @@ const Section2 = () => {
               capabilities by imitating a soggy, rainy environment. Electronics,
               solar rights, underground lights, car lights, fountain lights,
               automobile parts, garden lights, tunnel lights, and other products
-              all make use of the Rain Spray Test Chamber.
+              all make use of the Rain Spray Test Chamber12.
             </p>
           </div>
           <div className="rc_s2_right">
@@ -51,7 +51,7 @@ const Section2 = () => {
         <div className="rc_s2_lowersec">
           <p>
             Being one of the foremost manufacturers and suppliers of industrial
-            rain spray test chamber products in India, Envisys has built up a
+            rain spray test chamber products in India, CENVS has built up a
             wealth of testing experience over the years and, because of their
             versatility, can construct customized rain spray test chamber
             products to fulfill every testing requirement as well as special

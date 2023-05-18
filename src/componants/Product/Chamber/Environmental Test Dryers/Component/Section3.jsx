@@ -76,7 +76,7 @@ const Section3 = () => {
             <div className="col-md-12">
               <div className="space"></div>
               <p className="paragraph-content-utm">
-                With over 40 years of expertise in the field, Envisys has a
+                With over 40 years of expertise in the field, CENVS has a
                 thorough understanding of environmental testing. It is because
                 of this heritage that we have been able to lead the way in the
                 design, manufacture, and supply of a wide range of UTM interface
@@ -88,7 +88,7 @@ const Section3 = () => {
               <p className="paragraph-content-utm">
                 In a modern, cutting-edge laboratory, tensile and compression
                 testing devices, often known as UTMs (Universal Testing
-                Machines), are critical in generating reliable data. Envisys, a
+                Machines), are critical in generating reliable data. CENVS, a
                 premier manufacturer and supplier of UTM interface environmental
                 test chambers in India as well as overseas in countries like the
                 USA, UK, and Russia, offers a wide range of chamber solutions to
@@ -100,7 +100,7 @@ const Section3 = () => {
                 An environmental chamber can be purchased with a universal
                 testing machine (UTM), or an UTM interface environmental chamber
                 can be added to the testing system later if temperature testing
-                becomes necessary after the UTM is acquired. Integrating Envisys
+                becomes necessary after the UTM is acquired. Integrating CENVS
                 environmental chamber to a universal testing machine (UTM)
                 allows for high- or low-temperature testing. Environmental
                 chambers come with their own temperature controller, and the
@@ -122,10 +122,10 @@ const Section3 = () => {
                 environmental test chamber is ideal for tension, compression,
                 bending, peel and tear tests in a variety of fields, including
                 metal wire, plastic, nylon wire, rubber, textile and apparel,
-                packaging, and so on. Envisys currently offers a wide range of
+                packaging, and so on. CENVS currently offers a wide range of
                 chamber solutions to our customers. For particular industries,
                 such as steel manufacturing, glass manufacturing, ceramics, and
-                aerospace, Envisys material testing aims to simulate the
+                aerospace, CENVS material testing aims to simulate the
                 real-world application in order for the results to be valid. As
                 a result, testing may demand high-temperature or low-temperature
                 settings. All solutions are custom-built to match the user's

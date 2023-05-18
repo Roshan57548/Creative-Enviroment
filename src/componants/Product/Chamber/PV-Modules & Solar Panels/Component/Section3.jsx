@@ -16,14 +16,14 @@ const Section3 = () => {
                 for testing these products for various environmental stresses
                 viz., temperature, humidity, solar radiations etc., has been
                 increased substantially. In order meet this demand on a
-                cost-effective solution Envisys Technologies manufactures the
+                cost-effective solution CENVS Technologies manufactures the
                 test chambers suitable to comply various international standards
                 like IEC, UL and other organizations.
               </p>
               <p className="section2-pv-paragraph">
                 The above table indicates the sample test procedures of solar
                 panels/PV modules testing according the most recognized
-                standards. Envisys can design and manufacture chambers according
+                standards. CENVS can design and manufacture chambers according
                 to the customer needs on specified standards, sizes of panels,
                 ramp rate or if the customer wishes to have independent chamber
                 for damp heat cycle, we can provide the same to meeting your

@@ -25,7 +25,7 @@ const Section5 = () => {
               our industrial dryers is their heating efficiency, which allows
               manufacturers to complete as many tasks as possible in a short
               period of time by fast generating heat waves while absorbing
-              minimal energy. To meet market expectations, Envisys, one of the
+              minimal energy. To meet market expectations, CENVS, one of the
               forefront industrial dryer manufacturers, offers its industrial
               drying oven products with a wide range of specifications. Our
               industrial ovens find their application virtually in every
@@ -36,7 +36,7 @@ const Section5 = () => {
               curing, drying, aging, annealing, or any heat processing tests at
               higher temperatures. Being one of the highly trusted industrial
               oven manufacturers and suppliers, we quality test our products
-              during production to offer impeccable operation. Envisys delivers
+              during production to offer impeccable operation. CENVS delivers
               all types of industrial heating oven systems with
               custom-configured designs and sizes. While developing our
               industrial air dryer products, we diligently adhere to
@@ -58,15 +58,15 @@ const Section5 = () => {
               protection, runners, specialist shelves, digital timers, and the
               very latest advanced controllers are examples of the many optional
               additions that can be added to fit a client's individual needs.
-              Envisys manufactures stocks a multitude of infrared oven products
+              CENVS manufactures stocks a multitude of infrared oven products
               for various industrial purposes, making it one of the leading
-              industrial oven manufacturers. Furthermore, Envisys delivers all
+              industrial oven manufacturers. Furthermore, CENVS delivers all
               types of industrial air dryer solutions with custom-configured
               designs and sizes, whether it is a basic traditional drying
               application employing shelves or conveyor dryer, or drying by the
               infrared oven. Being one of the top industrial oven manufacturers,
               we offer our products at competitive rates and in international
-              markets. Envisys offers the best industrial dryers and infrared
+              markets. CENVS offers the best industrial dryers and infrared
               oven products be it curing, drying, aging, annealing, or any other
               heat processing testing at higher temperatures. Conveyor drying is
               one of the more traditional and gentle drying methods. The
@@ -86,7 +86,7 @@ const Section5 = () => {
               air dryer products backed by decades of experience in the field.
               Our dryer is built under the supervision of industry experts,
               using high-quality raw materials from industry-authorized
-              vendors.. Furthermore, Envisys, with its decades of experience as
+              vendors.. Furthermore, CENVS, with its decades of experience as
               industrial dryer manufacturers, designs dryers with great care and
               accuracy, and these dryers perform flawlessly for an extended
               period of time. Our team is dedicated to consistently exceeding

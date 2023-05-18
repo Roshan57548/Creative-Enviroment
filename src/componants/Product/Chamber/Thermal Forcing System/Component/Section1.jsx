@@ -16,7 +16,7 @@ const Section1 = () => {
                 <img className='section1_img' src={Image_1} alt="" />
             </div>
             <div className="section1_textarea">
-                <h5>ET-SERIES (MID-RANGE)</h5>
+                <h5>CET-SERIES (MID-RANGE)</h5>
                 <h2 className='section1_main_heading'>Custom Environmental Test Chambers Manufacturers & Suppliers</h2>
                 <h5 className='section1_sub_heading'>High Performance & Inherent Reliability.</h5>
                 <h6 className='section1_link'>EASY SET-UP | 24/7 TECHNICAL SUPPORT</h6>

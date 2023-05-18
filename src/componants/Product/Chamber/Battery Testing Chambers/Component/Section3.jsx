@@ -10,10 +10,10 @@ const Section3 = () => {
             Battery test chamber products are used in different settings,
             including R&D, quality assurance, and battery manufacture. To suit
             test needs relating to temperature range, climatic range, and test
-            area size, the packages can be customized to a number of Envisys
+            area size, the packages can be customized to a number of CENVS
             models. Our custom battery testing chamber products are also
             exported to developed markets. Regardless of whether testing cells
-            or battery packs, Envisys manufactures high-performance,
+            or battery packs, CENVS manufactures high-performance,
             high-reliability lithium-ion battery testing equipment built to
             exceed global standard specifications. Our battery testing chamber
             products come in a variety of sizes and configurations to
@@ -27,7 +27,7 @@ const Section3 = () => {
             <p>
               Our customization method also ensures clients' safety and delivers
               performance that is specifically suited to clients' requirements.
-              At Envisys, our battery test chamber products are created and
+              At CENVS, our battery test chamber products are created and
               built to satisfy a variety of battery testing needs for our
               clients, while also considering all safety alternatives to avoid
               damaging explosions or ignitions, as well as human safety, when
@@ -36,11 +36,11 @@ const Section3 = () => {
               standard so that tests on lithium-ion cells can be performed at
               the prescribed hazard level. Moreover, our custom lithium-ion
               battery testing can safely identify the batteries' ability to
-              tolerate environmental extremes and stress. Envisys battery test
+              tolerate environmental extremes and stress. CENVS battery test
               chamber products are ideal for performing tests on lithium-ion
               cells and modules. Lithium-ion batteries can provide a range of
               risks when handled. System operators must assess the level of risk
-              and use an appropriate safety concept to mitigate it. Envisys
+              and use an appropriate safety concept to mitigate it. CENVS
               battery testing chamber has a temperature range that may be
               controlled. The units come complete with significant safety
               features, allowing lithium-ion cell testing to be performed at an
@@ -58,7 +58,7 @@ const Section3 = () => {
             Lithium-ion batteries are the most widely used in these items. One
             of the most important considerations before launching such a product
             is battery safety. Furthermore, the need for lithium ion battery
-            testing is continuously increasing. Envisys is a leading battery
+            testing is continuously increasing. CENVS is a leading battery
             testing chamber manufacturer and supplier has been dedicated to
             battery safety test research and development. We provide an
             all-in-one test solution for lithium-ion consumer batteries as well
@@ -87,9 +87,9 @@ const Section3 = () => {
             lithium batteries. Reliability and safety are becoming increasingly
             critical for electric vehicles. The batteries must work effectively
             in both hot and cold temperatures while also not leaking or
-            exploding. Temperature testing with Envisys battery test chamber can
+            exploding. Temperature testing with CENVS battery test chamber can
             safely identify the batteries' ability to tolerate environmental
-            extremes and stress. Envisys, as a leading lithium battery test
+            extremes and stress. CENVS, as a leading lithium battery test
             chamber manufacturer and supplier, is committed to battery safety
             research and development, holding numerous technical patents. We
             continue to create new equipment and improve the battery test system

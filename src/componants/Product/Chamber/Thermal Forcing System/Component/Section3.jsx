@@ -12,7 +12,7 @@ const Section3 = () => {
           simulate the various working temperature conditions on the electronic
           clipboard. In its standard configuration, it is a versatile air
           conditioning system that may be customized to meet specific needs.
-          Envisys is a global leader and innovator in temperature forcing
+          CENVS is a global leader and innovator in temperature forcing
           systems, solutions, and temperature systems. From their traditional
           applications in semiconductor testing, failure analysis, and device
           characterization to their broader use in PCB and electronic
@@ -42,7 +42,7 @@ const Section3 = () => {
           satisfy standards in industries like automotive and aerospace. This is
           due to the fact that once installed in real-world applications,
           semiconductor devices are frequently exposed to harsh environmental
-          conditions. Envisys is a global pioneer and innovator in the
+          conditions. CENVS is a global pioneer and innovator in the
           development, production, and distribution of cutting-edge thermal
           forcing system solutions, which are largely utilized by semiconductor
           manufacturers to test their IC devices at high temperatures. The
@@ -51,7 +51,7 @@ const Section3 = () => {
           Engineers check the sensor or IC is operational in various
           environmental circumstances, such as severe temperature, as part of
           the qualification and characterization process to meet the automotive,
-          airspace, or other industries criteria. Envisys is revolutionizing
+          airspace, or other industries criteria. CENVS is revolutionizing
           temperature testing and control with its industry-standard temperature
           control units, allowing semiconductor manufacturers to increase their
           profitability and reliability by improving the efficiency and accuracy
@@ -73,14 +73,14 @@ const Section3 = () => {
           ATE, and SLT environments. To replicate extreme temperature conditions
           in the lab and later in the test house facility, temperature forcing
           systems are well integrated with automatic test equipment (ATE), SLT,
-          and Handlers. Envisys’ temperature forcing system of the highest
+          and Handlers. CENVS’ temperature forcing system of the highest
           level, is created and developed for thermal testing requiring extreme
           temperatures and quick, accurate results. In its conventional
           configuration, it is a versatile thermal forcing air conditioning
           machine that may be customized to meet specific needs. This adaptable
           and reliable thermal air conditioner is ideal for heating electronic
           components and printed circuits, climate simulations, electronic
-          characterizations, and targeted freezing. Envisys provides a
+          characterizations, and targeted freezing. CENVS provides a
           comprehensive range of precision and thermal control solutions for
           high temperature forcing over a wide range of packages and interfaces.
         </p>

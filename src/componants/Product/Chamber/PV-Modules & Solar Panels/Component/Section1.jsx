@@ -20,7 +20,7 @@ const Section1 = (props) => {
               />
             </div>
             <div className="section1_textarea">
-              <h5>ET-SERIES</h5>
+              <h5>CET-SERIES</h5>
               <h2 className="section1_main_heading">
                 PV-Modules & Solar Panels Testing
               </h2>

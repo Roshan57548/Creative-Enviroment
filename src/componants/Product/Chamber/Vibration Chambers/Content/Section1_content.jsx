@@ -1,7 +1,7 @@
 import Image_1 from '../Component/Image/image_1.png'
 const Section1_content = {
     image: Image_1,
-    Heading1:"ET-SERIES (MID-RANGE)",
+    Heading1:"CET-SERIES (MID-RANGE)",
     Heading2:"Vibration Shaker Climatic Testing Temperature Chambers",
     Heading3:"Environmental Testing Chambers With Vibration Shaker Interface",
     Heading4:"Temperature Chambers",

@@ -38,7 +38,7 @@ const Section3 = () => {
             particles. Our dust test chamber products are made using
             cutting-edge technology and high-quality components. We consider the
             needs of the client and develop the chambers with the utmost safety
-            in mind. The dust chamber products from Envisys simulate the
+            in mind. The dust chamber products from CENVS simulate the
             exposure of automotive and electrical components to high amounts of
             dust. Our industrial dust and sand test chamber products are used in
             different industries such as automotive, military and defense,
@@ -56,7 +56,7 @@ const Section3 = () => {
             testing requirements, for research and development projects
             requiring dust resistance in automotive and electrical
             components.These dust chamber machines simulate dust in a controlled
-            environment according to the set specifications. Envisys can provide
+            environment according to the set specifications. CENVS can provide
             customised solutions in addition to the regular line, thanks to its
             decades of experience in creating customised dust chamber products,
             its technical know-how, and attention to detail and the needs of all
@@ -69,7 +69,7 @@ const Section3 = () => {
             used. A team of professionals oversees each stage of production and
             monitors the whole manufacturing process to ensure that higher
             quality standards are met. The sand and dust chamber products from
-            Envisys are designed to test a product's resistance to extremely
+            CENVS are designed to test a product's resistance to extremely
             dusty, desert-like settings. It can meet certain automotive test
             standards. Intermittently, powerful blowers blast compressed air
             through finely powdered dust, allowing the particles to settle and

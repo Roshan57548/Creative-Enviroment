@@ -27,7 +27,7 @@ const Section3 = () => {
             built to the requirement from component level testing, and room
             level testing to field testing of large-sized products. Furthermore,
             we are a market leader in the manufacture and delivery of
-            high-quality walk-in rain spray test chamber products. Envisys is
+            high-quality walk-in rain spray test chamber products. CENVS is
             also a leading exporter of industrial rain test chambers to
             countries globally. Our industrial rain spray test chamber products
             are made under the supervision of experienced specialists who
@@ -48,7 +48,7 @@ const Section3 = () => {
             supplied by flow meters with adjustment valves at predetermined flow
             rates. In the industrial rain spray test chamber, a rotating test
             platform can be used to provide uniform moisture dispersion across
-            the surface of the products being tested. Envisys offers a common
+            the surface of the products being tested. CENVS offers a common
             chamber capable of published and OEM proprietary test techniques,
             making rain and spray testing easier. The standardized rain spray
             test chamber design can be customised for the rain/spray tests you

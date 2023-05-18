@@ -18,7 +18,7 @@ const Section1 = (props) => {
             <div className="section1_textarea">
                 <h5>ETU-SERIES</h5>
                 <h2 className='section1_main_heading'>UTM Interface Environmental Test Chamber</h2>
-                <h5 className='section1_sub_heading'>Thermal Chambers from Envisys for Interfacing with any UTM’s</h5>
+                <h5 className='section1_sub_heading'>Thermal Chambers from CENVS for Interfacing with any UTM’s</h5>
                 <h6 className='section1_link'>EASY SET-UP | 18/7 TECHNICAL SUPPORT</h6>
                 <button onClick={HandleClick} className='section1_btn'>GET INFO TODAY!</button>
             </div>
