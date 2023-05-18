@@ -33,7 +33,7 @@ const ContentOurPresence = {
       discription:
         "205 – 8291 92 Street Delta BC V4G 0A4 Canada",
         phone:"604 247 0444",
-      email:"info@hienquang.com",
+      email:"info@cenvs.com",
     },
   ],
 };
