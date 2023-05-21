@@ -4,7 +4,6 @@ import { Box, Typography } from "@mui/material";
 
 const OurTeams = (props) => {
   let teamList = props.data.card;
-  // console.log("🚀 ~ file: OurTeams.jsx:7 ~ teamList:", teamList);
 
   return (
     <div className="ourTeams-main-container">
@@ -18,7 +17,7 @@ const OurTeams = (props) => {
         </p>
       </div>
 
-      <div className="ourTeams-list">
+      {/* <div className="ourTeams-list">
         {teamList.map((teamsData) => (
           <div key={crypto.randomUUID} className="ourTeam-list--container">
             <p className="ourTeams-items">
@@ -27,7 +26,7 @@ const OurTeams = (props) => {
             </p>
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="ourTeams-sub-description">
         <Typography variant="subtitle1" sx={{ fontWeight: "bold" }}>

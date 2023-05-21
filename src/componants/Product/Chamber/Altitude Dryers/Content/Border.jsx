@@ -1,7 +1,7 @@
 
 export const Altitude = [
     section1 = {
-        type : 'EA-SERIES (MID-RANGE)',
+        type : 'CET-SERIES (MID-RANGE)',
         heading : 'High Temperature Altitude Test Chambers',
         shead : 'Combined Altitude Temperature & Humidity (CATH) Chambers.',
         sub: 'EASY SET-UP | 18/7 TECHNICAL SUPPORT',

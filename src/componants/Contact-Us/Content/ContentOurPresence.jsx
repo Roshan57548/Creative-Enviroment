@@ -35,6 +35,24 @@ const ContentOurPresence = {
         phone:"604 247 0444",
       email:"info@cenvs.com",
     },
+    {
+      id: "4",
+      logo: <FlagIcon sx={{ fontSize: 80 }} color="primary" />,
+      heading_1: "Hyderabad",
+      discription:
+        "VI-HAB SOLUTIONS PVT LTD CfHE, IIT Hyderabad, Sangareddy Telangana-502285",
+        phone:"8937991921",
+      email:"info@vihabsolutions.com",
+    },
+    {
+      id: "5",
+      logo: <SportsScoreIcon sx={{ fontSize: 80 }} color="primary" />,
+      heading_1: "Bengaluru",
+      discription:
+        "1215, Vidyaranyapura Main Rd, BEL Layout 2nd Block, 4th Floor, Chamundeswari Layout, Vidyaranyapura, Bengaluru, Karnataka 560097",
+        phone:"+91 80 4390 4238",
+      email:"cenvs.bengaluru@cenvs.com",
+    },
   ],
 };
   

@@ -6,8 +6,8 @@ const Section5 = (props) => {
         return (
           <tr>
             <td className="Bump-Section5-td1">{row.Series_Amplifier}</td>
-            <td className="Bump-Section5-td">{row.DSA_1k}</td>
-            <td className="Bump-Section5-td">{row.DSA_15K}</td>
+            <td className="Bump-Section5-td">{row.CDA_1k}</td>
+            <td className="Bump-Section5-td">{row.CDA_15K}</td>
           </tr>
         );
       });

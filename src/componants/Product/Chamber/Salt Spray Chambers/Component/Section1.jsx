@@ -20,7 +20,7 @@ const Section1 = (props) => {
               />
             </div>
             <div className="section1_textarea">
-              <h5>EBS/ECS- SERIES</h5>
+              <h5>CET-SERIES</h5>
               <h2 className="section1_main_heading">
                 Salt Spray Fog Test Chamber | Mist Cyclic Corrosion Test Chamber
               </h2>

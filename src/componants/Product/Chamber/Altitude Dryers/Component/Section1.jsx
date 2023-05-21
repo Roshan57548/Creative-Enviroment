@@ -18,7 +18,7 @@ const Section1 = (props) => {
                 <img className='section1_img' src={Image_1} alt="" />
             </div>
             <div className="section1_textarea">
-                <h5>EA-SERIES</h5>
+                <h5>CET-SERIES</h5>
                 <h2 className='section1_main_heading'>High Temperature Altitude Test Chambers</h2>
                 <h5 className='section1_sub_heading'>Combined Altitude Temperature & Humidity (CATH) Chambers.</h5>
                 <h6 className='section1_link'>EASY SET-UP | 18/7 TECHNICAL SUPPORT</h6>

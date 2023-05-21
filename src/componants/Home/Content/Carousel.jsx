@@ -3,7 +3,6 @@ import image2 from '../Images/home-2.png'
 import image3 from '../Images/home-3.png'
 import image4 from '../Images/home-4.png'
 import image5 from '../Images/home-5.png'
-import image6 from '../Images/home-6.png'
 import image7 from '../Images/home-7.png'
 import image8 from '../Images/home-8.png'
 const Carousel = {
@@ -15,8 +14,8 @@ const Carousel = {
       l:"/Chamber/Environmental-Test-Chambers",
     },
     {
-      h:"Air Cooled Series",
-      d:"The CEV 125 Series of shakers are matched with the DSA1K and DSA1.5K Series of Power Amplifiers.",
+      h:"Air Cooled Electro-Dynamic Vibration Test System Series",
+      d:"The CEV Series start from 50 Kgf ( 500 N) to 8000 Kgf ( 80000 N) force rating Vibration Test Systems",
       i: image2,
       l:"/Vibration/Air-Cooled-Series",
     },
@@ -27,8 +26,8 @@ const Carousel = {
       l:"/Chamber/Salt-Spray-Chambers",
     },
     {
-      h:"Water Cooled Series",
-      d:"The CEW 590 Series of Shakers are matched with the DSA 200K and DSA 240K Series of Power Amplifiers. ",
+      h:"Water Cooled Electro-Dynamic Vibration Test System Series",
+      d:"The CEW Series start from 8000 Kgf (80KN) to 20000 Kgf (200 KN) force rating Vibration Test Systems",
       i: image4,
       l:"/Vibration/Water-Cooled-Series",
     },

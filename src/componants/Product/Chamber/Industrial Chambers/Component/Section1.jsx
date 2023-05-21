@@ -18,7 +18,7 @@ const Section1 = (props) => {
                 <img className='section1_img' src={Image_1} alt="" />
             </div>
             <div className="section1_textarea">
-                
+                <h5>CET-SERIES</h5>
                 <h2 className='section1_main_heading'>Industrial Air & Water Cooled Chillers</h2>
                 <h5 className='section1_sub_heading'>Chilling Solutions from CENVS..</h5>
                 <h6 className='section1_link'>EASY SET-UP | 18/7 TECHNICAL SUPPORT</h6>
