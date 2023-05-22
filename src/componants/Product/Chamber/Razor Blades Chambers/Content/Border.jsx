@@ -10,7 +10,7 @@ export const Razor = [
     },
     section2 = {
         heading: 'Sub-Zero Testing Chamber | Temperature Chamber',
-        desc: "Envisys is a leading manufacturer and supplier of sub-zero test chambers based in Bangalore, India, and has exposure to markets across the globe such as the USA, UK, and Russia. It is our pleasure to provide a wide selection of sub-zero temperature chambers. These sub-zero chambers are precisely manufactured using top-grade material and up-to-date technology, keeping in mind the industry's set standard. Our sub-zero testing chamber is used for razor blades and automotive components. We provide sub-zero chambers in a variety of specifications for you to choose from. ",
+        desc: "Envisys is a leading manufacturer and supplier of sub-zero test chambers based in Roorkee, India, and has exposure to markets across the globe such as the USA, UK, and Russia. It is our pleasure to provide a wide selection of sub-zero temperature chambers. These sub-zero chambers are precisely manufactured using top-grade material and up-to-date technology, keeping in mind the industry's set standard. Our sub-zero testing chamber is used for razor blades and automotive components. We provide sub-zero chambers in a variety of specifications for you to choose from. ",
         src: 'image2',
     },
     section3 = {

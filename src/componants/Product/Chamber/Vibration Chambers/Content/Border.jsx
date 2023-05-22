@@ -40,7 +40,7 @@ export const Vibrate = [
             li1: 'Bottom of the Vibration chamber will have specially designed interchangeable hood with interface mechanism to couple the shaker and chamber during combined tests. ',
             li2: 'Chamber will be moved up and down vertically through friction-free guided U channel and wheel. ',
             li3: 'Chamber will be moved horizontally manually using heavy duty castor wheel with railing. ',
-            li4: 'ET-touch color touch programmer. ',
+            li4: 'CET-touch color touch programmer. ',
             li5: 'RS-232, RS-485, USB, Ethernet and USB host port. ',
             li6: 'Height adjustable specimen racks. ',
             li7: 'Cable ports. ',

@@ -9,7 +9,7 @@ const Section2 = () => {
             <div class="col-md-12">
               <h3 className="section2-heading">THERMAL CYCLE, HF &amp; DAMP HEAT TEST</h3>
               <p className="section2-pv-paragraph">
-                ET-Series Environmental Test Chambers for Solar Panels and PV
+                CET-Series Environmental Test Chambers for Solar Panels and PV
                 Modules testing with uncompromised features at competitive
                 prices. Ideal for choosing your best suit for variable sizes of
                 Solar Panels and PV Modules from the available range of standard

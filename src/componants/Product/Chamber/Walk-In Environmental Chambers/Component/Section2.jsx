@@ -20,7 +20,7 @@ const Section2 = () => {
                 <div className="wec_s2_ru">
                     <h3 className='wec_s2_subhead'>CONTROL CONSOLE:</h3>
                     <ul>
-                        <li>ET-touch color touch programmer</li>
+                        <li>CET-touch color touch programmer</li>
                         <li>RS-232, RS-485, USB, Ethernet and USB host port</li>
                         <li>Height adjustable specimen racks</li>
                         <li>Cable ports</li>

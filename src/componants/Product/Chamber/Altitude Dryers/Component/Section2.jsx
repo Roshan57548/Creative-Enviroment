@@ -18,7 +18,7 @@ const Section2 = (props) => {
               </p>
               <p>
                 Creative Environment Solution is a prominent manufacturer and supplier of altitude
-                chamber products, situated in Bangalore, India. Our high
+                chamber products, situated in Roorkee, India. Our high
                 altitude test chamber combines altitude and temperature to
                 evaluate fundamental components and sub-assemblies for a number
                 of industries. With a temperature altitude chamber, clients can
@@ -43,9 +43,9 @@ const Section2 = (props) => {
                         <strong>Models:</strong>
                         <br />
                         <ul>
-                          <li>ET600 - 40T/70T 40H/70H</li>
-                          <li>ET950 - 40T/70T 40H/70H</li>
-                          <li>ET1400 - 40T/70T 40H/70H</li>
+                          <li>CET600 - 40T/70T 40H/70H</li>
+                          <li>CET950 - 40T/70T 40H/70H</li>
+                          <li>CET1400 - 40T/70T 40H/70H</li>
                         </ul>
                       </td>
                       <td>

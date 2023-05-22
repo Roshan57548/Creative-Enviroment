@@ -45,7 +45,7 @@ const MissionValues = {
       msg: "Our results-driven approach helps clients align their strategies and experience increasing satisfaction.",
     },
     {
-      msg: "Integrity is fundamental to our business. At Envisys, every employee embodies and reflects this essential value in their work.",
+      msg: "Integrity is fundamental to our business. At CENVS, every employee embodies and reflects this essential value in their work.",
     },
     {
       msg: "We create an environment that promotes employee loyalty and growth opportunities to adapt to evolving market needs.",

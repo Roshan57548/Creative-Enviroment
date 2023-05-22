@@ -45,7 +45,7 @@ const Section3 = () => {
             optics, computer systems, optics and displays, coatings, solar
             energy, among others. We are known in these industries as one of the
             forefront dust chamber manufacturers and price effective suppliers
-            in Bangalore, India. Additionally, our sand and dust test chamber
+            in Roorkee, India. Additionally, our sand and dust test chamber
             products come with fully programmable control systems to offer the
             best possible test environment. These dust test chamber products are
             also equipped with complete measurement equipment for determining
@@ -61,7 +61,7 @@ const Section3 = () => {
             decades of experience in creating customised dust chamber products,
             its technical know-how, and attention to detail and the needs of all
             our clients. Being the topmost manufacturer and supplier of dust and
-            sand test chamber products in Bangalore, India, our dust chamber
+            sand test chamber products in Roorkee, India, our dust chamber
             products are made under the supervision of skilled professionals who
             completely adhere to the industry's set norms and regulations.
             Furthermore, while manufacturing our dust test chamber products, our

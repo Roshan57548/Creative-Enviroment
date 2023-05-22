@@ -20,9 +20,9 @@ export const Altitude = [
             },
             second: {
                 ldesc: {
-                    li1: 'ET600 - 40T/70T 40H/70H',
-                    li2: 'ET950 - 40T/70T 40H/70H',
-                    li3: 'ET1400 - 40T/70T 40H/70H',
+                    li1: 'CET600 - 40T/70T 40H/70H',
+                    li2: 'CET950 - 40T/70T 40H/70H',
+                    li3: 'CET1400 - 40T/70T 40H/70H',
                 },
                 rdesc: {
                     li1: '800X850X900 MM',

@@ -10,7 +10,7 @@ const Section2 = () => {
             <div className="col-md-8">
               <h2 className="utm-heading">UTM Interface Environmental Test Chamber</h2>
               <p className="lead">
-                ETU-Series UTM Interface Environmental Test Chamber for
+                CET-Series UTM Interface Environmental Test Chamber for
                 conducting environmental tests at elevated and freezing
                 temperatures in order to perform integrated tests for hot &amp;
                 cold conditions on universal testing machines.

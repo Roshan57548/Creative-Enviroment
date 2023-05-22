@@ -1,7 +1,7 @@
 const Sections2 = {
         lport: {
             heading: 'Environmental Test Chambers Manufacturers & Suppliers',
-            desc: 'ET-Series Custom Environmental Test Chambers are designed with uncompromised features included in the system to meet your changing application needs of simulation of wide range of temperature, relative humidity etc., and conditions without the added cost of expensive add-on’s as options. Available in varied volumes to fit your differing specimen sizes.',
+            desc: 'CET-Series Custom Environmental Test Chambers are designed with uncompromised features included in the system to meet your changing application needs of simulation of wide range of temperature, relative humidity etc., and conditions without the added cost of expensive add-on’s as options. Available in varied volumes to fit your differing specimen sizes.',
             li1: 'Block construction with easy reach-in maintenance sections and user- friendly control desk.',
             li2: 'Designed to meet variety of testing applications on diverse sizes of testing specimens.',
         },

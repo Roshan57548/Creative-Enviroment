@@ -91,19 +91,19 @@ const Footer = () => {
               <p>
                 <a
                   id="TextNone"
-                  onClick={() => navigate("/Vibration/Air-Cooled-Series")}
+                  onClick={() => navigate("/Other-Categories/Centrifuge-Acceleration-Test-Machine")}
                   className="Footer-Color"
                 >
-                  Air Cooled Series
+                  Centrifuge Acceleration Test Machine
                 </a>
               </p>
               <p>
                 <a
                   id="TextNone"
-                  onClick={() => navigate("/Vibration/Water-Cooled-Series")}
+                  onClick={() => navigate("/Other-Categories/Pneumatic-Shock-Testing-Machine")}
                   className="Footer-Color"
                 >
-                  Water Cooled Series
+                  Pneumatic Shock Testing Machine
                 </a>
               </p>
             </MDBCol>
@@ -113,7 +113,7 @@ const Footer = () => {
                 Useful links
               </h6>
               <p>
-                <a onClick={() => navigate("/Vibration/Water-Cooled-Serie")}  className="Footer-Color" id="footer-link">
+                <a onClick={() => navigate("/")}  className="Footer-Color" id="footer-link">
                   Home
                 </a>
               </p>
@@ -123,8 +123,8 @@ const Footer = () => {
                 </a>
               </p>
               <p>
-                <a onClick={() => navigate("/Our-Partners")} className="Footer-Color" id="footer-link">
-                  Our Partners
+                <a onClick={() => navigate("/Industries")} className="Footer-Color" id="footer-link">
+                Industries
                 </a>
               </p>
               <p>

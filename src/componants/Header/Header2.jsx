@@ -2,12 +2,12 @@ import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
+import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import Company_logo from "../../../src/Image/Company-Logo/Company_logo.png";
 import { useNavigate } from "react-router-dom";
-import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
-import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ContentHeader from "./Content/ContentHeader";
 import "./Style/Header2.css";
 const Header2 = () => {
@@ -224,10 +224,10 @@ const Header2 = () => {
                     onMouseLeave={CloseNav2}
                     
                   >
-                    <KeyboardDoubleArrowLeftIcon id="Header-none"/>
+                    <KeyboardArrowLeftIcon id="Header-none"/>
                     Environmental Test Chambers
-                    <KeyboardDoubleArrowRightIcon id="Header-none-1"/>
-                    <KeyboardDoubleArrowDownIcon id="Header-none-2"/>
+                    <KeyboardArrowRightIcon id="Header-none-1"/>
+                    <KeyboardArrowDownIcon id="Header-none-2"/>
                     
                     
                   </Nav.Link>
@@ -243,10 +243,10 @@ const Header2 = () => {
                     onMouseLeave={CloseNav4}
                     id="Header-7"
                   >
-                    <KeyboardDoubleArrowLeftIcon id="Header-none"/>
+                    <KeyboardArrowLeftIcon id="Header-none"/>
                     Electro-Dynamic Vibration System
-                    <KeyboardDoubleArrowRightIcon id="Header-none-1"/>
-                    <KeyboardDoubleArrowDownIcon id="Header-none-2"/>
+                    <KeyboardArrowRightIcon id="Header-none-1"/>
+                    <KeyboardArrowDownIcon id="Header-none-2"/>
                     
                   </Nav.Link>
                     <Nav onMouseEnter={OpenNav4} onMouseLeave={CloseNav4} hidden={showme3} id="Header-8-1" className="row">
@@ -259,10 +259,10 @@ const Header2 = () => {
                           onMouseEnter={OpenNav5}
                           onMouseLeave={CloseNav5}
                         >
-                          <KeyboardDoubleArrowLeftIcon id="Header-none"/>
+                          <KeyboardArrowLeftIcon id="Header-none"/>
                           Air Cooled Series
-                          <KeyboardDoubleArrowRightIcon id="Header-none-1"/>
-                          <KeyboardDoubleArrowDownIcon id="Header-none-2"/>
+                          <KeyboardArrowRightIcon id="Header-none-1"/>
+                          <KeyboardArrowDownIcon id="Header-none-2"/>
                           
                         </Nav.Link>
                         <Nav onMouseEnter={OpenNav5} onMouseLeave={CloseNav5} hidden={showme5} id="Header-8-2" className="row">
@@ -275,10 +275,10 @@ const Header2 = () => {
                           onMouseEnter={OpenNav6}
                           onMouseLeave={CloseNav6}
                         >
-                          <KeyboardDoubleArrowLeftIcon id="Header-none"/>
+                          <KeyboardArrowLeftIcon id="Header-none"/>
                           Water Cooled Series
-                          <KeyboardDoubleArrowRightIcon id="Header-none-1"/>
-                          <KeyboardDoubleArrowDownIcon id="Header-none-2"/>
+                          <KeyboardArrowRightIcon id="Header-none-1"/>
+                          <KeyboardArrowDownIcon id="Header-none-2"/>
                           
                           </Nav.Link>
                           <Nav onMouseEnter={OpenNav6} onMouseLeave={CloseNav6} hidden={showme6} id="Header-8-2" className="row">
@@ -317,10 +317,10 @@ const Header2 = () => {
                     onMouseLeave={CloseNav3}
                     id="Header-7"
                   >
-                    <KeyboardDoubleArrowLeftIcon id="Header-none"/>
+                    <KeyboardArrowLeftIcon id="Header-none"/>
                     Other Categories
-                    <KeyboardDoubleArrowRightIcon id="Header-none-1"/>
-                    <KeyboardDoubleArrowDownIcon id="Header-none-2"/>
+                    <KeyboardArrowRightIcon id="Header-none-1"/>
+                    <KeyboardArrowDownIcon id="Header-none-2"/>
                     
                     </Nav.Link>
                     <Nav onMouseEnter={OpenNav3} onMouseLeave={CloseNav3} hidden={showme2} id="Header-8-1" className="row">

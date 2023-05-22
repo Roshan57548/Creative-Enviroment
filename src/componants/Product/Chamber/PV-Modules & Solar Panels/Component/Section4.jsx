@@ -27,7 +27,7 @@ const Section4 = () => {
               </p>
               <div className="space"></div>
               <p className="section2-pv-paragraph">
-                ET-touch controller is configured with independent loops control
+                CET-touch controller is configured with independent loops control
                 (Temperature or RH) with expanded digital, analog and PID
                 control capabilities.
               </p>

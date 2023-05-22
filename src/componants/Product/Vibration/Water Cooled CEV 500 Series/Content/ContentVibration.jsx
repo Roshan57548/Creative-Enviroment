@@ -1,13 +1,13 @@
+import image_1 from '../../../Image/WaterCooled.png';
 export const CEW500 = {
     Section_1: {
-        Heading: "Air Cooled Vibration Testing",
+        Heading: "Water Cooled Vibration Testing",
         Product_Name: "CEV 500 Series",
         Product_Sub_Heading:
           "Complies with Machinery Directives, Low Voltage Directive and Electromagnetic Compatibility",
         Set_Up: "EASY SET-UP | 18/7 TECHNICAL SUPPORT",
         Get_Info: "GET INFO TODAY!",
-        Image_Url:
-          "https://www.envisystech.com/themes/envisystech/assets/img/new-imgs19/inner-prods/altitude/altitude-chamber-showcase-inf.png",
+        Image_Url: image_1,
     },
     section1 : {
         heading : "CEV 500 Series",
