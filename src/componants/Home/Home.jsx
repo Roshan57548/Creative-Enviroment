@@ -11,13 +11,15 @@ import AboutUss from './Content/AboutUs'
 import TestChambers from './Content/TestChamber';
 import SolutionProviderContent from './Content/SolutionProvider';
 import Carousels from './Content/Carousel';
-
+import MapContent from '../Our-Partners/Componant/MapContent';
+import ContentMapContent from '../Our-Partners/Content/ContentMapContent'
 const Home = () => {
   return (
     <div className='Home'>
       <Carousel data={Carousels}/>
       <AboutUs  data={AboutUss}/> 
        <TestChamber  data ={TestChambers}/> 
+       <MapContent data={ContentMapContent} />
        <SolutionProvider data={SolutionProviderContent}/>
       <CustomBuilt data ={CustomBuilts} />
       <ContactUs />

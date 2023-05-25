@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import {Route, Routes} from 'react-router-dom'
+import { useEffect } from 'react';
+import {Route, Routes} from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import './App.css'
 import Header from './componants/Header/Header2';
 import Footer from './componants/Footer/Footer';
@@ -52,6 +54,11 @@ import Integrated_Environmental_Chamber from './componants/Product/Other Categor
 import Pneumatic_Shock_Testing_Machine from './componants/Product/Other Categories/Pneumatic Shock Testing Machine/OtherProduct';
 import Underwater_Acoustic_Test_Capabilities from './componants/Product/Other Categories/Underwater Acoustic Test Capabilities/OtherProduct';
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   return (
     <div className="App">

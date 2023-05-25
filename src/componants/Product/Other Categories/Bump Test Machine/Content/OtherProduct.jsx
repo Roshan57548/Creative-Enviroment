@@ -47,11 +47,11 @@ const Bump = {
     Section_5: {
         Heading: "Bump Test Machine Standard Models",
         Table_Heading: "Model",
-        Table_Heading2: "DBTM - 6060",
-        Table_Heading3: "DBTM - 7575",
-        Table_Heading4: "DBTM - 1010",
-        Table_Heading5: "DBTM - 6060H",
-        Table_Heading6: "DBTM - 10 10H",
+        Table_Heading2: "CBTM - 6060",
+        Table_Heading3: "CBTM - 7575",
+        Table_Heading4: "CBTM - 1010",
+        Table_Heading5: "CBTM - 6060H",
+        Table_Heading6: "CBTM - 10 10H",
         Table_data: [
             {
                 Model: "Type",

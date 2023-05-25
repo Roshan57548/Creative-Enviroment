@@ -84,126 +84,126 @@ Section14: {
     Table_Heading5: "Enclosure",
     Table_data: [
         {
-            ShakerModel: "DS 125",
+            ShakerModel: "CS 125",
             AmplifierModel: "PA 1K",
             SystemRating: "100 kgf",
             PowerOutput: "1 kVA",
             Enclosure: "One, 19-inch cabinet, bench / table top"
         },
         {
-            ShakerModel: "DS 125",
+            ShakerModel: "CS 125",
             AmplifierModel: "PA 1.5K",
             SystemRating: "150 kgf",
             PowerOutput: "1.5 kVA",
             Enclosure: "One, 19-inch cabinet, bench / table top"
         },
         {
-            ShakerModel: "DS 140",
+            ShakerModel: "CS 140",
             AmplifierModel: "PA 2K",
             SystemRating: "200 kgf",
             PowerOutput: "2 kVA",
             Enclosure: "One, 19-inch rack, 30 unit height"
         },
         {
-            ShakerModel: "DS 140",
+            ShakerModel: "CS 140",
             AmplifierModel: "PA 3K",
             SystemRating: "300 kgf",
             PowerOutput: "3 kVA",
             Enclosure: "One, 19-inch rack, 30 unit height"
         },
         {
-            ShakerModel: "DS 180",
+            ShakerModel: "CS 180",
             AmplifierModel: "PA 4K",
             SystemRating: "400 kgf",
             PowerOutput: "4 kVA",
             Enclosure: "One, 19-inch rack, 30 unit height"
         },
         {
-            ShakerModel: "DS 180",
+            ShakerModel: "CS 180",
             AmplifierModel: "PA 6K",
             SystemRating: "600 kgf",
             PowerOutput: "6 kVA",
             Enclosure: "One, 19-inch rack, 30 unit height"
         },
         {
-            ShakerModel: "DS 240",
+            ShakerModel: "CS 240",
             AmplifierModel: "PA 10K",
             SystemRating: "1000 kgf	",
             PowerOutput: "10 kVA",
             Enclosure: "One, 19-inch rack, 30 unit height"
         },
         {
-            ShakerModel: "DS 240",
+            ShakerModel: "CS 240",
             AmplifierModel: "PA 15K",
             SystemRating: "1500 kgf",
             PowerOutput: "15 kVA",
             Enclosure: "One, 19-inch rack, 30 unit height"
         },
         {
-            ShakerModel: "DS 300",
+            ShakerModel: "CS 300",
             AmplifierModel: "PA 24K",
             SystemRating: "2000 kgf",
             PowerOutput: "24 kVA",
             Enclosure: "One, 19-inch rack, 36 unit height"
         },
         {
-            ShakerModel: "DS 300",
+            ShakerModel: "CS 300",
             AmplifierModel: "PA 32K",
             SystemRating: "2500 kgf",
             PowerOutput: "32 kVA",
             Enclosure: "One, 19-inch rack, 36 unit height"
         },
         {
-            ShakerModel: "DS 360",
+            ShakerModel: "CS 360",
             AmplifierModel: "PA 36K",
             SystemRating: "3000 kgf",
             PowerOutput: "36 kVA",
             Enclosure: "One, 19-inch rack, 36 unit height"
         },
         {
-            ShakerModel: "DS 360",
+            ShakerModel: "CS 360",
             AmplifierModel: "PA 45K",
             SystemRating: "3500 kgf",
             PowerOutput: "45 kVA",
             Enclosure: "One, 19-inch rack, 36 unit height"
         },
         {
-            ShakerModel: "DS 440",
+            ShakerModel: "CS 440",
             AmplifierModel: "PA 48K",
             SystemRating: "4000 kgf",
             PowerOutput: "48 kVA",
             Enclosure: "One, 19-inch rack, 36 unit height"
         },
         {
-            ShakerModel: "DS 440",
+            ShakerModel: "CS 440",
             AmplifierModel: "PA 56K",
             SystemRating: "4800 kgf",
             PowerOutput: "56 kVA",
             Enclosure: "One, 19-inch rack, 36 unit height"
         },
         {
-            ShakerModel: "DS 440",
+            ShakerModel: "CS 440",
             AmplifierModel: "PA 60K",
             SystemRating: "5000 kgf",
             PowerOutput: "60 kVA",
             Enclosure: "One, 19-inch rack, 36 unit height"
         },
         {
-            ShakerModel: "DS 440",
+            ShakerModel: "CS 440",
             AmplifierModel: "PA 80K",
             SystemRating: "6000 kgf",
             PowerOutput: "80 kVA",
             Enclosure: "One, 19-inch rack, 36 unit height"
         },
         {
-            ShakerModel: "DS 440A",
+            ShakerModel: "CS 440A",
             AmplifierModel: "PA 60K",
             SystemRating: "6000 kgf",
             PowerOutput: "60 kVA",
             Enclosure: "Two, 19-inch rack, 36 unit height"
         },
         {
-            ShakerModel: "DS 440A",
+            ShakerModel: "CS 440A",
             AmplifierModel: "PA 80K",
             SystemRating: "8000 kgf",
             PowerOutput: "80 kVA",
@@ -218,42 +218,42 @@ Section14: {
     Table_Heading52: "Enclosure",
     Table_data2: [
         {		  
-            ShakerModel: "DSW 500",
+            ShakerModel: "CSW 500",
             AmplifierModel: "PA 120K",
             SystemRating: "7000 kgf",
             PowerOutput: "120 kVA",
             Enclosure: "Seven, 19-inch rack, 36 unit height"
         },
         {				  
-            ShakerModel: "DSW 500",
+            ShakerModel: "CSW 500",
             AmplifierModel: "PA 160K",
             SystemRating: "10000 kgf",
             PowerOutput: "160 kVA",
             Enclosure: "Seven, 19-inch rack, 36 unit height	"
         },
         {						  
-            ShakerModel: "DSW 590",
+            ShakerModel: "CSW 590",
             AmplifierModel: "PA 200K",
             SystemRating: "13000 kgf",
             PowerOutput: "200 kVA",
             Enclosure: "Seven, 19-inch rack, 36 unit height"
         },
         {		  
-            ShakerModel: "DSW 590",
+            ShakerModel: "CSW 590",
             AmplifierModel: "PA 240K",
             SystemRating: "16000 kgf",
             PowerOutput: "240 kVA",
             Enclosure: "Seven, 19-inch rack, 36 unit height"
         },
         {									  
-            ShakerModel: "DSW 760",
+            ShakerModel: "CSW 760",
             AmplifierModel: "PA 280K",
             SystemRating: "29000 kgf",
             PowerOutput: "280 kVA",
             Enclosure: "Eight, 19-inch rack, 36 unit height	"
         },
         {						  
-            ShakerModel: "DSW 760",
+            ShakerModel: "CSW 760",
             AmplifierModel: "PA 320K",
             SystemRating: "32000 kgf",
             PowerOutput: "320 kVA",

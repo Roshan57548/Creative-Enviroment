@@ -40,10 +40,10 @@ const ContentOtherProduct = {
     Section_5: {
         Heading: "Pneumatic Shock Test Machine standard models",
         Table_Heading: "Model",
-        Table_Heading2: "DPSTM – 6060",
-        Table_Heading3: "DPSTM – 6080",
-        Table_Heading4: "DPSTM – 7575",
-        Table_Heading5: "DPSTM – 1010",
+        Table_Heading2: "CPSTM – 6060",
+        Table_Heading3: "CPSTM – 6080",
+        Table_Heading4: "CPSTM – 7575",
+        Table_Heading5: "CPSTM – 1010",
         Table_data: [
             {				
                 Model: "Table Size",

@@ -151,7 +151,7 @@ const Header2 = () => {
   let Navdata;
   Navdata = ContentHeader.EnvironmentalTestChambers.map((rowdata, index) => {
     return (
-      <Nav.Link className="col-lg-6 col-md-12" onClick={()=>RouteLink(index)} id="Navbar-9">
+      <Nav.Link eventKey={6+index} className="col-lg-6 col-md-12" onClick={()=>RouteLink(index)} id="Navbar-9">
         {rowdata.Heading}
       </Nav.Link>
     );
@@ -160,7 +160,7 @@ const Header2 = () => {
   let Navdata2;
   Navdata2 = ContentHeader.OtherCategories.map((rowdata, index) => {
     return (
-      <Nav.Link className="col-lg-12" onClick={()=>RouteLink3(index)} id="Navbar-9-1">
+      <Nav.Link eventKey={21+index} className="col-lg-12" onClick={()=>RouteLink3(index)} id="Navbar-9-1">
         {rowdata.Heading}
       </Nav.Link>
     );
@@ -169,7 +169,7 @@ const Header2 = () => {
   let Navdata3;
   Navdata3 = ContentHeader.AirCooledSeries.map((rowdata, index) => {
     return (
-      <Nav.Link className="col-lg-12" onClick={()=>RouteLink2(index)} id="Navbar-9-2">
+      <Nav.Link eventKey={26+index} className="col-lg-12" onClick={()=>RouteLink2(index)} id="Navbar-9-2">
         {rowdata.Heading}
       </Nav.Link>
     );
@@ -178,7 +178,7 @@ const Header2 = () => {
   let Navdata4;
   Navdata4 = ContentHeader.WaterCooledSeries.map((rowdata, index) => {
     return (
-      <Nav.Link className="col-lg-12" onClick={()=>RouteLink4(index)} id="Navbar-9-2">
+      <Nav.Link eventKey={34+index} className="col-lg-12" onClick={()=>RouteLink4(index)} id="Navbar-9-2">
         {rowdata.Heading}
       </Nav.Link>
     );
@@ -197,14 +197,14 @@ const Header2 = () => {
         <Navbar.Brand onClick={() => navigate("/")}>
           <img src={Company_logo} className="nabvar-image"></img>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" id="Navbar-09"/>
+        <Navbar.Toggle  aria-controls="basic-navbar-nav" id="Navbar-09"/>
         
-        <Navbar.Collapse id="basic-navbar-nav" >
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="Header-2">
-            <Nav.Link onClick={() => navigate("/")} id="Header-3">
+            <Nav.Link eventKey={1} onClick={() => navigate("/")} id="Header-3">
               Home
             </Nav.Link>
-            <Nav.Link onClick={() => navigate("/About-Us")}  id="Header-3" >
+            <Nav.Link eventKey={2} onClick={() => navigate("/About-Us")}  id="Header-3" >
               About Us
             </Nav.Link>
             <Nav.Link
@@ -224,10 +224,10 @@ const Header2 = () => {
                     onMouseLeave={CloseNav2}
                     
                   >
-                    <KeyboardArrowLeftIcon id="Header-none"/>
+                    <KeyboardArrowLeftIcon id="Header-none" style={{float: "left"}}/>
                     Environmental Test Chambers
-                    <KeyboardArrowRightIcon id="Header-none-1"/>
-                    <KeyboardArrowDownIcon id="Header-none-2"/>
+                    <KeyboardArrowRightIcon id="Header-none-1" style={{float: "right"}}/>
+                    <KeyboardArrowDownIcon id="Header-none-2" style={{float: "right"}}/>
                     
                     
                   </Nav.Link>
@@ -243,10 +243,10 @@ const Header2 = () => {
                     onMouseLeave={CloseNav4}
                     id="Header-7"
                   >
-                    <KeyboardArrowLeftIcon id="Header-none"/>
+                    <KeyboardArrowLeftIcon id="Header-none" style={{float: "left"}}/>
                     Electro-Dynamic Vibration System
-                    <KeyboardArrowRightIcon id="Header-none-1"/>
-                    <KeyboardArrowDownIcon id="Header-none-2"/>
+                    <KeyboardArrowRightIcon id="Header-none-1" style={{float: "right"}}/>
+                    <KeyboardArrowDownIcon id="Header-none-2" style={{float: "right"}}/>
                     
                   </Nav.Link>
                     <Nav onMouseEnter={OpenNav4} onMouseLeave={CloseNav4} hidden={showme3} id="Header-8-1" className="row">
@@ -259,10 +259,10 @@ const Header2 = () => {
                           onMouseEnter={OpenNav5}
                           onMouseLeave={CloseNav5}
                         >
-                          <KeyboardArrowLeftIcon id="Header-none"/>
+                          <KeyboardArrowLeftIcon id="Header-none" style={{float: "left"}}/>
                           Air Cooled Series
-                          <KeyboardArrowRightIcon id="Header-none-1"/>
-                          <KeyboardArrowDownIcon id="Header-none-2"/>
+                          <KeyboardArrowRightIcon id="Header-none-1" style={{float: "right"}}/>
+                          <KeyboardArrowDownIcon id="Header-none-2" style={{float: "right"}}/>
                           
                         </Nav.Link>
                         <Nav onMouseEnter={OpenNav5} onMouseLeave={CloseNav5} hidden={showme5} id="Header-8-2" className="row">
@@ -275,10 +275,10 @@ const Header2 = () => {
                           onMouseEnter={OpenNav6}
                           onMouseLeave={CloseNav6}
                         >
-                          <KeyboardArrowLeftIcon id="Header-none"/>
+                          <KeyboardArrowLeftIcon id="Header-none" style={{float: "left"}}/>
                           Water Cooled Series
-                          <KeyboardArrowRightIcon id="Header-none-1"/>
-                          <KeyboardArrowDownIcon id="Header-none-2"/>
+                          <KeyboardArrowRightIcon id="Header-none-1" style={{float: "right"}}/>
+                          <KeyboardArrowDownIcon id="Header-none-2" style={{float: "right"}}/>
                           
                           </Nav.Link>
                           <Nav onMouseEnter={OpenNav6} onMouseLeave={CloseNav6} hidden={showme6} id="Header-8-2" className="row">
@@ -286,6 +286,7 @@ const Header2 = () => {
                           </Nav>
                         
                         <Nav.Link
+                          eventKey={37}
                           className="col-12"
                           onClick={()=>navigate("/Vibration/Head-Expander")}
                           id="Navbar-9-1"
@@ -293,6 +294,7 @@ const Header2 = () => {
                           Head Expander
                         </Nav.Link>
                         <Nav.Link
+                        eventKey={38}
                           className="col-12"
                           onClick={()=>navigate("/Vibration/Power-Amplifier")}
                           id="Navbar-9-1"
@@ -300,6 +302,7 @@ const Header2 = () => {
                           Power Amplifier
                         </Nav.Link>
                         <Nav.Link
+                        eventKey={39}
                           className="col-12"
                           onClick={()=>navigate("/Vibration/Vibration-Controller")}
                           id="Navbar-9-1"
@@ -317,10 +320,10 @@ const Header2 = () => {
                     onMouseLeave={CloseNav3}
                     id="Header-7"
                   >
-                    <KeyboardArrowLeftIcon id="Header-none"/>
+                    <KeyboardArrowLeftIcon id="Header-none" style={{float: "left"}}/>
                     Other Categories
-                    <KeyboardArrowRightIcon id="Header-none-1"/>
-                    <KeyboardArrowDownIcon id="Header-none-2"/>
+                    <KeyboardArrowRightIcon id="Header-none-1" style={{float: "right"}}/>
+                    <KeyboardArrowDownIcon id="Header-none-2" style={{float: "right"}}/>
                     
                     </Nav.Link>
                     <Nav onMouseEnter={OpenNav3} onMouseLeave={CloseNav3} hidden={showme2} id="Header-8-1" className="row">
@@ -330,13 +333,13 @@ const Header2 = () => {
                 </div>
               </Nav>
             </Nav.Link>
-            <Nav.Link onClick={() => navigate("/Industries")} id="Header-5">
+            <Nav.Link eventKey={3} onClick={() => navigate("/Industries")} id="Header-5">
              Industries
             </Nav.Link>
-            <Nav.Link onClick={() => navigate("/Services")} id="Header-3">
+            <Nav.Link eventKey={4} onClick={() => navigate("/Services")} id="Header-3">
               Services
             </Nav.Link>
-            <Nav.Link onClick={() => navigate("/Contact-Us")} id="Header-3">
+            <Nav.Link eventKey={5} onClick={() => navigate("/Contact-Us")} id="Header-3">
               Contact Us
             </Nav.Link>
           </Nav>

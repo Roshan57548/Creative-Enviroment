@@ -12,7 +12,7 @@ const MapContent = (props) => {
     setShowAll(false);
   };
   return (
-    <div className="container ml-5 mr-5 mb-5">
+    <div className="container ml-5 mr-5 mb-5 mt-5">
       <h1 className="text-center mb-3 ourPartner-heading">
         {props.data.Heading}
       </h1>
@@ -24,7 +24,7 @@ const MapContent = (props) => {
         achieve your goals.
       </p>
       <div className="row ">
-        {props.data.Image.slice(0, 12).map((logo, index) => {
+        {props.data.Image.slice(0, 8).map((logo, index) => {
           return (
             <div
               key={index}

@@ -48,13 +48,13 @@ const ContentOtherProduct = {
     Section_5: {
         Heading: "Centrifuge Acceleration Test System",
         Table_Heading: "Model",
-        Table_Heading2: "DCFG-50-30",
-        Table_Heading3: "DACTM-060",
-        Table_Heading4: "DCFG – 50K",
-        Table_Heading5: "DCFG – 200-125",
-        Table_Heading6: "DCFG – 20K-15",
-        Table_Heading7: "DCFG – 40K-15",
-        Table_Heading8: "DCFG – 80K-10",
+        Table_Heading2: "CCFG-50-30",
+        Table_Heading3: "CACTM-060",
+        Table_Heading4: "CCFG – 50K",
+        Table_Heading5: "CCFG – 200-125",
+        Table_Heading6: "CCFG – 20K-15",
+        Table_Heading7: "CCFG – 40K-15",
+        Table_Heading8: "CCFG – 80K-10",
         Table_data: [							
             {
                 Model: "Acceleration Range",

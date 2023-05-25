@@ -71,6 +71,12 @@
   gap: 10px;
 }
 
+.image-gallery::after {
+  display: none;
+  content: "";
+  flex-basis: 350px;
+}
+
 .image-gallery > li {
   flex-basis: 400px; /*width: 350px;*/
   position: relative;
