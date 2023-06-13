@@ -47,6 +47,8 @@ import Water_Cooled_CEV_500_Series from './componants/Product/Vibration/Water Co
 import Water_Cooled_CEV_590_Series from './componants/Product/Vibration/Water Cooled CEV 590 Series/Vibration';
 import Water_Cooled_CEV_760_Series from './componants/Product/Vibration/Water Cooled CEV 760 Series/Vibration';
 import Water_Cooled_Series from './componants/Product/Vibration/Water Cooled Series/Vibration';
+{/* Accelerometers_Signal_Filters */}
+import Accelerometers_Signal_Filters from './componants/Product/Accelerometers_Signal_Filters/Accelerometers_Signal_Filters'
 {/* Other Product Routes */}
 import Centrifuge_Acceleration_Test_Machine from './componants/Product/Other Categories/Centrifuge Acceleration Test Machine/OtherProduct';
 import Bump_Test_Machine from './componants/Product/Other Categories/Bump Test Machine/OtherProduct';
@@ -104,6 +106,8 @@ function App() {
         <Route path='/Vibration/Water-Cooled-CEV-590-Series' element={<Water_Cooled_CEV_590_Series/>}/>
         <Route path='/Vibration/Water-Cooled-CEV-760-Series' element={<Water_Cooled_CEV_760_Series/>}/>
         <Route path='/Vibration/Water-Cooled-Series' element={<Water_Cooled_Series/>}/>
+        {/* Accelerometers-Signal-Filters-Signal-Conditioning-and-Accesssories Routes */}
+        <Route path='Accelerometers-Signal-Filters-Signal-Conditioning-and-Accesssories' element={<Accelerometers_Signal_Filters/>}/>
         {/* Other Product Routes */}
         <Route path='/Other-Categories/Centrifuge-Acceleration-Test-Machine' element={<Centrifuge_Acceleration_Test_Machine/>}/>
         <Route path='/Other-Categories/Bump-Test-Machine' element={<Bump_Test_Machine/>}/>
