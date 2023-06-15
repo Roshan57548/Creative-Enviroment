@@ -45,6 +45,9 @@
     color: white;
     text-decoration: none;
   }
+  .section1_btn:hover{
+        color: inherit;
+  }
   .Second-link{
     margin-top: 15px;
   }
