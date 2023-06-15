@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import "./Style/Section1.css"
 import { useNavigate } from "react-router-dom";
