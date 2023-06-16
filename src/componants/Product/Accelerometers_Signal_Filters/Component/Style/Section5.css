@@ -3,9 +3,10 @@
     padding: 0%;
   }
   .sec_container {
-    margin-top: 3rem;
-    background-color: rgb(23, 110, 137);
+    /* background-color: rgb(23, 110, 137); */
+    margin-top: -50px;
     height: 100%;
+    
   }
   
   .sec_wrapper {
@@ -18,7 +19,6 @@
   }
   
   .sec_textarea {
-    color: white;
     font-family: sans-serif;
     width: 40%;
   }
@@ -48,6 +48,8 @@
 }
 .sec-heading{
     font-size: 2rem;
+    color: rgb(23, 110, 137);
+    font-weight: 600;
 }
 .sec_btn:hover{
     background-color: #2e78a3;
@@ -56,7 +58,8 @@
     transition-duration: 300ms;
 }
   .Second-link{
-    margin-top: 15px;
+    /* margin-top: 15px; */
+   
   }
   
   .sec_img {
@@ -76,7 +79,6 @@
       gap: 2rem 0;
     }
     .sec_textarea {
-      color: white;
       font-family: sans-serif;
       width: 70%;
       margin-bottom: 3rem;

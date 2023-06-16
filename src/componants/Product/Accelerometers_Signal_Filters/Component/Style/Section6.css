@@ -3,9 +3,10 @@
     padding: 0%;
   }
   .sect_container {
-    margin-top: 3rem;
-    background-color: rgb(23, 110, 137);
+    /* margin-top: 3rem; */
+    /* background-color: rgb(23, 110, 137); */
     height: 100%;
+   
   }
   
   .sect_wrapper {
@@ -18,7 +19,6 @@
   }
   
   .sect_textarea {
-    color: white;
     font-family: sans-serif;
     width: 40%;
   }
@@ -35,6 +35,8 @@
   }
   .sect-heading{
     font-size: 2rem;
+    color: rgb(23, 110, 137);
+    font-weight: 600;
   }
   .sect_link {
     text-align: left;
@@ -76,7 +78,6 @@
       gap: 2rem 0;
     }
     .sect_textarea {
-      color: white;
       font-family: sans-serif;
       width: 70%;
       margin-bottom: 3rem;

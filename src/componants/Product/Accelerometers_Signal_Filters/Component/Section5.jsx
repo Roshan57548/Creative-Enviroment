@@ -25,7 +25,8 @@ const Section5 = (props) => {
                 <button className="sec_btn ">Visit Here</button>
               </Link>
             </div>
-            <h5 className="Second-link">
+            <div className="Second-link">
+            <h5 >
               To know more about Cable Connectors & Adaptors please click on{" "}
             </h5>
             <Link
@@ -34,6 +35,7 @@ const Section5 = (props) => {
             >
               <button className="sec_btn ">Click on</button>
             </Link>
+            </div>
           </div>
         </div>
       </div>
