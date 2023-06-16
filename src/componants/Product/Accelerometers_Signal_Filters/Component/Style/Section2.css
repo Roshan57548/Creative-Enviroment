@@ -1,0 +1,23 @@
+.section2_btn {
+    font-size: 18px;
+    padding: 2px !important;
+    margin-left: 1rem;
+   border-radius: 3px;
+   background-color: #3991C5;
+     color: white;
+     text-decoration: none;
+   }
+   .section2_btn:hover{
+         color: inherit;
+   }
+
+   .Section2_img{
+    
+    margin-top: 4rem;
+    max-height: 20rem;
+    max-width: 20rem;
+   }
+
+   .Second-link{
+    margin-bottom: 2rem;
+   }
