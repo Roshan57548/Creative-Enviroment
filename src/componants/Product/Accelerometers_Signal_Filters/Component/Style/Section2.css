@@ -1,23 +1,106 @@
-.section2_btn {
-    font-size: 18px;
-    padding: 2px !important;
-    margin-left: 1rem;
-   border-radius: 3px;
-   background-color: #3991C5;
-     color: white;
-     text-decoration: none;
-   }
-   .section2_btn:hover{
-         color: inherit;
-   }
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.sec_container {
+  /* background-color: rgb(23, 110, 137); */
+  margin-top: -50px;
+  height: 100%;
+}
 
-   .Section2_img{
-    
-    margin-top: 4rem;
-    max-height: 20rem;
-    max-width: 20rem;
-   }
+.sec_wrappered {
+  display: flex;
+  justify-content: center;
+  gap: 0 2rem;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.button_link{
+  margin-bottom: 15px;
+}
 
-   .Second-link{
-    margin-bottom: 2rem;
-   }
+.sec_textarea {
+  font-family: sans-serif;
+  width: 50%;
+}
+
+.sec_main_heading {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.sec_sub_heading {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.sec_link {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+.sec_btn {
+  background-color: #3991c5;
+  padding: 8px;
+  border-radius: 10px;
+  color: #fff;
+}
+.sec-heading {
+  font-size: 2rem;
+  color: rgb(23, 110, 137);
+  font-weight: 600;
+}
+.sec_btn:hover {
+  background-color: #2e78a3;
+  padding: 8px;
+  border-radius: 10px;
+  transition-duration: 300ms;
+}
+.Second-link {
+  /* margin-top: 15px; */
+}
+
+.sec_img {
+  height: 25rem;
+  width: 25rem;
+}
+
+@media (max-width: 900px) {
+  .sec_wrappered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem 0;
+    padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+  .sec_textarea {
+    font-family: sans-serif;
+    width: 80%;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .sec_link {
+    text-align: center;
+  }
+
+  .sec_img {
+    height: 20rem;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .sec_textarea {
+    font-family: sans-serif;
+    width: 90%;
+    text-align: center;
+  }
+  .sec_img {
+    height: 15rem;
+    width: 15rem;
+  }
+}

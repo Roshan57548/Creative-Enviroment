@@ -15,8 +15,8 @@ const Section5 = (props) => {
             <h2 className="sec-heading">{props.data.Heading}</h2>
             <p>{props.data.Para}</p>
             <div className="first-link">
-              <h5 className="">
-                To know more about Cables Assemblies please click on -
+              <h5 className="button_link">
+                To know more about Cables Assemblies please click the below link
               </h5>
               <Link
                 to="https://kemo.com/accelerometer-cables/#"
@@ -25,16 +25,17 @@ const Section5 = (props) => {
                 <button className="sec_btn ">Visit Here</button>
               </Link>
             </div>
-            <div className="Second-link">
-            <h5 >
-              To know more about Cable Connectors & Adaptors please click on{" "}
-            </h5>
-            <Link
-              to="https://kemo.com/cable-connectors-adaptors/"
-              target="_blank"
-            >
-              <button className="sec_btn ">Click on</button>
-            </Link>
+            <div className="second_links">
+              <h5 className="button_link">
+                To know more Cable Connectors & Adaptors please click the below
+                link{" "}
+              </h5>
+              <Link
+                to="https://kemo.com/cable-connectors-adaptors/"
+                target="_blank"
+              >
+                <button className="sec_btn ">Click Here</button>
+              </Link>
             </div>
           </div>
         </div>
